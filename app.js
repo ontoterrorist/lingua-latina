@@ -127,7 +127,7 @@ function openChapter(index){currentChapter=index;questionIndex=0;renderChapter()
 function renderChapter(){
   const c=chapters[currentChapter];const p=document.querySelector('#chapter-content');
   const speakers=[...new Set(c.dialog.map(line=>line[0]))];
-  const dialogue=c.dialog.map(line=>`<div class="msg ${speakers.indexOf(line[0])%2?'me':''}"><div class="head">${line[0]}</div><div class="la">${line[1]}</div><span class="es">${line[2]}</span></div>`).join('');
+  const dialogue=c.dialog.map((line,i)=>`<div class="msg ${speakers.indexOf(line[0])%2?'me':''}"><div class="head">${line[0]}</div><div class="la">${line[1]}</div><button class="voice-button" type="button" data-speak-line="${i}" aria-label="Escuchar a ${line[0]} en latín">▶ Escuchar latín</button><span class="es">${line[2]}</span></div>`).join('');
   const second=c.dialog[0][1].split(' ')[0].replace(/[.,!?]/g,'').toLowerCase();
   p.innerHTML=`<div class="card chapter-head"><div class="kicker">Capitvlvm ${roman(currentChapter+1)} · ${currentChapter+1} / ${chapters.length}</div><h1>${c.title}</h1><p class="muted">${c.theme}</p></div>
 <div class="card"><div class="kicker">Scena · diálogo original</div><div class="scene-art ${sceneMap[currentChapter]}" aria-hidden="true"></div><div class="chat">${dialogue}</div><p class="muted small" style="margin:12px 0 0">Adaptación original para practicar el tema del capítulo.</p></div>

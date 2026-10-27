@@ -184,6 +184,10 @@ p { margin: 0 0 10px; }
 
 .toast { position: fixed; left: 50%; bottom: 90px; transform: translate(-50%, 12px); opacity: 0; pointer-events: none; background: var(--paper); color: var(--ink); padding: 10px 18px; border-radius: 12px; box-shadow: var(--shadow); z-index: 50; font-weight: 700; transition: opacity .2s, transform .2s; }
 .toast.show { opacity: 1; transform: translate(-50%, 0); }
+.voice-button { display: block; margin: 8px 0 4px; padding: 6px 10px; border: 1px solid #cdbd9e; border-radius: 8px; background: #fff7e8; color: var(--ink); font: 700 13px/1.2 var(--body); }
+.voice-button:hover:not(:disabled) { border-color: var(--accent); background: #fff0c5; }
+.voice-button:disabled { opacity: .55; cursor: wait; }
+.voice-status { position: fixed; right: 14px; bottom: 14px; z-index: 25; margin: 0; padding: 7px 11px; border: 1px solid var(--line); border-radius: 9px; background: var(--bg2); color: var(--soft); font-size: 12px; box-shadow: var(--shadow); }
 
 /* móvil */
 @media (max-width: 860px) {
@@ -192,6 +196,7 @@ p { margin: 0 0 10px; }
   .top { position: static; backdrop-filter: none; background: var(--bg); padding: 8px 16px; padding-top: max(8px, env(safe-area-inset-top)); }
   .nav { position: fixed; left: 0; right: 0; bottom: 0; margin: 0; justify-content: space-around; background: rgba(21,18,43,.97); border-top: 1px solid var(--line); padding: 6px 4px; padding-bottom: max(6px, env(safe-area-inset-bottom)); z-index: 30; }
   .nav-button { flex-direction: column; gap: 2px; font-size: 11px; padding: 6px 2px; flex: 1; max-width: 120px; }
+  .voice-status { bottom: 76px; right: 10px; }
   .ni { font-size: 18px; }
   .badge { top: 2px; right: 18%; transform: none; }
   .wrap { grid-template-columns: 1fr; gap: 12px; padding: 12px 16px 96px; }
