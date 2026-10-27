@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#172619">
+  <title>Lingua Latina — El camino de Roma</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Lingua Latina, inicio"><span class="brand-mark">LL</span><span>LINGUA <b>LATINA</b></span></a>
+    <nav aria-label="Navegación principal">
+      <button class="nav-button active" data-view="journey">El viaje</button>
+      <button class="nav-button" data-view="cards">Mis cartas <span id="card-count" class="count">0</span></button>
+    </nav>
+    <div class="streak"><span aria-hidden="true">✦</span> <span id="progress-label">0 / 35</span></div>
+  </header>
+
+  <main>
+    <section id="journey-view" class="view">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">ROMA · 753 A. C. — 476 D. C.</p>
+          <h1>Una lengua,<br><em>un imperio.</em></h1>
+          <p class="intro">Aprende latín paso a paso, siguiendo el camino de una familia romana. Yo, Cayo Julio César, seré tu guía. <span class="narrator-note">— narrador ficticio</span></p>
+          <button id="continue-button" class="primary-button">Comenzar el viaje <span>→</span></button>
+        </div>
+        <div class="hero-art" aria-label="Ilustración pixel art de una villa romana al atardecer">
+          <div class="sun"></div><div class="mountain mountain-back"></div><div class="mountain mountain-front"></div>
+          <div class="villa"><i></i><i></i><i></i><b></b><span></span></div>
+          <div class="cypress cypress-one"></div><div class="cypress cypress-two"></div>
+          <div class="hero-caption">ROMA · ITER DISCENDI</div>
+        </div>
+      </section>
+      <section class="journey-heading"><div><p class="eyebrow">EL LIBRO I · FAMILIA ROMANA</p><h2>Tu ruta de aprendizaje</h2></div><div class="legend"><span><i class="dot done"></i>Completado</span><span><i class="dot current"></i>Disponible</span></div></section>
+      <div id="chapter-grid" class="chapter-grid"></div>
+      <footer class="footer-note">Inspirado en los temas y la progresión de <i>Familia Romana</i>. Diálogos y ejercicios originales; el libro no se reproduce.</footer>
+    </section>
+
+    <section id="chapter-view" class="view hidden">
+      <button class="back-button" data-view="journey">← Volver al viaje</button>
+      <div id="chapter-content"></div>
+    </section>
+
+    <section id="cards-view" class="view hidden">
+      <div class="cards-heading"><div><p class="eyebrow">MEMORIA · REPETICIÓN ESPACIADA</p><h1>Mis cartas</h1><p>Recuerda con calma. Tu memoria mejora cada vez que vuelves.</p></div><div class="due-total"><strong id="due-count">0</strong><span>para repasar hoy</span></div></div>
+      <div class="card-filters"><button class="filter active" data-filter="due">Para hoy</button><button class="filter" data-filter="all">Todas</button><button class="filter" data-filter="word">Palabras</button><button class="filter" data-filter="grammar">Gramática</button></div>
+      <div id="review-area" class="review-area"></div>
+    </section>
+  </main>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>
