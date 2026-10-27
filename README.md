@@ -4,7 +4,9 @@ Un pequeño juego de aprendizaje de latín inspirado en la progresión temática
 
 ## Jugar
 
-Abre `index.html` en un navegador moderno. No necesita instalación, servidor ni dependencias. El progreso y las cartas se guardan en el almacenamiento local del navegador.
+Online: https://ontoterrorist.github.io/lingua-latina/
+
+O en local: abre `index.html` en un navegador moderno. No necesita instalación, servidor ni dependencias. El progreso y las cartas se guardan en el almacenamiento local del navegador.
 
 ## Cómo funciona
 
@@ -14,6 +16,10 @@ Abre `index.html` en un navegador moderno. No necesita instalación, servidor ni
 - En **Mis cartas**, revela la respuesta y elige **Difícil**, **Regular** o **Fácil**. El próximo intervalo se ajusta con repetición espaciada inspirada en SM-2.
 - Diez escenas pixel art acompañan los diálogos. Cada una incluye PNG y proyecto editable de Pixelorama (`.pxo`).
 - `tools/make_pixel_scenes.py` regenera las escenas originales con geometría pixelada y una paleta pequeña.
+
+## Estilo y tipografías
+
+La interfaz comparte el estilo de [Ruso Advance](https://ontoterrorist.github.io/ruso/): fondo violeta, tarjetas color crema, acento amarillo y un narrador en el lateral. Usa las fuentes PT Sans y Unbounded (licencia SIL OFL), incluidas en `fonts/` con subconjuntos latino y latino extendido para las vocales largas (ā, ē, ī, ō, ū).
 
 ## Privacidad y material de referencia
 

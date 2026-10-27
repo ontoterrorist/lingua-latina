@@ -3,52 +3,107 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#172619">
+  <meta name="theme-color" content="#15122b">
+  <meta name="description" content="Lingua Latina: aprende latín con diálogos originales, ejercicios y cartas de repetición espaciada.">
   <title>Lingua Latina — El camino de Roma</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2315122b'/%3E%3Ctext x='32' y='43' font-family='Georgia,serif' font-size='30' font-weight='700' text-anchor='middle' fill='%23ffcb3d'%3ELL%3C/text%3E%3C/svg%3E">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="topbar">
-    <a class="brand" href="#inicio" aria-label="Lingua Latina, inicio"><span class="brand-mark">LL</span><span>LINGUA <b>LATINA</b></span></a>
-    <nav aria-label="Navegación principal">
-      <button class="nav-button active" data-view="journey">El viaje</button>
-      <button class="nav-button" data-view="cards">Mis cartas <span id="card-count" class="count">0</span></button>
+  <header class="top">
+    <a class="logo" href="#" aria-label="Lingua Latina, inicio"><span class="logo-ru">Lingua</span> <span class="logo-adv">Latina</span></a>
+    <nav class="nav" aria-label="Navegación principal">
+      <button class="nav-button on" data-view="journey"><span class="ni" aria-hidden="true">☰</span>El viaje</button>
+      <button class="nav-button" data-view="cards"><span class="ni" aria-hidden="true">↻</span>Mis cartas<span id="card-count" class="badge" hidden>0</span></button>
     </nav>
-    <div class="streak"><span aria-hidden="true">✦</span> <span id="progress-label">0 / 35</span></div>
   </header>
 
-  <main>
-    <section id="journey-view" class="view">
-      <section class="hero">
-        <div class="hero-copy">
-          <p class="eyebrow">ROMA · 753 A. C. — 476 D. C.</p>
-          <h1>Una lengua,<br><em>un imperio.</em></h1>
-          <p class="intro">Aprende latín paso a paso, siguiendo el camino de una familia romana. Yo, Cayo Julio César, seré tu guía. <span class="narrator-note">— narrador ficticio</span></p>
-          <button id="continue-button" class="primary-button">Comenzar el viaje <span>→</span></button>
+  <div class="wrap">
+    <aside class="side" aria-label="Narrador">
+      <div class="avatar" aria-hidden="true">
+        <svg viewBox="0 0 240 300" xmlns="http://www.w3.org/2000/svg">
+          <path d="M14 300C14 236 64 206 120 206s106 30 106 94z" fill="#f4ecd8"/>
+          <path d="M14 300C14 236 64 206 120 206c-24 22-40 56-44 94z" fill="#e6dbc0"/>
+          <path d="M58 222l44-14 96 92h-46z" fill="#7a2b4f"/>
+          <path d="M58 222l44-14 8 10-40 18z" fill="#97406a"/>
+          <rect x="104" y="166" width="32" height="50" rx="12" fill="#dba67c"/>
+          <ellipse cx="73" cy="124" rx="8" ry="13" fill="#e8b78f"/>
+          <ellipse cx="167" cy="124" rx="8" ry="13" fill="#e8b78f"/>
+          <ellipse cx="120" cy="120" rx="48" ry="58" fill="#f1c9a5"/>
+          <path d="M72 112c-2-40 28-56 48-56 22 0 50 16 48 56-8-20-20-28-48-28s-40 8-48 28z" fill="#6a5440"/>
+          <g>
+            <ellipse cx="70.5" cy="110.4" rx="11" ry="4.6" transform="rotate(-98 70.5 110.4)" fill="#5c8a3c"/>
+            <ellipse cx="70.5" cy="97.3" rx="11" ry="4.6" transform="rotate(-81.7 70.5 97.3)" fill="#7ea244"/>
+            <ellipse cx="74.6" cy="84.8" rx="11" ry="4.6" transform="rotate(-65.3 74.6 84.8)" fill="#5c8a3c"/>
+            <ellipse cx="82.3" cy="73.8" rx="11" ry="4.6" transform="rotate(-49 82.3 73.8)" fill="#7ea244"/>
+            <ellipse cx="93" cy="65.3" rx="11" ry="4.6" transform="rotate(-32.7 93 65.3)" fill="#5c8a3c"/>
+            <ellipse cx="105.9" cy="59.9" rx="11" ry="4.6" transform="rotate(-16.3 105.9 59.9)" fill="#7ea244"/>
+            <ellipse cx="120" cy="58" rx="11" ry="4.6" fill="#5c8a3c"/>
+            <ellipse cx="134.1" cy="59.9" rx="11" ry="4.6" transform="rotate(16.3 134.1 59.9)" fill="#7ea244"/>
+            <ellipse cx="147" cy="65.3" rx="11" ry="4.6" transform="rotate(32.7 147 65.3)" fill="#5c8a3c"/>
+            <ellipse cx="157.7" cy="73.8" rx="11" ry="4.6" transform="rotate(49 157.7 73.8)" fill="#7ea244"/>
+            <ellipse cx="165.4" cy="84.8" rx="11" ry="4.6" transform="rotate(65.3 165.4 84.8)" fill="#5c8a3c"/>
+            <ellipse cx="169.5" cy="97.3" rx="11" ry="4.6" transform="rotate(81.7 169.5 97.3)" fill="#7ea244"/>
+            <ellipse cx="169.5" cy="110.4" rx="11" ry="4.6" transform="rotate(98 169.5 110.4)" fill="#5c8a3c"/>
+          </g>
+          <path d="M98 112q10-6 20-1M142 112q-10-6-20-1" stroke="#5a4632" stroke-width="3.4" stroke-linecap="round" fill="none"/>
+          <g class="m-eyes"><ellipse cx="106" cy="124" rx="5" ry="5.6" fill="#2a2440"/><ellipse cx="134" cy="124" rx="5" ry="5.6" fill="#2a2440"/>
+            <circle cx="107.6" cy="122.2" r="1.7" fill="#fff"/><circle cx="135.6" cy="122.2" r="1.7" fill="#fff"/></g>
+          <path d="M120 128c-3 9-4 14 2 16" stroke="#d29a74" stroke-width="3" stroke-linecap="round" fill="none"/>
+          <path d="M104 156q16 9 32 0" stroke="#b4574d" stroke-width="3.6" stroke-linecap="round" fill="none"/>
+          <circle cx="94" cy="142" r="7" fill="#f0a89a" opacity=".45"/><circle cx="146" cy="142" r="7" fill="#f0a89a" opacity=".45"/>
+          <g transform="rotate(-24 188 262)">
+            <rect x="160" y="248" width="56" height="28" rx="6" fill="#fff7e8" stroke="#d8c9a4" stroke-width="2"/>
+            <rect x="154" y="244" width="10" height="36" rx="4" fill="#b4574d"/>
+            <rect x="212" y="244" width="10" height="36" rx="4" fill="#b4574d"/>
+            <path d="M172 258h32M172 266h24" stroke="#bfae86" stroke-width="2.4" stroke-linecap="round"/>
+          </g>
+        </svg>
+      </div>
+      <div class="bubble" id="bubble"><span class="who">Caesar</span><span id="bubble-text"></span></div>
+    </aside>
+
+    <main id="main" tabindex="-1">
+      <section id="journey-view" class="view">
+        <div class="card hero">
+          <div class="kicker">Roma · 753 a. C. — 476 d. C.</div>
+          <h1>Una lengua, un imperio.</h1>
+          <p>Aprende latín paso a paso, siguiendo el camino de una familia romana. Cada capítulo trae un diálogo, una regla breve y dos ejercicios que se convierten en cartas para repasar. <span class="muted small">Cayo Julio César es un narrador ficticio.</span></p>
+          <button id="continue-button" class="btn primary big">Comenzar el viaje <span aria-hidden="true">▶</span></button>
         </div>
-        <div class="hero-art" aria-label="Ilustración pixel art de una villa romana al atardecer">
-          <div class="sun"></div><div class="mountain mountain-back"></div><div class="mountain mountain-front"></div>
-          <div class="villa"><i></i><i></i><i></i><b></b><span></span></div>
-          <div class="cypress cypress-one"></div><div class="cypress cypress-two"></div>
-          <div class="hero-caption">ROMA · ITER DISCENDI</div>
+        <div class="stat-row">
+          <div class="stat"><b id="progress-label">0 / 35</b><span>capítulos</span></div>
+          <div class="stat"><b id="stat-cards">0</b><span>cartas</span></div>
+          <div class="stat"><b id="stat-due">0</b><span>para repasar hoy</span></div>
         </div>
+        <div id="chapter-grid"></div>
+        <p class="footer-note">Inspirado en los temas y la progresión de <i>Familia Romana</i>. Diálogos y ejercicios originales; el libro no se reproduce.</p>
       </section>
-      <section class="journey-heading"><div><p class="eyebrow">EL LIBRO I · FAMILIA ROMANA</p><h2>Tu ruta de aprendizaje</h2></div><div class="legend"><span><i class="dot done"></i>Completado</span><span><i class="dot current"></i>Disponible</span></div></section>
-      <div id="chapter-grid" class="chapter-grid"></div>
-      <footer class="footer-note">Inspirado en los temas y la progresión de <i>Familia Romana</i>. Diálogos y ejercicios originales; el libro no se reproduce.</footer>
-    </section>
 
-    <section id="chapter-view" class="view hidden">
-      <button class="back-button" data-view="journey">← Volver al viaje</button>
-      <div id="chapter-content"></div>
-    </section>
+      <section id="chapter-view" class="view hidden">
+        <button class="btn ghost back-button" data-view="journey">← Volver al viaje</button>
+        <div id="chapter-content"></div>
+      </section>
 
-    <section id="cards-view" class="view hidden">
-      <div class="cards-heading"><div><p class="eyebrow">MEMORIA · REPETICIÓN ESPACIADA</p><h1>Mis cartas</h1><p>Recuerda con calma. Tu memoria mejora cada vez que vuelves.</p></div><div class="due-total"><strong id="due-count">0</strong><span>para repasar hoy</span></div></div>
-      <div class="card-filters"><button class="filter active" data-filter="due">Para hoy</button><button class="filter" data-filter="all">Todas</button><button class="filter" data-filter="word">Palabras</button><button class="filter" data-filter="grammar">Gramática</button></div>
-      <div id="review-area" class="review-area"></div>
-    </section>
-  </main>
+      <section id="cards-view" class="view hidden">
+        <div class="card cards-head">
+          <div>
+            <div class="kicker">Memoria · repetición espaciada</div>
+            <h1>Mis cartas</h1>
+            <p class="muted">Recuerda con calma. Tu memoria mejora cada vez que vuelves.</p>
+          </div>
+          <div class="due-total"><strong id="due-count">0</strong><span>para repasar hoy</span></div>
+        </div>
+        <div class="toolbar">
+          <button class="chip on" data-filter="due">Para hoy</button>
+          <button class="chip" data-filter="all">Todas</button>
+          <button class="chip" data-filter="word">Palabras</button>
+          <button class="chip" data-filter="grammar">Gramática</button>
+        </div>
+        <div id="review-area"></div>
+      </section>
+    </main>
+  </div>
 
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
   <script src="app.js"></script>
