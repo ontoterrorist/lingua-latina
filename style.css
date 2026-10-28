@@ -43,6 +43,7 @@ a { color: inherit; }
 .side { position: sticky; top: 84px; align-self: start; }
 .avatar { width: 256px; margin: 0 auto; filter: drop-shadow(0 10px 18px rgba(0,0,0,.35)); }
 .avatar img { display: block; width: 100%; height: auto; image-rendering: pixelated; image-rendering: crisp-edges; }
+.avatar { cursor: pointer; }
 .avatar.talking { animation: talkbob .32s ease-in-out infinite; }
 @keyframes talkbob { 50% { transform: translateY(-2px); } }
 .bubble { position: relative; margin-top: 14px; background: var(--paper); color: var(--ink); border-radius: var(--radius); padding: 14px 16px; box-shadow: var(--shadow); font-size: 16px; min-height: 64px; }

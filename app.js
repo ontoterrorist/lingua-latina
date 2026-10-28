@@ -103,7 +103,7 @@ const levels = [
   ['Nivel 5 · Convivium et ars', 'Banquete, flota, poesía y mapa de la gramática', 28, 35]
 ];
 const bubbleText = {
-  journey: 'Salve! Soy César, narrador ficticio de este viaje. Elige un capítulo: el siguiente va en amarillo.',
+  journey: 'Salve! Soy César y te guío por el camino de Roma. Elige un capítulo: el siguiente va en amarillo.',
   cards: 'Las cartas vuelven cuando tu memoria las necesita. Revela la respuesta, dime qué tal fue y ajusto el próximo repaso.'
 };
 let openLevels = new Set();
@@ -112,6 +112,7 @@ function readState(){try{return {...defaultState,...JSON.parse(localStorage.getI
 function saveState(){localStorage.setItem('lingua-latina-v1',JSON.stringify(state));updateCounts()}
 const player=new Audio();player.preload='auto';
 ['playing'].forEach(e=>player.addEventListener(e,()=>talking(true)));['ended','pause','error'].forEach(e=>player.addEventListener(e,()=>talking(false)));
+player.addEventListener('ended',()=>{const s=lastLine;lastLine='';if(/!\s*$/.test(s))pose('surprised',1800);else if(/\?\s*$/.test(s))pose('think',1800)});
 function esc(s){return s.replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;')}
 function speakBtn(text,voice){return text?`<button class="icon-btn" data-say="${esc(text)}" data-voice="${voice||LECTOR}" aria-label="Escuchar">🔊</button>`:''}
 function speak(text,voice){
@@ -124,13 +125,30 @@ function speak(text,voice){
 function applySlow(){const b=document.querySelector('#slow-toggle');b.classList.toggle('on',!!state.slow);b.setAttribute('aria-pressed',!!state.slow)}
 function nextChapter(){return chapters.findIndex((c,i)=>!state.completed.includes(i))}
 function say(text){document.querySelector('#bubble-text').textContent=text}
-/* César: retratos pixel art (avatar/); mueve la boca mientras suena la voz y reacciona a las respuestas */
-const POSES=['neutral','talk','pleased','think'];
+/* César: retratos pixel art (avatar/). La cara no cambia: de cada expresión solo se trasplantan cejas, ojos y
+   boca (tools/cesar_caras.py). Reacciona al tema del capítulo, a lo que se dice y a lo que haces. */
+const POSES=['neutral','talk','talk2','pleased','think','surprised','laugh','stern','worried','wink','cheer','sad'];
 POSES.forEach(n=>{new Image().src=`avatar/cesar-${n}.png`});
-let poseTimer,mouthTimer;
+/* humor de cada capítulo según su tema */
+const MOOD=['pleased','pleased','wink','stern','pleased','cheer','wink','pleased','pleased','surprised','worried','stern','think','pleased','think','worried','think','think','wink','pleased','stern','surprised','pleased','worried','surprised','worried','pleased','worried','cheer','laugh','wink','cheer','stern','think','cheer'];
+const OK_LINES=['Optime!','Bene! Así se hace.','Recte!','¡Exacto! Se nota que estudias.','Perfecte!'];
+const BAD_LINES=['Non ita. No pasa nada: así se aprende.','Casi. Mira la respuesta y sigue.','Errare humanum est… sigamos.'];
+const QUIPS=[['surprised','¡Eh! Cuidado con la corona de laurel.'],['laugh','Ave! No cobro por saludar.'],['wink','Alea iacta est. ¿Seguimos?'],['stern','Menos cosquillas y más latín.'],['think','¿Sabías que mi nombre se pronuncia «Kaisar»?']];
+let poseTimer,mouthTimer,okStreak=0,badStreak=0,lastLine='';
+const pick=a=>a[Math.floor(Math.random()*a.length)];
 function setPose(n){document.querySelector('#cesar').src=`avatar/cesar-${n}.png`}
 function pose(n,ms){clearTimeout(poseTimer);setPose(n);if(ms)poseTimer=setTimeout(()=>setPose('neutral'),ms)}
-function talking(on){const a=document.querySelector('.avatar');clearInterval(mouthTimer);a.classList.toggle('talking',on);if(on){let open=true;setPose('talk');mouthTimer=setInterval(()=>{open=!open;setPose(open?'talk':'neutral')},190)}else setPose('neutral')}
+function react(n,text,ms){pose(n,ms===undefined?2600:ms);if(text)say(text)}
+function talking(on){const a=document.querySelector('.avatar');clearInterval(mouthTimer);a.classList.toggle('talking',on);if(on){clearTimeout(poseTimer);const f=['talk','neutral','talk2','talk','neutral'];let i=0;setPose(f[0]);mouthTimer=setInterval(()=>{i=(i+1)%f.length;setPose(f[i])},170)}else setPose('neutral')}
+function reactAnswer(correct){
+  if(correct){badStreak=0;okStreak++;
+    if(okStreak%3===0)react('cheer',`¡${okStreak} seguidas! Veni, vidi, vici.`,3200);
+    else react(pick(['pleased','wink','pleased','laugh']),pick(OK_LINES),2400)}
+  else{okStreak=0;badStreak++;
+    if(badStreak>=3)react('sad','Respira, repasa la regla de arriba y vuelve a intentarlo.',3200);
+    else if(badStreak===2)react('worried',pick(BAD_LINES),2800);
+    else react('think',pick(BAD_LINES),2600)}
+}
 function updateCounts(){
   const due=state.cards.filter(c=>c.due<=Date.now()).length;
   const badge=document.querySelector('#card-count');badge.textContent=state.cards.length;badge.hidden=!state.cards.length;
@@ -141,7 +159,7 @@ function updateCounts(){
   const go=document.querySelector('#continue-button');go.firstChild.textContent=state.completed.length?'Continuar el viaje ':'Comenzar el viaje '
 }
 function showToast(message){const node=document.querySelector('#toast');node.textContent=message;node.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>node.classList.remove('show'),2400)}
-function navigate(view){document.querySelectorAll('.view').forEach(v=>v.classList.add('hidden'));document.querySelector(`#${view}-view`).classList.remove('hidden');document.querySelectorAll('.nav-button').forEach(b=>b.classList.toggle('on',b.dataset.view===(view==='chapter'?'journey':view)));window.scrollTo(0,0);if(bubbleText[view])say(bubbleText[view]);if(view==='cards')renderReview()}
+function navigate(view){document.querySelectorAll('.view').forEach(v=>v.classList.add('hidden'));document.querySelector(`#${view}-view`).classList.remove('hidden');document.querySelectorAll('.nav-button').forEach(b=>b.classList.toggle('on',b.dataset.view===(view==='chapter'?'journey':view)));window.scrollTo(0,0);if(bubbleText[view])say(bubbleText[view]);if(view==='cards'){renderReview();const n=state.cards.filter(c=>c.due<=Date.now()).length;if(!state.cards.length)react('neutral','Aún no hay cartas: resuelve ejercicios y se guardarán solas.',0);else if(n)react('pleased',`Tienes ${n} ${n===1?'carta':'cartas'} para hoy. Empecemos, sin prisa pero sin pausa.`,2800);else react('cheer','Todo al día. Volverán cuando tu memoria las necesite.',2800)}}
 function renderChapters(){
   const next=nextChapter();
   if(!openLevels.size)openLevels.add(levels.findIndex(([,,from,to])=>next<0?from===0:next>=from&&next<to));
@@ -154,7 +172,7 @@ function renderChapters(){
   grid.querySelectorAll('.level').forEach(d=>d.addEventListener('toggle',()=>{const li=Number(d.dataset.level);d.open?openLevels.add(li):openLevels.delete(li)}));
   grid.querySelectorAll('.lesson-tile').forEach(b=>b.addEventListener('click',()=>openChapter(Number(b.dataset.chapter))))
 }
-function openChapter(index){currentChapter=index;questionIndex=0;renderChapter();navigate('chapter');say(caesarVoice[index])}
+function openChapter(index){currentChapter=index;questionIndex=0;renderChapter();navigate('chapter');react(MOOD[index],caesarVoice[index],3200)}
 function renderChapter(){
   const c=chapters[currentChapter];const p=document.querySelector('#chapter-content');
   const speakers=[...new Set(c.dialog.map(line=>line[0]))];
@@ -172,7 +190,7 @@ function roman(n){const values=[[10,'X'],[9,'IX'],[5,'V'],[4,'IV'],[1,'I']];let 
 function renderQuestion(){
   const c=chapters[currentChapter],area=document.querySelector('#exercise-area'),done=document.querySelector('#chapter-done');
   document.querySelectorAll('#steps span').forEach((s,i)=>{s.className=i<questionIndex?'done':i===questionIndex?'on':''});
-  if(questionIndex>=2){area.innerHTML='';done.classList.add('visible');say('Bene! Has terminado el capítulo. Tus cartas te esperan en su día.');pose('pleased',3200);if(!state.completed.includes(currentChapter)){state.completed.push(currentChapter);state.completed.sort((a,b)=>a-b);saveState();renderChapters()}return}
+  if(questionIndex>=2){area.innerHTML='';done.classList.add('visible');if(!state.completed.includes(currentChapter)&&state.completed.length===chapters.length-1)react('laugh','¡Has recorrido todo el camino! Veni, vidi, didici.',5000);else react('cheer','Optime! Capítulo completo. Tus cartas te esperan en su día.',3600);if(!state.completed.includes(currentChapter)){state.completed.push(currentChapter);state.completed.sort((a,b)=>a-b);saveState();renderChapters()}return}
   done.classList.remove('visible');
   const isWord=questionIndex===0;
   const prompt=isWord?`¿Qué significa <i>${c.word[0]}</i>?`:c.quiz[0];
@@ -187,7 +205,7 @@ function renderQuestion(){
     if(answered)return;answered=true;
     const selected=Number(button.dataset.index);
     area.querySelectorAll('.choice').forEach((option,i)=>{option.disabled=true;if(i===answer)option.classList.add('ok');if(i===selected&&selected!==answer)option.classList.add('bad')});
-    const correct=selected===answer;pose(correct?'pleased':'think',2400);
+    const correct=selected===answer;reactAnswer(correct);
     area.querySelector('.feedback-slot').innerHTML=`<div class="feedback ${correct?'ok':'bad'}"><h3>${correct?'Bene!':'Non ita.'}</h3><p>${correct?'Respuesta correcta. La carta se guardó.':`La respuesta correcta es: <b>${choices[answer]}</b>. La carta se guardó.`}</p></div>`;
     const front=isWord?c.word[0]:c.grammar;const back=isWord?c.word[1]:c.rule;
     upsertCard({type:isWord?'word':'grammar',chapter:currentChapter,front,back,example:isWord?c.example:c.quiz[0]});
@@ -199,10 +217,16 @@ function upsertCard(data){const id=`${data.type}-${data.chapter}-${slug(data.fro
 function slug(s){return s.normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-')}
 function renderReview(){const due=state.cards.filter(c=>c.due<=Date.now());document.querySelector('#due-count').textContent=due.length;document.querySelector('#review-area').innerHTML='';const filters=[...document.querySelectorAll('.chip')];filters.forEach(b=>{b.classList.toggle('on',b.dataset.filter===activeFilter);b.onclick=()=>{activeFilter=b.dataset.filter;reviewIndex=0;cardIsFlipped=false;renderReview()}});let cards=activeFilter==='all'?state.cards.slice():activeFilter==='word'?state.cards.filter(c=>c.type==='word'):activeFilter==='grammar'?state.cards.filter(c=>c.type==='grammar'):due.slice();cards.sort((a,b)=>a.due-b.due);reviewQueue=cards;reviewIndex=Math.min(reviewIndex,Math.max(cards.length-1,0));if(!cards.length){const hasFuture=state.cards.length>0;document.querySelector('#review-area').innerHTML=`<div class="empty-state"><strong>${hasFuture?'Todo repasado por hoy.':'Aún no tienes cartas.'}</strong><p>${hasFuture?'Las próximas cartas aparecerán en su fecha. Puedes mirar todas tus cartas mientras tanto.':'Completa ejercicios en un capítulo para guardar cartas de palabras y gramática automáticamente.'}</p></div>`;return}drawReviewCard()}
 function drawReviewCard(){const area=document.querySelector('#review-area'),card=reviewQueue[reviewIndex];if(!card)return;const label=card.type==='word'?'Palabra':'Gramática';area.innerHTML=`<div class="card review-card"><div class="review-type">${label} · Cap. ${String(card.chapter+1).padStart(2,'0')} · ${reviewIndex+1}/${reviewQueue.length}</div><div class="front-row"><h2 class="review-front">${card.front}</h2>${card.type==='word'?speakBtn(card.front,LECTOR):''}</div>${cardIsFlipped?`<p class="review-back">${card.back}</p><p class="review-example">${card.example}</p><div class="grades"><button class="btn red" data-grade="hard">Difícil<small>1 día</small></button><button class="btn primary" data-grade="medium">Regular<small>≈ 3 días</small></button><button class="btn green" data-grade="easy">Fácil<small>≈ 7 días</small></button></div>`:`<button class="btn big flip-button">Mostrar respuesta ↓</button>`}</div>`;const flip=area.querySelector('.flip-button');if(flip)flip.onclick=()=>{cardIsFlipped=true;drawReviewCard()};area.querySelectorAll('[data-grade]').forEach(b=>b.onclick=()=>gradeCard(card,b.dataset.grade))}
-function gradeCard(card,grade){let quality=grade==='hard'?2:grade==='medium'?3:5;card.ease=Math.max(1.3,card.ease+(0.1-(5-quality)*(0.08+(5-quality)*0.02)));if(quality<3){card.repetitions=0;card.interval=1}else{card.repetitions++;if(grade==='hard')card.interval=1;else if(card.repetitions===1)card.interval=grade==='easy'?7:3;else card.interval=Math.max(1,Math.round(card.interval*card.ease*(grade==='easy'?1.25:1)))}card.due=Date.now()+card.interval*86400000;card.lastSeen=Date.now();saveState();const prev=reviewIndex;reviewQueue=reviewQueue.filter(c=>c.id!==card.id);reviewIndex=Math.min(prev,reviewQueue.length-1);cardIsFlipped=false;renderReview();showToast(`Próximo repaso: ${card.interval} ${card.interval===1?'día':'días'}.`)}
+function gradeCard(card,grade){let quality=grade==='hard'?2:grade==='medium'?3:5;card.ease=Math.max(1.3,card.ease+(0.1-(5-quality)*(0.08+(5-quality)*0.02)));if(quality<3){card.repetitions=0;card.interval=1}else{card.repetitions++;if(grade==='hard')card.interval=1;else if(card.repetitions===1)card.interval=grade==='easy'?7:3;else card.interval=Math.max(1,Math.round(card.interval*card.ease*(grade==='easy'?1.25:1)))}card.due=Date.now()+card.interval*86400000;card.lastSeen=Date.now();saveState();const prev=reviewIndex;reviewQueue=reviewQueue.filter(c=>c.id!==card.id);reviewIndex=Math.min(prev,reviewQueue.length-1);cardIsFlipped=false;renderReview();showToast(`Próximo repaso: ${card.interval} ${card.interval===1?'día':'días'}.`);if(!reviewQueue.length&&activeFilter==='due')react('cheer','¡Todo repasado por hoy! Optime.',3600);else if(grade==='hard')react('worried','Difícil, ¿eh? Volverá pronto: así se fija.',2600);else if(grade==='easy')react(pick(['wink','pleased']),pick(['Facile!','Te la sabes. Sigamos.']),2400);else react('pleased','Bene. La veremos de nuevo en unos días.',2400)}
 document.querySelectorAll('[data-view]').forEach(b=>b.addEventListener('click',()=>navigate(b.dataset.view)));
 document.querySelector('.logo').addEventListener('click',e=>{e.preventDefault();navigate('journey')});
 document.querySelector('#continue-button').addEventListener('click',()=>{const next=nextChapter();openChapter(next<0?0:next)});
-document.addEventListener('click',e=>{const b=e.target.closest('[data-say]');if(b)speak(b.dataset.say,b.dataset.voice)});
-document.querySelector('#slow-toggle').addEventListener('click',()=>{state.slow=!state.slow;saveState();applySlow();showToast(state.slow?'Voz lenta activada.':'Voz a velocidad normal.')});
-renderChapters();updateCounts();applySlow();say(bubbleText.journey);
+document.addEventListener('click',e=>{const b=e.target.closest('[data-say]');if(b){lastLine=b.closest('.msg')?b.dataset.say:'';speak(b.dataset.say,b.dataset.voice)}});
+document.querySelector('#slow-toggle').addEventListener('click',()=>{state.slow=!state.slow;saveState();applySlow();showToast(state.slow?'Voz lenta activada.':'Voz a velocidad normal.');react(state.slow?'wink':'pleased',state.slow?'Festina lente: apresúrate despacio.':'A buen paso entonces.',2400)});
+document.querySelector('.avatar').addEventListener('click',()=>{const [p,s]=pick(QUIPS);react(p,s,2600)});
+renderChapters();updateCounts();applySlow();
+const away=state.lastVisit?(Date.now()-state.lastVisit)/864e5:0;
+if(state.completed.length&&away>=3)react('surprised',`¡Han pasado ${Math.floor(away)} días! Repasemos antes de seguir.`,4000);
+else if(state.completed.length)react('pleased','Salve de nuevo. Sigamos donde lo dejamos.',3000);
+else say(bubbleText.journey);
+state.lastVisit=Date.now();saveState();

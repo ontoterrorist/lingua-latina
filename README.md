@@ -11,7 +11,7 @@ Las lecciones y las cartas funcionan en un navegador moderno sin instalación. E
 ## Cómo funciona
 
 - 35 niveles siguen los temas de los capítulos.
-- Cada nivel presenta una regla breve, vocabulario y un diálogo original con traducción. Julio César es un narrador ficticio.
+- Cada nivel presenta una regla breve, vocabulario y un diálogo original con traducción. Cayo Julio César te guía por el viaje.
 - Resolver ejercicios guarda automáticamente cartas de palabras y de gramática.
 - En **Mis cartas**, revela la respuesta y elige **Difícil**, **Regular** o **Fácil**. El próximo intervalo se ajusta con repetición espaciada inspirada en SM-2.
 - Diez escenas pixel art acompañan los diálogos. Cada una incluye PNG y proyecto editable de Pixelorama (`.pxo`).
@@ -20,7 +20,7 @@ Las lecciones y las cartas funcionan en un navegador moderno sin instalación. E
 
 ## Estilo y tipografías
 
-La interfaz comparte el estilo de [Ruso Advance](https://ontoterrorist.github.io/ruso/): fondo violeta, tarjetas color crema, acento amarillo y un narrador en el lateral. Usa las fuentes PT Sans y Unbounded (licencia SIL OFL), incluidas en `fonts/` con subconjuntos latino y latino extendido para las vocales largas (ā, ē, ī, ō, ū).
+La interfaz comparte el estilo de [Ruso Advance](https://ontoterrorist.github.io/ruso/): fondo violeta, tarjetas color crema, acento amarillo y César como guía en el lateral. Usa las fuentes PT Sans y Unbounded (licencia SIL OFL), incluidas en `fonts/` con subconjuntos latino y latino extendido para las vocales largas (ā, ē, ī, ō, ū).
 
 ## Voz
 
