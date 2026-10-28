@@ -111,6 +111,7 @@ let openLevels = new Set();
 function readState(){try{return {...defaultState,...JSON.parse(localStorage.getItem('lingua-latina-v1')||'{}')}}catch{return {...defaultState}}}
 function saveState(){localStorage.setItem('lingua-latina-v1',JSON.stringify(state));updateCounts()}
 const player=new Audio();player.preload='auto';
+['playing'].forEach(e=>player.addEventListener(e,()=>talking(true)));['ended','pause','error'].forEach(e=>player.addEventListener(e,()=>talking(false)));
 function esc(s){return s.replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;')}
 function speakBtn(text,voice){return text?`<button class="icon-btn" data-say="${esc(text)}" data-voice="${voice||LECTOR}" aria-label="Escuchar">🔊</button>`:''}
 function speak(text,voice){
@@ -123,6 +124,13 @@ function speak(text,voice){
 function applySlow(){const b=document.querySelector('#slow-toggle');b.classList.toggle('on',!!state.slow);b.setAttribute('aria-pressed',!!state.slow)}
 function nextChapter(){return chapters.findIndex((c,i)=>!state.completed.includes(i))}
 function say(text){document.querySelector('#bubble-text').textContent=text}
+/* César: retratos pixel art (avatar/); mueve la boca mientras suena la voz y reacciona a las respuestas */
+const POSES=['neutral','talk','pleased','think'];
+POSES.forEach(n=>{new Image().src=`avatar/cesar-${n}.png`});
+let poseTimer,mouthTimer;
+function setPose(n){document.querySelector('#cesar').src=`avatar/cesar-${n}.png`}
+function pose(n,ms){clearTimeout(poseTimer);setPose(n);if(ms)poseTimer=setTimeout(()=>setPose('neutral'),ms)}
+function talking(on){const a=document.querySelector('.avatar');clearInterval(mouthTimer);a.classList.toggle('talking',on);if(on){let open=true;setPose('talk');mouthTimer=setInterval(()=>{open=!open;setPose(open?'talk':'neutral')},190)}else setPose('neutral')}
 function updateCounts(){
   const due=state.cards.filter(c=>c.due<=Date.now()).length;
   const badge=document.querySelector('#card-count');badge.textContent=state.cards.length;badge.hidden=!state.cards.length;
@@ -164,7 +172,7 @@ function roman(n){const values=[[10,'X'],[9,'IX'],[5,'V'],[4,'IV'],[1,'I']];let 
 function renderQuestion(){
   const c=chapters[currentChapter],area=document.querySelector('#exercise-area'),done=document.querySelector('#chapter-done');
   document.querySelectorAll('#steps span').forEach((s,i)=>{s.className=i<questionIndex?'done':i===questionIndex?'on':''});
-  if(questionIndex>=2){area.innerHTML='';done.classList.add('visible');say('Bene! Has terminado el capítulo. Tus cartas te esperan en su día.');if(!state.completed.includes(currentChapter)){state.completed.push(currentChapter);state.completed.sort((a,b)=>a-b);saveState();renderChapters()}return}
+  if(questionIndex>=2){area.innerHTML='';done.classList.add('visible');say('Bene! Has terminado el capítulo. Tus cartas te esperan en su día.');pose('pleased',3200);if(!state.completed.includes(currentChapter)){state.completed.push(currentChapter);state.completed.sort((a,b)=>a-b);saveState();renderChapters()}return}
   done.classList.remove('visible');
   const isWord=questionIndex===0;
   const prompt=isWord?`¿Qué significa <i>${c.word[0]}</i>?`:c.quiz[0];
@@ -179,7 +187,7 @@ function renderQuestion(){
     if(answered)return;answered=true;
     const selected=Number(button.dataset.index);
     area.querySelectorAll('.choice').forEach((option,i)=>{option.disabled=true;if(i===answer)option.classList.add('ok');if(i===selected&&selected!==answer)option.classList.add('bad')});
-    const correct=selected===answer;
+    const correct=selected===answer;pose(correct?'pleased':'think',2400);
     area.querySelector('.feedback-slot').innerHTML=`<div class="feedback ${correct?'ok':'bad'}"><h3>${correct?'Bene!':'Non ita.'}</h3><p>${correct?'Respuesta correcta. La carta se guardó.':`La respuesta correcta es: <b>${choices[answer]}</b>. La carta se guardó.`}</p></div>`;
     const front=isWord?c.word[0]:c.grammar;const back=isWord?c.word[1]:c.rule;
     upsertCard({type:isWord?'word':'grammar',chapter:currentChapter,front,back,example:isWord?c.example:c.quiz[0]});
