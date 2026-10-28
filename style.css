@@ -193,7 +193,7 @@ p { margin: 0 0 10px; }
   .top { position: static; backdrop-filter: none; background: var(--bg); padding: 8px 16px; padding-top: max(8px, env(safe-area-inset-top)); }
   .nav { position: fixed; left: 0; right: 0; bottom: 0; margin: 0; justify-content: space-around; background: rgba(21,18,43,.97); border-top: 1px solid var(--line); padding: 6px 4px; padding-bottom: max(6px, env(safe-area-inset-bottom)); z-index: 30; }
   .nav-button { flex-direction: column; gap: 2px; font-size: 11px; padding: 6px 2px; flex: 1; max-width: 120px; }
-  .ni { font-size: 18px; }
+    .ni { font-size: 18px; }
   .badge { top: 2px; right: 18%; transform: none; }
   .wrap { grid-template-columns: 1fr; gap: 12px; padding: 12px 16px 96px; }
   .side { position: sticky; top: 0; z-index: 10; display: flex; align-items: center; gap: 10px; background: var(--bg); padding: 6px 16px 8px; margin: 0 -16px; border-bottom: 1px solid var(--line); }
