@@ -111,35 +111,49 @@ let openLevels = new Set();
 function readState(){try{return {...defaultState,...JSON.parse(localStorage.getItem('lingua-latina-v1')||'{}')}}catch{return {...defaultState}}}
 function saveState(){localStorage.setItem('lingua-latina-v1',JSON.stringify(state));updateCounts()}
 const player=new Audio();player.preload='auto';
-['playing'].forEach(e=>player.addEventListener(e,()=>talking(true)));['ended','pause','error'].forEach(e=>player.addEventListener(e,()=>talking(false)));
+player.addEventListener('playing',()=>talking(true,player.dataset.k));['ended','pause','error'].forEach(e=>player.addEventListener(e,()=>talking(false)));
 player.addEventListener('ended',()=>{const s=lastLine;lastLine='';if(/!\s*$/.test(s))pose('surprised',1800);else if(/\?\s*$/.test(s))pose('think',1800)});
 function esc(s){return s.replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;')}
 function speakBtn(text,voice){return text?`<button class="icon-btn" data-say="${esc(text)}" data-voice="${voice||LECTOR}" aria-label="Escuchar">🔊</button>`:''}
 function speak(text,voice){
   if(!text)return;
   const rate=state.slow?0.75:1;
-  player.pause();player.defaultPlaybackRate=rate;player.src='audio/'+cyrb53((voice||LECTOR)+'|'+text)+'.mp3';player.playbackRate=rate;
+  const k=cyrb53((voice||LECTOR)+'|'+text);player.pause();player.dataset.k=k;player.defaultPlaybackRate=rate;player.src='audio/'+k+'.mp3';player.playbackRate=rate;
   /* si falta el audio, la voz del navegador (italiana) lee el latín */
-  player.play().catch(e=>{if(e.name==='AbortError'||!window.speechSynthesis)return;speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text);u.lang='it-IT';u.rate=state.slow?0.7:0.9;speechSynthesis.speak(u)})
+  player.play().catch(e=>{if(e.name==='AbortError'||!window.speechSynthesis)return;speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text);u.lang='it-IT';u.rate=state.slow?0.7:0.9;u.onstart=()=>talking(true);u.onend=u.onerror=()=>talking(false);speechSynthesis.speak(u)})
 }
 function applySlow(){const b=document.querySelector('#slow-toggle');b.classList.toggle('on',!!state.slow);b.setAttribute('aria-pressed',!!state.slow)}
 function nextChapter(){return chapters.findIndex((c,i)=>!state.completed.includes(i))}
 function say(text){document.querySelector('#bubble-text').textContent=text}
 /* César: retratos pixel art (avatar/). La cara no cambia: de cada expresión solo se trasplantan cejas, ojos y
    boca (tools/cesar_caras.py). Reacciona al tema del capítulo, a lo que se dice y a lo que haces. */
-const POSES=['neutral','talk','talk2','pleased','think','surprised','laugh','stern','worried','wink','cheer','sad'];
-POSES.forEach(n=>{new Image().src=`avatar/cesar-${n}.png`});
+const POSES=['neutral','m1','m2','m3','pleased','think','surprised','laugh','stern','worried','wink','cheer','sad'];
+const FRAMES={};POSES.forEach(n=>{const i=new Image();i.src=`avatar/cesar-${n}.png`;FRAMES[n]=i});
+/* boca al hablar: m1, m2, m3 son solo la boca sobre la cara neutral; audio/boca.json da el nivel (0-3) de cada audio cada 50 ms */
+const BOCA=['neutral','m1','m2','m3'],PASO_BOCA=0.05;
+let ENVOLVENTES=null;fetch('audio/boca.json').then(r=>r.json()).then(j=>{ENVOLVENTES=j}).catch(()=>{});
 /* humor de cada capítulo según su tema */
 const MOOD=['pleased','pleased','wink','stern','pleased','cheer','wink','pleased','pleased','surprised','worried','stern','think','pleased','think','worried','think','think','wink','pleased','stern','surprised','pleased','worried','surprised','worried','pleased','worried','cheer','laugh','wink','cheer','stern','think','cheer'];
 const OK_LINES=['Optime!','Bene! Así se hace.','Recte!','¡Exacto! Se nota que estudias.','Perfecte!'];
 const BAD_LINES=['Non ita. No pasa nada: así se aprende.','Casi. Mira la respuesta y sigue.','Errare humanum est… sigamos.'];
 const QUIPS=[['surprised','¡Eh! Cuidado con la corona de laurel.'],['laugh','Ave! No cobro por saludar.'],['wink','Alea iacta est. ¿Seguimos?'],['stern','Menos cosquillas y más latín.'],['think','¿Sabías que mi nombre se pronuncia «Kaisar»?']];
-let poseTimer,mouthTimer,okStreak=0,badStreak=0,lastLine='';
+let poseTimer,mouthTimer,lipRaf=0,actual='',okStreak=0,badStreak=0,lastLine='';
 const pick=a=>a[Math.floor(Math.random()*a.length)];
-function setPose(n){document.querySelector('#cesar').src=`avatar/cesar-${n}.png`}
+function setPose(n){
+  if(n===actual)return;actual=n;
+  const c=document.querySelector('#cesar'),f=FRAMES[n],dibuja=()=>{if(actual===n){const x=c.getContext('2d');x.clearRect(0,0,c.width,c.height);x.drawImage(f,0,0)}};
+  f.complete&&f.naturalWidth?dibuja():f.addEventListener('load',dibuja,{once:true})
+}
 function pose(n,ms){clearTimeout(poseTimer);setPose(n);if(ms)poseTimer=setTimeout(()=>setPose('neutral'),ms)}
 function react(n,text,ms){pose(n,ms===undefined?2600:ms);if(text)say(text)}
-function talking(on){const a=document.querySelector('.avatar');clearInterval(mouthTimer);a.classList.toggle('talking',on);if(on){clearTimeout(poseTimer);const f=['talk','neutral','talk2','talk','neutral'];let i=0;setPose(f[0]);mouthTimer=setInterval(()=>{i=(i+1)%f.length;setPose(f[i])},170)}else setPose('neutral')}
+function talking(on,hash){
+  cancelAnimationFrame(lipRaf);clearInterval(mouthTimer);
+  if(!on){setPose('neutral');return}
+  clearTimeout(poseTimer);
+  const env=ENVOLVENTES&&hash&&ENVOLVENTES[hash];
+  if(env){const paso=()=>{setPose(BOCA[env[Math.min(env.length-1,Math.floor(player.currentTime/PASO_BOCA))]]);lipRaf=requestAnimationFrame(paso)};paso()}
+  else{const f=['m1','neutral','m2','m1','neutral'];let i=0;setPose('m1');mouthTimer=setInterval(()=>{i=(i+1)%f.length;setPose(f[i])},200)}
+}
 function reactAnswer(correct){
   if(correct){badStreak=0;okStreak++;
     if(okStreak%3===0)react('cheer',`¡${okStreak} seguidas! Veni, vidi, vici.`,3200);
@@ -224,7 +238,7 @@ document.querySelector('#continue-button').addEventListener('click',()=>{const n
 document.addEventListener('click',e=>{const b=e.target.closest('[data-say]');if(b){lastLine=b.closest('.msg')?b.dataset.say:'';speak(b.dataset.say,b.dataset.voice)}});
 document.querySelector('#slow-toggle').addEventListener('click',()=>{state.slow=!state.slow;saveState();applySlow();showToast(state.slow?'Voz lenta activada.':'Voz a velocidad normal.');react(state.slow?'wink':'pleased',state.slow?'Festina lente: apresúrate despacio.':'A buen paso entonces.',2400)});
 document.querySelector('.avatar').addEventListener('click',()=>{const [p,s]=pick(QUIPS);react(p,s,2600)});
-renderChapters();updateCounts();applySlow();
+renderChapters();updateCounts();applySlow();setPose('neutral');
 const away=state.lastVisit?(Date.now()-state.lastVisit)/864e5:0;
 if(state.completed.length&&away>=3)react('surprised',`¡Han pasado ${Math.floor(away)} días! Repasemos antes de seguir.`,4000);
 else if(state.completed.length)react('pleased','Salve de nuevo. Sigamos donde lo dejamos.',3000);

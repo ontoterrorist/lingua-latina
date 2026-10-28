@@ -7,6 +7,9 @@ trasplantan las cejas y los ojos y la boca; esos píxeles se ajustan a la paleta
     python tools/cesar_caras.py avatar/cesar-neutral.png avatar/fuentes avatar          # todas
     python tools/cesar_caras.py base.png fuentes salida talk think                       # solo algunas
 
+Las poses llamadas m1, m2, m3… son de solo boca (cejas y ojos quedan como en la base): sirven para mover los
+labios al hablar sin que cambie el resto de la cara.
+
 Cada fuente es <pose>.png, de 128x160, la base editada por PixelLab (descripción: «Same man ... Change only
 the face: ...»). Necesita Pillow y numpy."""
 import os, sys
@@ -16,6 +19,7 @@ from PIL import Image, ImageFilter
 # zonas de la cara que cambian con la emoción (x0, y0, x1, y1), en píxeles de la imagen de 128x160
 CEJAS_OJOS = (55, 52, 96, 74)
 BOCA = (61, 86, 93, 106)
+BOCA_SOLA = (63, 87, 91, 101)  # labios y poco más, para los fotogramas m1, m2… (sin tocar mandíbula ni mentón)
 BORDE = 3  # el contorno de la cara no se toca: se erosiona la silueta 3 píxeles
 
 
@@ -42,7 +46,7 @@ def desplazamiento(base, fuente):
     return mejor[1], mejor[2]
 
 
-def trasplanta(base_img, fuente_img):
+def trasplanta(base_img, fuente_img, regiones=(CEJAS_OJOS, BOCA)):
     base = np.asarray(base_img.convert('RGBA'))
     fuente = np.asarray(fuente_img.convert('RGBA'))
     dx, dy = desplazamiento(base, fuente)
@@ -50,7 +54,7 @@ def trasplanta(base_img, fuente_img):
     alfa = Image.fromarray(((base[..., 3] > 0) * 255).astype('uint8')).filter(ImageFilter.MinFilter(2 * BORDE + 1))
     interior = np.asarray(alfa) > 0
     zona = np.zeros(interior.shape, bool)
-    for x0, y0, x1, y1 in (CEJAS_OJOS, BOCA):
+    for x0, y0, x1, y1 in regiones:
         zona[y0:y1, x0:x1] = True
     zona &= interior & (fuente[..., 3] > 0)
     paleta = np.unique(base[base[..., 3] > 0][:, :3], axis=0)
@@ -72,6 +76,7 @@ if __name__ == '__main__':
         pose, ext = os.path.splitext(f)
         if ext != '.png' or (solo and pose not in solo):
             continue
-        img, desp, n = trasplanta(b, Image.open(os.path.join(fuentes, f)))
+        solo_boca = pose[0] == 'm' and pose[1:].isdigit()
+        img, desp, n = trasplanta(b, Image.open(os.path.join(fuentes, f)), (BOCA_SOLA,) if solo_boca else (CEJAS_OJOS, BOCA))
         img.save(os.path.join(salida, f'cesar-{pose}.png'))
         print(pose, 'desplazamiento', desp, 'píxeles trasplantados', n)
