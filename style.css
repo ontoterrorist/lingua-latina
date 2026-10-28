@@ -226,4 +226,4 @@ button.say { border: 0; font-size: inherit; text-align: left; cursor: pointer; }
 button.say:hover { background: var(--accent); }
 .front-row { display: flex; align-items: center; justify-content: center; gap: 8px; }
 .front-row .review-front { margin: 0; }
-.slow.on { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); font-weight: 700; }
+#slow-toggle.on, #engine-toggle.on { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); font-weight: 700; }

@@ -111,17 +111,50 @@ let openLevels = new Set();
 function readState(){try{return {...defaultState,...JSON.parse(localStorage.getItem('lingua-latina-v1')||'{}')}}catch{return {...defaultState}}}
 function saveState(){localStorage.setItem('lingua-latina-v1',JSON.stringify(state));updateCounts()}
 const player=new Audio();player.preload='auto';
-player.addEventListener('playing',()=>talking(true,player.dataset.k));['ended','pause','error'].forEach(e=>player.addEventListener(e,()=>talking(false)));
-player.addEventListener('ended',()=>{const s=lastLine;lastLine='';if(/!\s*$/.test(s))pose('surprised',1800);else if(/\?\s*$/.test(s))pose('think',1800)});
+player.addEventListener('playing',()=>talking(true,ENVOLVENTES&&ENVOLVENTES[player.dataset.k],()=>player.currentTime));['ended','pause','error'].forEach(e=>player.addEventListener(e,()=>{if(!fuenteCla)talking(false)}));
+player.addEventListener('ended',reaccionaALinea);
+function reaccionaALinea(){const s=lastLine;lastLine='';if(/!\s*$/.test(s))pose('surprised',1800);else if(/\?\s*$/.test(s))pose('think',1800)}
 function esc(s){return s.replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;')}
 function speakBtn(text,voice){return text?`<button class="icon-btn" data-say="${esc(text)}" data-voice="${voice||LECTOR}" aria-label="Escuchar">🔊</button>`:''}
 function speak(text,voice){
   if(!text)return;
+  if(state.motor==='clasica'){hablaClasica(text,voice);return}
+  detenClasica();
   const rate=state.slow?0.75:1;
   const k=cyrb53((voice||LECTOR)+'|'+text);player.pause();player.dataset.k=k;player.defaultPlaybackRate=rate;player.src='audio/'+k+'.mp3';player.playbackRate=rate;
   /* si falta el audio, la voz del navegador (italiana) lee el latín */
   player.play().catch(e=>{if(e.name==='AbortError'||!window.speechSynthesis)return;speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text);u.lang='it-IT';u.rate=state.slow?0.7:0.9;u.onstart=()=>talking(true);u.onend=u.onerror=()=>talking(false);speechSynthesis.speak(u)})
 }
+/* Voz clásica: eSpeak NG (WebAssembly, espeak.js) con pronunciación latina reconstruida. Se carga solo al elegirla. */
+const MUJERES=new Set(['aemilia','iulia','avia','syra','serva','ariadna','discipula',LECTOR]);
+let ctxAudio=null,fuenteCla=null,moduloCla=null;
+function envolvente(x,sr){ /* mismo cálculo que tools/voz/boca.py: nivel de apertura 0-3 cada 50 ms */
+  const n=Math.round(sr*PASO_BOCA),k=Math.floor(x.length/n),rms=new Float32Array(k);
+  for(let i=0;i<k;i++){let s=0;for(let j=i*n;j<i*n+n;j++)s+=x[j]*x[j];rms[i]=Math.sqrt(s/n)}
+  const ref=[...rms].sort((a,b)=>a-b)[Math.floor(0.9*(k-1))]||1,niv=[];
+  for(let i=0;i<k;i++){let m=0;for(let j=Math.max(0,i-6);j<=Math.min(k-1,i+6);j++)m=Math.max(m,rms[j]);const r=rms[i]/Math.max(m,1e-6);
+    let v=r<.35?0:r<.65?1:r<.9?2:3;if(rms[i]<.2*ref)v=0;if(v===3&&rms[i]<.8*ref)v=2;niv.push(v)}
+  return niv.map((v,i)=>i&&i<k-1?[niv[i-1],v,niv[i+1]].sort()[1]:v).join('')
+}
+function detenClasica(){if(fuenteCla){const s=fuenteCla;fuenteCla=null;s.onended=null;try{s.stop()}catch{}talking(false)}}
+async function cargaClasica(){if(!moduloCla){moduloCla=await import('./espeak.js');await moduloCla.cargar()}}
+async function hablaClasica(text,voice){
+  player.pause();if(window.speechSynthesis)speechSynthesis.cancel();detenClasica();
+  try{
+    ctxAudio??=new (window.AudioContext||window.webkitAudioContext)(); /* dentro del clic, para que el navegador lo permita */
+    const reanuda=ctxAudio.state==='suspended'?ctxAudio.resume():null;
+    if(!moduloCla)showToast('Cargando la voz clásica…');
+    await cargaClasica();
+    const r=await moduloCla.sintetizar(text,{rate:state.slow?105:145,pitch:voice===LECTOR?55:MUJERES.has(voice)?70:40});
+    if(!r)return;await reanuda;
+    const buf=ctxAudio.createBuffer(1,r.muestras.length,r.frecuencia);buf.getChannelData(0).set(r.muestras);
+    const src=ctxAudio.createBufferSource();src.buffer=buf;src.connect(ctxAudio.destination);
+    const env=envolvente(r.muestras,r.frecuencia),t0=ctxAudio.currentTime;
+    src.onended=()=>{if(fuenteCla===src){fuenteCla=null;talking(false);reaccionaALinea()}};
+    fuenteCla=src;src.start();talking(true,env,()=>ctxAudio.currentTime-t0)
+  }catch(e){console.error('Voz clásica:',e);moduloCla=null;state.motor='humana';saveState();applyMotor();showToast('No se pudo cargar la voz clásica; uso la voz humana.');speak(text,voice)}
+}
+function applyMotor(){const b=document.querySelector('#engine-toggle'),c=state.motor==='clasica';b.classList.toggle('on',c);b.setAttribute('aria-pressed',c);b.textContent=c?'🏛 Clásica':'🎙 Humana'}
 function applySlow(){const b=document.querySelector('#slow-toggle');b.classList.toggle('on',!!state.slow);b.setAttribute('aria-pressed',!!state.slow)}
 function nextChapter(){return chapters.findIndex((c,i)=>!state.completed.includes(i))}
 function say(text){document.querySelector('#bubble-text').textContent=text}
@@ -146,12 +179,11 @@ function setPose(n){
 }
 function pose(n,ms){clearTimeout(poseTimer);setPose(n);if(ms)poseTimer=setTimeout(()=>setPose('neutral'),ms)}
 function react(n,text,ms){pose(n,ms===undefined?2600:ms);if(text)say(text)}
-function talking(on,hash){
+function talking(on,env,reloj){
   cancelAnimationFrame(lipRaf);clearInterval(mouthTimer);
   if(!on){setPose('neutral');return}
   clearTimeout(poseTimer);
-  const env=ENVOLVENTES&&hash&&ENVOLVENTES[hash];
-  if(env){const paso=()=>{setPose(BOCA[env[Math.min(env.length-1,Math.floor(player.currentTime/PASO_BOCA))]]);lipRaf=requestAnimationFrame(paso)};paso()}
+  if(env){const paso=()=>{setPose(BOCA[env[Math.min(env.length-1,Math.floor(reloj()/PASO_BOCA))]]);lipRaf=requestAnimationFrame(paso)};paso()}
   else{const f=['m1','neutral','m2','m1','neutral'];let i=0;setPose('m1');mouthTimer=setInterval(()=>{i=(i+1)%f.length;setPose(f[i])},200)}
 }
 function reactAnswer(correct){
@@ -236,9 +268,13 @@ document.querySelectorAll('[data-view]').forEach(b=>b.addEventListener('click',(
 document.querySelector('.logo').addEventListener('click',e=>{e.preventDefault();navigate('journey')});
 document.querySelector('#continue-button').addEventListener('click',()=>{const next=nextChapter();openChapter(next<0?0:next)});
 document.addEventListener('click',e=>{const b=e.target.closest('[data-say]');if(b){lastLine=b.closest('.msg')?b.dataset.say:'';speak(b.dataset.say,b.dataset.voice)}});
+document.querySelector('#engine-toggle').addEventListener('click',()=>{
+  state.motor=state.motor==='clasica'?'humana':'clasica';saveState();applyMotor();detenClasica();player.pause();
+  if(state.motor==='clasica'){showToast('Voz clásica (eSpeak): pronunciación latina reconstruida, más robótica.');cargaClasica().catch(e=>{console.error(e);moduloCla=null;state.motor='humana';saveState();applyMotor();showToast('No se pudo cargar la voz clásica; uso la voz humana.')})}
+  else showToast('Voz humana (neuronal).')});
 document.querySelector('#slow-toggle').addEventListener('click',()=>{state.slow=!state.slow;saveState();applySlow();showToast(state.slow?'Voz lenta activada.':'Voz a velocidad normal.');react(state.slow?'wink':'pleased',state.slow?'Festina lente: apresúrate despacio.':'A buen paso entonces.',2400)});
 document.querySelector('.avatar').addEventListener('click',()=>{const [p,s]=pick(QUIPS);react(p,s,2600)});
-renderChapters();updateCounts();applySlow();setPose('neutral');
+renderChapters();updateCounts();applySlow();applyMotor();setPose('neutral');
 const away=state.lastVisit?(Date.now()-state.lastVisit)/864e5:0;
 if(state.completed.length&&away>=3)react('surprised',`¡Han pasado ${Math.floor(away)} días! Repasemos antes de seguir.`,4000);
 else if(state.completed.length)react('pleased','Salve de nuevo. Sigamos donde lo dejamos.',3000);
