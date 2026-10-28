@@ -30,7 +30,8 @@ a { color: inherit; }
 .logo { font: 700 18px/1 var(--head); text-decoration: none; letter-spacing: .5px; white-space: nowrap; }
 .logo-ru { color: #fff; }
 .logo-adv { color: var(--accent); }
-.nav { display: flex; gap: 4px; margin-left: auto; }
+.nav { display: flex; gap: 4px; }
+.slow { margin-left: auto; }
 .nav-button { position: relative; display: flex; align-items: center; gap: 6px; padding: 8px 12px; border: 0; border-radius: 10px; background: transparent; color: var(--soft); font-weight: 700; }
 .nav-button:hover { background: var(--bg3); color: #fff; }
 .nav-button.on { background: var(--accent); color: var(--accent-ink); }
@@ -212,3 +213,17 @@ p { margin: 0 0 10px; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
+
+/* voz */
+.icon-btn { flex: none; border: 0; background: transparent; width: 36px; height: 36px; border-radius: 50%; display: inline-grid; place-items: center; font-size: 17px; color: var(--blue); }
+.icon-btn:hover { background: rgba(74,111,165,.16); }
+.msg .line { display: flex; align-items: flex-start; justify-content: space-between; gap: 6px; }
+.msg.me .line { flex-direction: row-reverse; }
+.msg.me .es { text-align: right; }
+button.word-chip { text-align: left; color: var(--muted); }
+button.word-chip:hover { border-color: var(--accent); }
+button.say { border: 0; font-size: inherit; text-align: left; cursor: pointer; }
+button.say:hover { background: var(--accent); }
+.front-row { display: flex; align-items: center; justify-content: center; gap: 8px; }
+.front-row .review-front { margin: 0; }
+.slow.on { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); font-weight: 700; }

@@ -74,6 +74,18 @@ const caesarVoice=[
  'Al final, los casos te permiten ver cómo se relaciona cada palabra.'
 ];
 
+/* Motor de voz: cada frase latina tiene su audio (voz neuronal Piper, ver tools/voz). El archivo se
+   busca por un hash de «voz|texto»; tools/spoken.js usa estas mismas funciones para listar las frases. */
+function cyrb53(str,seed){seed=seed||0;let h1=0xdeadbeef^seed,h2=0x41c6ce57^seed;for(let i=0,ch;i<str.length;i++){ch=str.charCodeAt(i);h1=Math.imul(h1^ch,2654435761);h2=Math.imul(h2^ch,1597334677)}h1=Math.imul(h1^(h1>>>16),2246822507);h1^=Math.imul(h2^(h2>>>13),3266489909);h2=Math.imul(h2^(h2>>>16),2246822507);h2^=Math.imul(h1^(h1>>>13),3266489909);return (4294967296*(2097151&h2)+(h1>>>0)).toString(16)}
+const LECTOR='lector';
+const voiceOf=speaker=>speaker.toLowerCase().replace(/[^a-z]+/g,'-');
+/* La parte latina de un ejemplo («veni! = ¡ven! · audī! = ¡escucha!» → «veni! audī!»); vacío si el ejemplo está en español. */
+const EXAMPLE_SIN_LATIN=[33,34];
+function latinParts(example,chapter){
+  if(EXAMPLE_SIN_LATIN.includes(chapter))return '';
+  return example.split(' · ').map(p=>p.split(' = ')[0].replace(/\s*\([^)]*\)/g,'')).join(' → ').split(' → ').map(s=>s.trim()).filter(Boolean).map(s=>/[.!?]$/.test(s)?s:s+'.').join(' ')
+}
+
 const defaultState = {completed:[],cards:[]};
 let state = readState();
 let currentChapter = 0;
@@ -98,6 +110,17 @@ let openLevels = new Set();
 
 function readState(){try{return {...defaultState,...JSON.parse(localStorage.getItem('lingua-latina-v1')||'{}')}}catch{return {...defaultState}}}
 function saveState(){localStorage.setItem('lingua-latina-v1',JSON.stringify(state));updateCounts()}
+const player=new Audio();player.preload='auto';
+function esc(s){return s.replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;')}
+function speakBtn(text,voice){return text?`<button class="icon-btn" data-say="${esc(text)}" data-voice="${voice||LECTOR}" aria-label="Escuchar">🔊</button>`:''}
+function speak(text,voice){
+  if(!text)return;
+  const rate=state.slow?0.75:1;
+  player.pause();player.defaultPlaybackRate=rate;player.src='audio/'+cyrb53((voice||LECTOR)+'|'+text)+'.mp3';player.playbackRate=rate;
+  /* si falta el audio, la voz del navegador (italiana) lee el latín */
+  player.play().catch(e=>{if(e.name==='AbortError'||!window.speechSynthesis)return;speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text);u.lang='it-IT';u.rate=state.slow?0.7:0.9;speechSynthesis.speak(u)})
+}
+function applySlow(){const b=document.querySelector('#slow-toggle');b.classList.toggle('on',!!state.slow);b.setAttribute('aria-pressed',!!state.slow)}
 function nextChapter(){return chapters.findIndex((c,i)=>!state.completed.includes(i))}
 function say(text){document.querySelector('#bubble-text').textContent=text}
 function updateCounts(){
@@ -127,12 +150,12 @@ function openChapter(index){currentChapter=index;questionIndex=0;renderChapter()
 function renderChapter(){
   const c=chapters[currentChapter];const p=document.querySelector('#chapter-content');
   const speakers=[...new Set(c.dialog.map(line=>line[0]))];
-  const dialogue=c.dialog.map(line=>`<div class="msg ${speakers.indexOf(line[0])%2?'me':''}"><div class="head">${line[0]}</div><div class="la">${line[1]}</div><span class="es">${line[2]}</span></div>`).join('');
+  const dialogue=c.dialog.map(line=>`<div class="msg ${speakers.indexOf(line[0])%2?'me':''}"><div class="head">${line[0]}</div><div class="line"><div><div class="la">${line[1]}</div><span class="es">${line[2]}</span></div>${speakBtn(line[1],voiceOf(line[0]))}</div></div>`).join('');
   const second=c.dialog[0][1].split(' ')[0].replace(/[.,!?]/g,'').toLowerCase();
   p.innerHTML=`<div class="card chapter-head"><div class="kicker">Capitvlvm ${roman(currentChapter+1)} · ${currentChapter+1} / ${chapters.length}</div><h1>${c.title}</h1><p class="muted">${c.theme}</p></div>
 <div class="card"><div class="kicker">Scena · diálogo original</div><div class="scene-art ${sceneMap[currentChapter]}" aria-hidden="true"></div><div class="chat">${dialogue}</div><p class="muted small" style="margin:12px 0 0">Adaptación original para practicar el tema del capítulo.</p></div>
-<div class="pair"><div class="card"><div class="kicker">Vocabvla · palabras</div><div class="chips"><span class="word-chip"><strong>${c.word[0]}</strong>${c.word[1]}</span><span class="word-chip"><strong>${second}</strong>expresión del diálogo</span></div></div>
-<div class="card"><div class="kicker">Grammatica · regla</div><h3>${c.grammar}</h3><p>${c.rule}</p><p class="example"><span class="say">${c.example}</span></p></div></div>
+<div class="pair"><div class="card"><div class="kicker">Vocabvla · palabras</div><div class="chips"><button class="word-chip" data-say="${esc(c.word[0])}" data-voice="${LECTOR}"><strong>${c.word[0]} <span aria-hidden="true">🔊</span></strong>${c.word[1]}</button><button class="word-chip" data-say="${esc(second)}" data-voice="${LECTOR}"><strong>${second} <span aria-hidden="true">🔊</span></strong>expresión del diálogo</button></div></div>
+<div class="card"><div class="kicker">Grammatica · regla</div><h3>${c.grammar}</h3><p>${c.rule}</p><p class="example">${latinParts(c.example,currentChapter)?`<button class="say" data-say="${esc(latinParts(c.example,currentChapter))}" data-voice="${LECTOR}">${c.example} <span aria-hidden="true">🔊</span></button>`:`<span class="say">${c.example}</span>`}</p></div></div>
 <div class="card"><div class="kicker">Exercitia · ejercicios</div><div class="steps" id="steps"><span></span><span></span></div><div id="exercise-area"></div><div id="chapter-done" class="chapter-done"><div class="feedback ok"><h3>¡Capítulo completado!</h3><p>Tus cartas quedaron guardadas y volverán a aparecer según tu memoria.</p></div><div class="next-row"><span></span><button id="back-to-map" class="btn primary">Volver al viaje →</button></div></div></div>`;
   renderQuestion();
   p.querySelector('#back-to-map').addEventListener('click',()=>{renderChapters();navigate('journey')})
@@ -167,9 +190,11 @@ function renderQuestion(){
 function upsertCard(data){const id=`${data.type}-${data.chapter}-${slug(data.front)}`;const old=state.cards.find(c=>c.id===id);if(old){old.seen=(old.seen||1)+1;old.lastSeen=Date.now()}else state.cards.push({id,...data,created:Date.now(),lastSeen:Date.now(),due:Date.now(),interval:0,ease:2.5,repetitions:0,seen:1});saveState()}
 function slug(s){return s.normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-')}
 function renderReview(){const due=state.cards.filter(c=>c.due<=Date.now());document.querySelector('#due-count').textContent=due.length;document.querySelector('#review-area').innerHTML='';const filters=[...document.querySelectorAll('.chip')];filters.forEach(b=>{b.classList.toggle('on',b.dataset.filter===activeFilter);b.onclick=()=>{activeFilter=b.dataset.filter;reviewIndex=0;cardIsFlipped=false;renderReview()}});let cards=activeFilter==='all'?state.cards.slice():activeFilter==='word'?state.cards.filter(c=>c.type==='word'):activeFilter==='grammar'?state.cards.filter(c=>c.type==='grammar'):due.slice();cards.sort((a,b)=>a.due-b.due);reviewQueue=cards;reviewIndex=Math.min(reviewIndex,Math.max(cards.length-1,0));if(!cards.length){const hasFuture=state.cards.length>0;document.querySelector('#review-area').innerHTML=`<div class="empty-state"><strong>${hasFuture?'Todo repasado por hoy.':'Aún no tienes cartas.'}</strong><p>${hasFuture?'Las próximas cartas aparecerán en su fecha. Puedes mirar todas tus cartas mientras tanto.':'Completa ejercicios en un capítulo para guardar cartas de palabras y gramática automáticamente.'}</p></div>`;return}drawReviewCard()}
-function drawReviewCard(){const area=document.querySelector('#review-area'),card=reviewQueue[reviewIndex];if(!card)return;const label=card.type==='word'?'Palabra':'Gramática';area.innerHTML=`<div class="card review-card"><div class="review-type">${label} · Cap. ${String(card.chapter+1).padStart(2,'0')} · ${reviewIndex+1}/${reviewQueue.length}</div><h2 class="review-front">${card.front}</h2>${cardIsFlipped?`<p class="review-back">${card.back}</p><p class="review-example">${card.example}</p><div class="grades"><button class="btn red" data-grade="hard">Difícil<small>1 día</small></button><button class="btn primary" data-grade="medium">Regular<small>≈ 3 días</small></button><button class="btn green" data-grade="easy">Fácil<small>≈ 7 días</small></button></div>`:`<button class="btn big flip-button">Mostrar respuesta ↓</button>`}</div>`;const flip=area.querySelector('.flip-button');if(flip)flip.onclick=()=>{cardIsFlipped=true;drawReviewCard()};area.querySelectorAll('[data-grade]').forEach(b=>b.onclick=()=>gradeCard(card,b.dataset.grade))}
+function drawReviewCard(){const area=document.querySelector('#review-area'),card=reviewQueue[reviewIndex];if(!card)return;const label=card.type==='word'?'Palabra':'Gramática';area.innerHTML=`<div class="card review-card"><div class="review-type">${label} · Cap. ${String(card.chapter+1).padStart(2,'0')} · ${reviewIndex+1}/${reviewQueue.length}</div><div class="front-row"><h2 class="review-front">${card.front}</h2>${card.type==='word'?speakBtn(card.front,LECTOR):''}</div>${cardIsFlipped?`<p class="review-back">${card.back}</p><p class="review-example">${card.example}</p><div class="grades"><button class="btn red" data-grade="hard">Difícil<small>1 día</small></button><button class="btn primary" data-grade="medium">Regular<small>≈ 3 días</small></button><button class="btn green" data-grade="easy">Fácil<small>≈ 7 días</small></button></div>`:`<button class="btn big flip-button">Mostrar respuesta ↓</button>`}</div>`;const flip=area.querySelector('.flip-button');if(flip)flip.onclick=()=>{cardIsFlipped=true;drawReviewCard()};area.querySelectorAll('[data-grade]').forEach(b=>b.onclick=()=>gradeCard(card,b.dataset.grade))}
 function gradeCard(card,grade){let quality=grade==='hard'?2:grade==='medium'?3:5;card.ease=Math.max(1.3,card.ease+(0.1-(5-quality)*(0.08+(5-quality)*0.02)));if(quality<3){card.repetitions=0;card.interval=1}else{card.repetitions++;if(grade==='hard')card.interval=1;else if(card.repetitions===1)card.interval=grade==='easy'?7:3;else card.interval=Math.max(1,Math.round(card.interval*card.ease*(grade==='easy'?1.25:1)))}card.due=Date.now()+card.interval*86400000;card.lastSeen=Date.now();saveState();const prev=reviewIndex;reviewQueue=reviewQueue.filter(c=>c.id!==card.id);reviewIndex=Math.min(prev,reviewQueue.length-1);cardIsFlipped=false;renderReview();showToast(`Próximo repaso: ${card.interval} ${card.interval===1?'día':'días'}.`)}
 document.querySelectorAll('[data-view]').forEach(b=>b.addEventListener('click',()=>navigate(b.dataset.view)));
 document.querySelector('.logo').addEventListener('click',e=>{e.preventDefault();navigate('journey')});
 document.querySelector('#continue-button').addEventListener('click',()=>{const next=nextChapter();openChapter(next<0?0:next)});
-renderChapters();updateCounts();say(bubbleText.journey);
+document.addEventListener('click',e=>{const b=e.target.closest('[data-say]');if(b)speak(b.dataset.say,b.dataset.voice)});
+document.querySelector('#slow-toggle').addEventListener('click',()=>{state.slow=!state.slow;saveState();applySlow();showToast(state.slow?'Voz lenta activada.':'Voz a velocidad normal.')});
+renderChapters();updateCounts();applySlow();say(bubbleText.journey);
