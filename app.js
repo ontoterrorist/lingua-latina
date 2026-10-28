@@ -160,16 +160,16 @@ function nextChapter(){return chapters.findIndex((c,i)=>!state.completed.include
 function say(text){document.querySelector('#bubble-text').textContent=text}
 /* César: retratos pixel art (avatar/). La cara no cambia: de cada expresión solo se trasplantan cejas, ojos y
    boca (tools/cesar_caras.py). Reacciona al tema del capítulo, a lo que se dice y a lo que haces. */
-const POSES=['neutral','m1','m2','m3','pleased','think','surprised','laugh','stern','worried','wink','cheer','sad'];
+const POSES=['neutral','m1','m2','m3','happy','surprised','stern','sad','think'];
 const FRAMES={};POSES.forEach(n=>{const i=new Image();i.src=`avatar/cesar-${n}.png`;FRAMES[n]=i});
 /* boca al hablar: m1, m2, m3 son solo la boca sobre la cara neutral; audio/boca.json da el nivel (0-3) de cada audio cada 50 ms */
 const BOCA=['neutral','m1','m2','m3'],PASO_BOCA=0.05;
 let ENVOLVENTES=null;fetch('audio/boca.json').then(r=>r.json()).then(j=>{ENVOLVENTES=j}).catch(()=>{});
-/* humor de cada capítulo según su tema */
-const MOOD=['pleased','pleased','wink','stern','pleased','cheer','wink','pleased','pleased','surprised','worried','stern','think','pleased','think','worried','think','think','wink','pleased','stern','surprised','pleased','worried','surprised','worried','pleased','worried','cheer','laugh','wink','cheer','stern','think','cheer'];
+/* humor de cada capítulo según su tema (cinco emociones base más la neutral) */
+const MOOD=['neutral','happy','surprised','stern','happy','neutral','happy','neutral','happy','surprised','sad','stern','think','happy','think','sad','think','think','happy','happy','stern','surprised','neutral','sad','surprised','sad','neutral','sad','happy','happy','happy','neutral','stern','think','happy'];
 const OK_LINES=['Optime!','Bene! Así se hace.','Recte!','¡Exacto! Se nota que estudias.','Perfecte!'];
 const BAD_LINES=['Non ita. No pasa nada: así se aprende.','Casi. Mira la respuesta y sigue.','Errare humanum est… sigamos.'];
-const QUIPS=[['surprised','¡Eh! Cuidado con la corona de laurel.'],['laugh','Ave! No cobro por saludar.'],['wink','Alea iacta est. ¿Seguimos?'],['stern','Menos cosquillas y más latín.'],['think','¿Sabías que mi nombre se pronuncia «Kaisar»?']];
+const QUIPS=[['surprised','¡Eh! Cuidado con la corona de laurel.'],['happy','Ave! No cobro por saludar.'],['happy','Alea iacta est. ¿Seguimos?'],['stern','Menos cosquillas y más latín.'],['think','¿Sabías que mi nombre se pronuncia «Kaisar»?']];
 let poseTimer,mouthTimer,lipRaf=0,actual='',okStreak=0,badStreak=0,lastLine='';
 const pick=a=>a[Math.floor(Math.random()*a.length)];
 function setPose(n){
@@ -188,11 +188,11 @@ function talking(on,env,reloj){
 }
 function reactAnswer(correct){
   if(correct){badStreak=0;okStreak++;
-    if(okStreak%3===0)react('cheer',`¡${okStreak} seguidas! Veni, vidi, vici.`,3200);
-    else react(pick(['pleased','wink','pleased','laugh']),pick(OK_LINES),2400)}
+    if(okStreak%3===0)react('happy',`¡${okStreak} seguidas! Veni, vidi, vici.`,3200);
+    else react('happy',pick(OK_LINES),2400)}
   else{okStreak=0;badStreak++;
     if(badStreak>=3)react('sad','Respira, repasa la regla de arriba y vuelve a intentarlo.',3200);
-    else if(badStreak===2)react('worried',pick(BAD_LINES),2800);
+    else if(badStreak===2)react('sad',pick(BAD_LINES),2800);
     else react('think',pick(BAD_LINES),2600)}
 }
 function updateCounts(){
@@ -205,7 +205,7 @@ function updateCounts(){
   const go=document.querySelector('#continue-button');go.firstChild.textContent=state.completed.length?'Continuar el viaje ':'Comenzar el viaje '
 }
 function showToast(message){const node=document.querySelector('#toast');node.textContent=message;node.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>node.classList.remove('show'),2400)}
-function navigate(view){document.querySelectorAll('.view').forEach(v=>v.classList.add('hidden'));document.querySelector(`#${view}-view`).classList.remove('hidden');document.querySelectorAll('.nav-button').forEach(b=>b.classList.toggle('on',b.dataset.view===(view==='chapter'?'journey':view)));window.scrollTo(0,0);if(bubbleText[view])say(bubbleText[view]);if(view==='cards'){renderReview();const n=state.cards.filter(c=>c.due<=Date.now()).length;if(!state.cards.length)react('neutral','Aún no hay cartas: resuelve ejercicios y se guardarán solas.',0);else if(n)react('pleased',`Tienes ${n} ${n===1?'carta':'cartas'} para hoy. Empecemos, sin prisa pero sin pausa.`,2800);else react('cheer','Todo al día. Volverán cuando tu memoria las necesite.',2800)}}
+function navigate(view){document.querySelectorAll('.view').forEach(v=>v.classList.add('hidden'));document.querySelector(`#${view}-view`).classList.remove('hidden');document.querySelectorAll('.nav-button').forEach(b=>b.classList.toggle('on',b.dataset.view===(view==='chapter'?'journey':view)));window.scrollTo(0,0);if(bubbleText[view])say(bubbleText[view]);if(view==='cards'){renderReview();const n=state.cards.filter(c=>c.due<=Date.now()).length;if(!state.cards.length)react('neutral','Aún no hay cartas: resuelve ejercicios y se guardarán solas.',0);else if(n)react('happy',`Tienes ${n} ${n===1?'carta':'cartas'} para hoy. Empecemos, sin prisa pero sin pausa.`,2800);else react('happy','Todo al día. Volverán cuando tu memoria las necesite.',2800)}}
 function renderChapters(){
   const next=nextChapter();
   if(!openLevels.size)openLevels.add(levels.findIndex(([,,from,to])=>next<0?from===0:next>=from&&next<to));
@@ -236,7 +236,7 @@ function roman(n){const values=[[10,'X'],[9,'IX'],[5,'V'],[4,'IV'],[1,'I']];let 
 function renderQuestion(){
   const c=chapters[currentChapter],area=document.querySelector('#exercise-area'),done=document.querySelector('#chapter-done');
   document.querySelectorAll('#steps span').forEach((s,i)=>{s.className=i<questionIndex?'done':i===questionIndex?'on':''});
-  if(questionIndex>=2){area.innerHTML='';done.classList.add('visible');if(!state.completed.includes(currentChapter)&&state.completed.length===chapters.length-1)react('laugh','¡Has recorrido todo el camino! Veni, vidi, didici.',5000);else react('cheer','Optime! Capítulo completo. Tus cartas te esperan en su día.',3600);if(!state.completed.includes(currentChapter)){state.completed.push(currentChapter);state.completed.sort((a,b)=>a-b);saveState();renderChapters()}return}
+  if(questionIndex>=2){area.innerHTML='';done.classList.add('visible');if(!state.completed.includes(currentChapter)&&state.completed.length===chapters.length-1)react('happy','¡Has recorrido todo el camino! Veni, vidi, didici.',5000);else react('happy','Optime! Capítulo completo. Tus cartas te esperan en su día.',3600);if(!state.completed.includes(currentChapter)){state.completed.push(currentChapter);state.completed.sort((a,b)=>a-b);saveState();renderChapters()}return}
   done.classList.remove('visible');
   const isWord=questionIndex===0;
   const prompt=isWord?`¿Qué significa <i>${c.word[0]}</i>?`:c.quiz[0];
@@ -263,7 +263,7 @@ function upsertCard(data){const id=`${data.type}-${data.chapter}-${slug(data.fro
 function slug(s){return s.normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-')}
 function renderReview(){const due=state.cards.filter(c=>c.due<=Date.now());document.querySelector('#due-count').textContent=due.length;document.querySelector('#review-area').innerHTML='';const filters=[...document.querySelectorAll('.chip')];filters.forEach(b=>{b.classList.toggle('on',b.dataset.filter===activeFilter);b.onclick=()=>{activeFilter=b.dataset.filter;reviewIndex=0;cardIsFlipped=false;renderReview()}});let cards=activeFilter==='all'?state.cards.slice():activeFilter==='word'?state.cards.filter(c=>c.type==='word'):activeFilter==='grammar'?state.cards.filter(c=>c.type==='grammar'):due.slice();cards.sort((a,b)=>a.due-b.due);reviewQueue=cards;reviewIndex=Math.min(reviewIndex,Math.max(cards.length-1,0));if(!cards.length){const hasFuture=state.cards.length>0;document.querySelector('#review-area').innerHTML=`<div class="empty-state"><strong>${hasFuture?'Todo repasado por hoy.':'Aún no tienes cartas.'}</strong><p>${hasFuture?'Las próximas cartas aparecerán en su fecha. Puedes mirar todas tus cartas mientras tanto.':'Completa ejercicios en un capítulo para guardar cartas de palabras y gramática automáticamente.'}</p></div>`;return}drawReviewCard()}
 function drawReviewCard(){const area=document.querySelector('#review-area'),card=reviewQueue[reviewIndex];if(!card)return;const label=card.type==='word'?'Palabra':'Gramática';area.innerHTML=`<div class="card review-card"><div class="review-type">${label} · Cap. ${String(card.chapter+1).padStart(2,'0')} · ${reviewIndex+1}/${reviewQueue.length}</div><div class="front-row"><h2 class="review-front">${card.front}</h2>${card.type==='word'?speakBtn(card.front,LECTOR):''}</div>${cardIsFlipped?`<p class="review-back">${card.back}</p><p class="review-example">${card.example}</p><div class="grades"><button class="btn red" data-grade="hard">Difícil<small>1 día</small></button><button class="btn primary" data-grade="medium">Regular<small>≈ 3 días</small></button><button class="btn green" data-grade="easy">Fácil<small>≈ 7 días</small></button></div>`:`<button class="btn big flip-button">Mostrar respuesta ↓</button>`}</div>`;const flip=area.querySelector('.flip-button');if(flip)flip.onclick=()=>{cardIsFlipped=true;drawReviewCard()};area.querySelectorAll('[data-grade]').forEach(b=>b.onclick=()=>gradeCard(card,b.dataset.grade))}
-function gradeCard(card,grade){let quality=grade==='hard'?2:grade==='medium'?3:5;card.ease=Math.max(1.3,card.ease+(0.1-(5-quality)*(0.08+(5-quality)*0.02)));if(quality<3){card.repetitions=0;card.interval=1}else{card.repetitions++;if(grade==='hard')card.interval=1;else if(card.repetitions===1)card.interval=grade==='easy'?7:3;else card.interval=Math.max(1,Math.round(card.interval*card.ease*(grade==='easy'?1.25:1)))}card.due=Date.now()+card.interval*86400000;card.lastSeen=Date.now();saveState();const prev=reviewIndex;reviewQueue=reviewQueue.filter(c=>c.id!==card.id);reviewIndex=Math.min(prev,reviewQueue.length-1);cardIsFlipped=false;renderReview();showToast(`Próximo repaso: ${card.interval} ${card.interval===1?'día':'días'}.`);if(!reviewQueue.length&&activeFilter==='due')react('cheer','¡Todo repasado por hoy! Optime.',3600);else if(grade==='hard')react('worried','Difícil, ¿eh? Volverá pronto: así se fija.',2600);else if(grade==='easy')react(pick(['wink','pleased']),pick(['Facile!','Te la sabes. Sigamos.']),2400);else react('pleased','Bene. La veremos de nuevo en unos días.',2400)}
+function gradeCard(card,grade){let quality=grade==='hard'?2:grade==='medium'?3:5;card.ease=Math.max(1.3,card.ease+(0.1-(5-quality)*(0.08+(5-quality)*0.02)));if(quality<3){card.repetitions=0;card.interval=1}else{card.repetitions++;if(grade==='hard')card.interval=1;else if(card.repetitions===1)card.interval=grade==='easy'?7:3;else card.interval=Math.max(1,Math.round(card.interval*card.ease*(grade==='easy'?1.25:1)))}card.due=Date.now()+card.interval*86400000;card.lastSeen=Date.now();saveState();const prev=reviewIndex;reviewQueue=reviewQueue.filter(c=>c.id!==card.id);reviewIndex=Math.min(prev,reviewQueue.length-1);cardIsFlipped=false;renderReview();showToast(`Próximo repaso: ${card.interval} ${card.interval===1?'día':'días'}.`);if(!reviewQueue.length&&activeFilter==='due')react('happy','¡Todo repasado por hoy! Optime.',3600);else if(grade==='hard')react('sad','Difícil, ¿eh? Volverá pronto: así se fija.',2600);else if(grade==='easy')react('happy',pick(['Facile!','Te la sabes. Sigamos.']),2400);else react('happy','Bene. La veremos de nuevo en unos días.',2400)}
 document.querySelectorAll('[data-view]').forEach(b=>b.addEventListener('click',()=>navigate(b.dataset.view)));
 document.querySelector('.logo').addEventListener('click',e=>{e.preventDefault();navigate('journey')});
 document.querySelector('#continue-button').addEventListener('click',()=>{const next=nextChapter();openChapter(next<0?0:next)});
@@ -272,11 +272,11 @@ document.querySelector('#engine-toggle').addEventListener('click',()=>{
   state.motor=state.motor==='clasica'?'humana':'clasica';saveState();applyMotor();detenClasica();player.pause();
   if(state.motor==='clasica'){showToast('Voz clásica (eSpeak): pronunciación latina reconstruida, más robótica.');cargaClasica().catch(e=>{console.error(e);moduloCla=null;state.motor='humana';saveState();applyMotor();showToast('No se pudo cargar la voz clásica; uso la voz humana.')})}
   else showToast('Voz humana (neuronal).')});
-document.querySelector('#slow-toggle').addEventListener('click',()=>{state.slow=!state.slow;saveState();applySlow();showToast(state.slow?'Voz lenta activada.':'Voz a velocidad normal.');react(state.slow?'wink':'pleased',state.slow?'Festina lente: apresúrate despacio.':'A buen paso entonces.',2400)});
+document.querySelector('#slow-toggle').addEventListener('click',()=>{state.slow=!state.slow;saveState();applySlow();showToast(state.slow?'Voz lenta activada.':'Voz a velocidad normal.');react('happy',state.slow?'Festina lente: apresúrate despacio.':'A buen paso entonces.',2400)});
 document.querySelector('.avatar').addEventListener('click',()=>{const [p,s]=pick(QUIPS);react(p,s,2600)});
 renderChapters();updateCounts();applySlow();applyMotor();setPose('neutral');
 const away=state.lastVisit?(Date.now()-state.lastVisit)/864e5:0;
 if(state.completed.length&&away>=3)react('surprised',`¡Han pasado ${Math.floor(away)} días! Repasemos antes de seguir.`,4000);
-else if(state.completed.length)react('pleased','Salve de nuevo. Sigamos donde lo dejamos.',3000);
+else if(state.completed.length)react('happy','Salve de nuevo. Sigamos donde lo dejamos.',3000);
 else say(bubbleText.journey);
 state.lastVisit=Date.now();saveState();
