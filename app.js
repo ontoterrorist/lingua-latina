@@ -158,10 +158,12 @@ function applyMotor(){const b=document.querySelector('#engine-toggle'),c=state.m
 function applySlow(){const b=document.querySelector('#slow-toggle');b.classList.toggle('on',!!state.slow);b.setAttribute('aria-pressed',!!state.slow)}
 function nextChapter(){return chapters.findIndex((c,i)=>!state.completed.includes(i))}
 function say(text){document.querySelector('#bubble-text').textContent=text}
-/* César: retratos pixel art (avatar/). La cara no cambia: de cada expresión solo se trasplantan cejas, ojos y
-   boca (tools/cesar_caras.py). Reacciona al tema del capítulo, a lo que se dice y a lo que haces. */
+/* César: retratos pixel art (avatar/): la base neutral, cinco emociones y tres aperturas de boca, todas pintadas por
+   inpainting sobre la misma cara (ver avatar/README.md). Reacciona al tema del capítulo, a lo que se dice y a lo que haces.
+   VER sube la versión de las imágenes para que ningún navegador mezcle caras antiguas guardadas en caché. */
+const VER=5;
 const POSES=['neutral','m1','m2','m3','happy','surprised','stern','sad','think'];
-const FRAMES={};POSES.forEach(n=>{const i=new Image();i.src=`avatar/cesar-${n}.png`;FRAMES[n]=i});
+const FRAMES={};POSES.forEach(n=>{const i=new Image();i.src=`avatar/cesar-${n}.png?v=${VER}`;FRAMES[n]=i});
 /* boca al hablar: m1, m2, m3 son solo la boca sobre la cara neutral; audio/boca.json da el nivel (0-3) de cada audio cada 50 ms */
 const BOCA=['neutral','m1','m2','m3'],PASO_BOCA=0.05;
 let ENVOLVENTES=null;fetch('audio/boca.json').then(r=>r.json()).then(j=>{ENVOLVENTES=j}).catch(()=>{});
@@ -173,6 +175,7 @@ const QUIPS=[['surprised','¡Eh! Cuidado con la corona de laurel.'],['happy','Av
 let poseTimer,mouthTimer,lipRaf=0,actual='',okStreak=0,badStreak=0,lastLine='';
 const pick=a=>a[Math.floor(Math.random()*a.length)];
 function setPose(n){
+  if(!FRAMES[n])n='neutral'; /* solo existen estas caras: cualquier pose desconocida se ve neutral */
   if(n===actual)return;actual=n;
   const c=document.querySelector('#cesar'),f=FRAMES[n],dibuja=()=>{if(actual===n){const x=c.getContext('2d');x.clearRect(0,0,c.width,c.height);x.drawImage(f,0,0)}};
   f.complete&&f.naturalWidth?dibuja():f.addEventListener('load',dibuja,{once:true})
