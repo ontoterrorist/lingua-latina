@@ -1,0 +1,131 @@
+# Vocabulario de Lingua Latina, escrito a mano (glosas originales). Una línea por lema:
+#   cap | lema | formas | clase | glosa | relaciones
+# clase: n nombre · v verbo · adj adjetivo · adv adverbio · prep preposición · conj conjunción · pron pronombre · num numeral · interj interjección · otro
+# relaciones al estilo de los márgenes de Ørberg: «= sinónimo», «↔ contrario», «< de donde viene»; varias separadas por « · ».
+# El capítulo es el primero donde el libro introduce la palabra (índice de vocabulario y lista «Vocābula nova»).
+# Los nombres propios (Rōma, Italia, Aemilia…) no entran en la lista.
+
+# ───── Capítulo I · Imperium Rōmānum ─────
+1 | fluvius | -ī m | n | río | ↔ mare
+1 | īnsula | -ae f | n | isla |
+1 | oppidum | -ī n | n | ciudad pequeña, población | ↔ urbs
+1 | ōceanus | -ī m | n | océano |
+1 | imperium | -ī n | n | imperio; poder de mandar | < imperāre
+1 | prōvincia | -ae f | n | provincia, territorio gobernado por Roma |
+1 | numerus | -ī m | n | número, cantidad |
+1 | littera | -ae f | n | letra |
+1 | vocābulum | -ī n | n | palabra, vocablo |
+1 | capitulum | -ī n | n | capítulo | < caput
+1 | syllaba | -ae f | n | sílaba |
+1 | exemplum | -ī n | n | ejemplo |
+1 | pēnsum | -ī n | n | tarea, ejercicio |
+1 | grammatica | -ae f | n | gramática |
+1 | magnus | -a, -um | adj | grande | ↔ parvus
+1 | parvus | -a, -um | adj | pequeño | ↔ magnus
+1 | Graecus | -a, -um | adj | griego |
+1 | Rōmānus | -a, -um | adj | romano | < Rōma
+1 | Latīnus | -a, -um | adj | latino | = Rōmānus
+1 | multī | -ae, -a | adj | muchos | ↔ paucī
+1 | paucī | -ae, -a | adj | pocos | ↔ multī
+1 | prīmus | -a, -um | adj | primero | < ūnus
+1 | secundus | -a, -um | adj | segundo |
+1 | tertius | -a, -um | adj | tercero | < trēs
+1 | singulāris | -e | adj | singular, de uno solo | ↔ plūrālis
+1 | plūrālis | -e | adj | plural, de varios | ↔ singulāris
+1 | ūnus | -a, -um | num | uno | I
+1 | duo | duae, duo | num | dos | II
+1 | trēs | trēs, tria | num | tres | III
+1 | sex | indecl. | num | seis | VI
+1 | mīlle | indecl. | num | mil | M
+1 | esse | sum, esse, fuī | v | ser, estar, existir (est = es; sunt = son) |
+1 | in | + abl. | prep | en (lugar donde) |
+1 | et | | conj | y |
+1 | sed | | conj | pero, sino |
+1 | nōn | | adv | no |
+1 | quoque | | adv | también |
+1 | -ne | | otro | partícula que convierte la frase en pregunta (Estne…?) |
+1 | ubi | | adv | ¿dónde? |
+1 | num | | adv | ¿acaso…? (pregunta que espera «no») | ↔ -ne
+1 | quis | quis, quid | pron | ¿quién? ¿qué? (quid = qué cosa) |
+
+# ───── Capítulo II · Familia Rōmāna ─────
+2 | vir | -ī m | n | varón, hombre adulto | ↔ fēmina
+2 | fēmina | -ae f | n | mujer | ↔ vir
+2 | puer | -ī m | n | niño, muchacho | ↔ puella
+2 | puella | -ae f | n | niña, muchacha | ↔ puer
+2 | familia | -ae f | n | familia; todos los de la casa, esclavos incluidos |
+2 | pater | -tris m | n | padre | ↔ māter
+2 | frāter | -tris m | n | hermano |
+2 | māter | -tris f | n | madre | ↔ pater
+2 | fīlius | -ī m | n | hijo | ↔ fīlia
+2 | fīlia | -ae f | n | hija | ↔ fīlius
+2 | līberī | -ōrum m pl | n | hijos, los niños de la casa |
+2 | servus | -ī m | n | esclavo | ↔ dominus
+2 | dominus | -ī m | n | señor, dueño de la casa | ↔ servus
+2 | ancilla | -ae f | n | esclava, criada | ↔ domina
+2 | domina | -ae f | n | señora, dueña de la casa | ↔ ancilla
+2 | liber | librī m | n | libro |
+2 | titulus | -ī m | n | título, letrero |
+2 | pāgina | -ae f | n | página |
+2 | masculīnum | -ī n | n | género masculino | ↔ fēminīnum
+2 | fēminīnum | -ī n | n | género femenino | ↔ masculīnum
+2 | neutrum | -ī n | n | género neutro («ni uno ni otro») |
+2 | genetīvus | -ī m | n | genitivo, el caso del «de» |
+2 | vāllum | -ī n | n | empalizada, muro de estacas |
+2 | metus | -ūs m | n | miedo |
+2 | antīquus | -a, -um | adj | antiguo, de otro tiempo | ↔ novus
+2 | novus | -a, -um | adj | nuevo | ↔ antīquus
+2 | fortis | -e | adj | fuerte, valiente |
+2 | lātus | -a, -um | adj | ancho | ↔ angustus
+2 | cēterī | -ae, -a | adj | los demás, los otros |
+2 | meus | -a, -um | adj | mío, mi |
+2 | tuus | -a, -um | adj | tuyo, tu |
+2 | centum | indecl. | num | cien | C
+2 | quot | indecl. | adj | ¿cuántos? |
+2 | -que | | conj | y (se pega a la palabra: patrēs mātrēsque) | = et
+2 | ecce | | interj | ¡mira! ¡aquí tienes! |
+2 | expugnāre | expugnō, -āre, -āvī, -ātum | v | tomar al asalto, conquistar | < ex + pugnāre
+
+# ───── Capítulo III · Puer improbus ─────
+3 | scaena | -ae f | n | escena, escenario |
+3 | persōna | -ae f | n | personaje; persona gramatical (primera, segunda, tercera) |
+3 | mamma | -ae f | n | mamá | = māter
+3 | laetus | -a, -um | adj | alegre, contento | ↔ īrātus
+3 | īrātus | -a, -um | adj | enfadado, furioso | ↔ laetus
+3 | probus | -a, -um | adj | bueno, de buena conducta | ↔ improbus
+3 | improbus | -a, -um | adj | travieso, malo | ↔ probus · < in- + probus
+3 | calidus | -a, -um | adj | caliente, cálido | ↔ frīgidus
+3 | indēclīnābilis | -e | adj | que no se declina |
+3 | nōnus | -a, -um | adj | noveno | < novem
+3 | ducentī | -ae, -a | num | doscientos | CC
+3 | cantāre | cantō, -āre, -āvī, -ātum | v | cantar |
+3 | pulsāre | pulsō, -āre, -āvī, -ātum | v | golpear, llamar a la puerta | = verberāre
+3 | verberāre | verberō, -āre, -āvī, -ātum | v | azotar, golpear | = pulsāre
+3 | plōrāre | plōrō, -āre, -āvī, -ātum | v | llorar | ↔ rīdēre
+3 | rīdēre | rīdeō, -ēre, rīsī, rīsum | v | reír | ↔ plōrāre
+3 | vidēre | videō, -ēre, vīdī, vīsum | v | ver |
+3 | vocāre | vocō, -āre, -āvī, -ātum | v | llamar |
+3 | venīre | veniō, -īre, vēnī, ventum | v | venir |
+3 | interrogāre | interrogō, -āre, -āvī, -ātum | v | preguntar | ↔ respondēre
+3 | respondēre | respondeō, -ēre, respondī, respōnsum | v | responder | ↔ interrogāre
+3 | dormīre | dormiō, -īre, -īvī, -ītum | v | dormir |
+3 | audīre | audiō, -īre, -īvī, -ītum | v | oír, escuchar |
+3 | nōmināre | nōminō, -āre, -āvī, -ātum | v | llamar por su nombre, nombrar | < nōmen
+3 | verbum | -ī n | n | verbo; palabra |
+3 | nōminātīvus | -ī m | n | nominativo, el caso del sujeto | < nōmināre
+3 | accūsātīvus | -ī m | n | acusativo, el caso del objeto directo |
+3 | ego | meī, mihi, mē | pron | yo |
+3 | tū | tuī, tibi, tē | pron | tú |
+3 | quī | quae, quod | pron | el que, la que, lo que |
+3 | neque | = nec | conj | ni, y no |
+3 | iam | | adv | ya |
+3 | cūr | | adv | ¿por qué? |
+3 | quia | | conj | porque |
+3 | hīc | | adv | aquí |
+3 | ō | | interj | ¡oh! |
+3 | Iānuārius | -ī m | n | enero (mēnsis Iānuārius) |
+3 | Mārtius | -ī m | n | marzo |
+3 | Māius | -ī m | n | mayo |
+3 | Sextīlis | -is m | n | sextil, el mes que luego se llamó Augustus |
+3 | Augustus | -ī m | n | agosto |
+3 | Octōber | -bris m | n | octubre | < octō

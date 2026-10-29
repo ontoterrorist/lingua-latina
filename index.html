@@ -4,16 +4,17 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#15122b">
-  <meta name="description" content="Lingua Latina: aprende latín con diálogos originales, ejercicios y cartas de repetición espaciada.">
+  <meta name="description" content="Lingua Latina: aprende latín capítulo a capítulo con reglas, vocabulario, ejercicios de morfología y cartas de repetición espaciada.">
   <title>Lingua Latina — El camino de Roma</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2315122b'/%3E%3Ctext x='32' y='43' font-family='Georgia,serif' font-size='30' font-weight='700' text-anchor='middle' fill='%23ffcb3d'%3ELL%3C/text%3E%3C/svg%3E">
-  <link rel="stylesheet" href="style.css?v=5">
+  <link rel="stylesheet" href="style.css?v=7">
 </head>
 <body>
   <header class="top">
     <a class="logo" href="#" aria-label="Lingua Latina, inicio"><span class="logo-ru">Lingua</span> <span class="logo-adv">Latina</span></a>
     <button id="engine-toggle" class="chip slow" aria-pressed="false" title="Cambiar de voz: neuronal (humana) o eSpeak con pronunciación clásica">🎙 Humana</button>
     <button id="slow-toggle" class="chip" aria-pressed="false" title="Reproducir la voz más despacio">🐢 Lento</button>
+    <button id="macron-toggle" class="chip" aria-pressed="false" title="Modo estricto: los ejercicios exigen los macrones (ā ē ī ō ū)">ā Estricto</button>
     <nav class="nav" aria-label="Navegación principal">
       <button class="nav-button on" data-view="journey"><span class="ni" aria-hidden="true">☰</span>El viaje</button>
       <button class="nav-button" data-view="cards"><span class="ni" aria-hidden="true">↻</span>Mis cartas<span id="card-count" class="badge" hidden>0</span></button>
@@ -31,7 +32,7 @@
         <div class="card hero">
           <div class="kicker">Roma · 753 a. C. — 476 d. C.</div>
           <h1>Una lengua, un imperio.</h1>
-          <p>Aprende latín paso a paso, siguiendo el camino de una familia romana. Cada capítulo trae un diálogo, una regla breve y dos ejercicios que se convierten en cartas para repasar.</p>
+          <p>Aprende latín paso a paso, siguiendo el camino de una familia romana. Cada capítulo sigue el orden de un curso clásico: una regla breve, un ejemplo, el vocabulario nuevo y una tanda de ejercicios. Lo que falles vuelve en tus cartas.</p>
           <button id="continue-button" class="btn primary big">Comenzar el viaje <span aria-hidden="true">▶</span></button>
         </div>
         <div class="stat-row">
@@ -40,7 +41,7 @@
           <div class="stat"><b id="stat-due">0</b><span>para repasar hoy</span></div>
         </div>
         <div id="chapter-grid"></div>
-        <p class="footer-note">Inspirado en los temas y la progresión de <i>Familia Romana</i>. Diálogos y ejercicios originales; el libro no se reproduce.</p>
+        <p class="footer-note">Sigue la progresión gramatical de <i>Familia Romana</i> (Ørberg) capítulo a capítulo. Frases y ejercicios originales; el libro no se reproduce.</p>
       </section>
 
       <section id="chapter-view" class="view hidden">
@@ -62,6 +63,7 @@
           <button class="chip" data-filter="all">Todas</button>
           <button class="chip" data-filter="word">Palabras</button>
           <button class="chip" data-filter="grammar">Gramática</button>
+          <select class="chip chip-select" id="cap-filter" aria-label="Filtrar por capítulo"></select>
         </div>
         <div id="review-area"></div>
       </section>
@@ -69,6 +71,18 @@
   </div>
 
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
-  <script src="app.js?v=5"></script>
+  <script src="morfo.js?v=7"></script>
+  <script src="data/vocabulario.js?v=7"></script>
+  <script src="data/capitulos.js?v=7"></script>
+  <script src="data/ejercicios.js?v=7"></script>
+  <script src="data/ejercicios-04-09.js?v=7"></script>
+  <script src="data/ejercicios-10-15.js?v=7"></script>
+  <script src="data/ejercicios-16-21.js?v=7"></script>
+  <script src="data/ejercicios-22-27.js?v=7"></script>
+  <script src="data/ejercicios-28-31.js?v=7"></script>
+  <script src="data/ejercicios-32-35.js?v=7"></script>
+  <script src="ejercicios.js?v=7"></script>
+  <script src="tarjetas.js?v=7"></script>
+  <script src="app.js?v=7"></script>
 </body>
 </html>

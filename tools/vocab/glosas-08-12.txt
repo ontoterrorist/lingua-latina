@@ -1,0 +1,268 @@
+# Capítulos VIII–XII (ver glosas.txt para el formato)
+
+# ───── Capítulo VIII · Taberna Rōmāna ─────
+8 | taberna | -ae f | n | tienda, taberna |
+8 | tabernārius | -ī m | n | tendero | < taberna
+8 | gemma | -ae f | n | piedra preciosa, gema |
+8 | margarīta | -ae f | n | perla |
+8 | ōrnāmentum | -ī n | n | adorno, joya | < ōrnāre
+8 | ānulus | -ī m | n | anillo |
+8 | līnea | -ae f | n | cordón, hilo |
+8 | digitus | -ī m | n | dedo |
+8 | collum | -ī n | n | cuello |
+8 | pretium | -ī n | n | precio |
+8 | sēstertius | -ī m | n | sestercio, moneda romana |
+8 | prōnōmen | -inis n | n | pronombre |
+8 | pecūniōsus | -a, -um | adj | adinerado, rico | < pecūnia
+8 | gemmātus | -a, -um | adj | adornado con gemas | < gemma
+8 | medius | -a, -um | adj | de en medio, central |
+8 | quārtus | -a, -um | adj | cuarto | < quattuor
+8 | quantus | -a, -um | adj | ¡cuán grande! ¿cuánto? |
+8 | tantus | -a, -um | adj | tan grande, tanto |
+8 | alius | -a, -ud | adj | otro, distinto |
+8 | vīgintī | indecl. | num | veinte | XX
+8 | octōgintā | indecl. | num | ochenta | LXXX
+8 | nōnāgintā | indecl. | num | noventa | XC
+8 | vēndere | vendō, -ere, vendidī, venditum | v | vender | ↔ emere
+8 | emere | emō, -ere, ēmī, ēmptum | v | comprar | ↔ vēndere
+8 | cōnsistere | cōnsistō, -ere, cōnstitī | v | detenerse, pararse | 
+8 | aspicere | aspiciō, -ere, aspexī, aspectum | v | mirar, divisar |
+8 | abīre | abeō, -īre, -iī, -itum | v | marcharse, irse | ↔ adīre
+8 | ostendere | ostendō, -ere, ostendī, ostentum | v | mostrar | = mōnstrāre
+8 | mōnstrāre | mōnstrō, -āre, -āvī, -ātum | v | señalar, mostrar | = ostendere
+8 | accipere | accipiō, -ere, accēpī, acceptum | v | recibir, aceptar |
+8 | clāmāre | clāmō, -āre, -āvī, -ātum | v | gritar |
+8 | cōnstāre | cōnstō, -āre, cōnstitī | v | costar; constar | 
+8 | convenīre | conveniō, -īre, convēnī, conventum | v | reunirse; convenir |
+8 | significāre | significō, -āre, -āvī, -ātum | v | significar, indicar |
+8 | ōrnāre | ōrnō, -āre, -āvī, -ātum | v | adornar |
+8 | aut | | conj | o | = vel
+8 | nimis | | adv | demasiado |
+8 | satis | | adv | bastante, suficiente |
+
+# ───── Capítulo IX · Pāstor et ovēs ─────
+9 | campus | -ī m | n | campo, llanura |
+9 | pāstor | -ōris m | n | pastor |
+9 | canis | -is m/f | n | perro |
+9 | ovis | -is f | n | oveja |
+9 | cibus | -ī m | n | comida |
+9 | herba | -ae f | n | hierba |
+9 | rīvus | -ī m | n | arroyo |
+9 | pānis | -is m | n | pan |
+9 | mōns | montis m | n | monte, montaña | ↔ vallis
+9 | vallis | -is f | n | valle | ↔ mōns
+9 | collis | -is m | n | colina |
+9 | arbor | -oris f | n | árbol |
+9 | silva | -ae f | n | bosque |
+9 | lupus | -ī m | n | lobo |
+9 | caelum | -ī n | n | cielo |
+9 | nūbēs | -is f | n | nube |
+9 | sōl | sōlis m | n | sol |
+9 | terra | -ae f | n | tierra |
+9 | umbra | -ae f | n | sombra |
+9 | dēns | dentis m | n | diente |
+9 | timor | -ōris m | n | miedo | < timēre
+9 | amor | -ōris m | n | amor | < amāre
+9 | clāmor | -ōris m | n | grito | < clāmāre
+9 | signum | -ī n | n | señal, signo |
+9 | tēctum | -ī n | n | techo; casa |
+9 | vestīgium | -ī n | n | huella |
+9 | dēclīnātiō | -ōnis f | n | declinación |
+9 | modus | -ī m | n | modo, manera |
+9 | albus | -a, -um | adj | blanco | ↔ niger
+9 | niger | -gra, -grum | adj | negro | ↔ albus
+9 | dignus | -a, -um | adj | digno, merecedor |
+9 | ipse | -a, -um | pron | mismo, en persona |
+9 | ūndēcentum | indecl. | num | noventa y nueve | XCIX
+9 | dūcere | dūcō, -ere, dūxī, ductum | v | conducir, guiar |
+9 | petere | petō, -ere, -īvī, -ītum | v | buscar, pedir, dirigirse a |
+9 | quaerere | quaerō, -ere, quaesīvī, quaesītum | v | buscar; preguntar |
+9 | relinquere | relinquō, -ere, relīquī, relictum | v | dejar, abandonar |
+9 | reperīre | reperiō, -īre, repperī, repertum | v | hallar, encontrar |
+9 | accurrere | accurrō, -ere, accurrī, accursum | v | acudir corriendo | < currere
+9 | bibere | bibō, -ere, bibī | v | beber |
+9 | ēsse | edō, ēsse, ēdī, ēsum | v | comer |
+9 | errāre | errō, -āre, -āvī, -ātum | v | vagar; equivocarse |
+9 | iacēre | iaceō, -ēre, -uī | v | yacer, estar tumbado |
+9 | impōnere | impōnō, -ere, imposuī, impositum | v | poner encima, imponer | < pōnere
+9 | lātrāre | lātrō, -āre, -āvī, -ātum | v | ladrar |
+9 | lūcēre | lūceō, -ēre, lūxī | v | brillar, lucir |
+9 | bālāre | bālō, -āre, -āvī | v | balar |
+9 | ululāre | ululō, -āre, -āvī, -ātum | v | aullar |
+9 | dēclīnāre | dēclīnō, -āre, -āvī, -ātum | v | declinar; apartar |
+9 | dum | | conj | mientras; hasta que |
+9 | ut | | conj | como; cuando |
+9 | suprā | + acc. | prep | encima de, sobre | ↔ īnfrā
+
+# ───── Capítulo X · Bestiae et hominēs ─────
+10 | asinus | -ī m | n | burro, asno |
+10 | leō | -ōnis m | n | león |
+10 | bēstia | -ae f | n | animal, bestia |
+10 | fera | -ae f | n | fiera, animal salvaje |
+10 | homō | -inis m | n | ser humano, hombre |
+10 | avis | -is f | n | ave, pájaro |
+10 | piscis | -is m | n | pez |
+10 | aquila | -ae f | n | águila |
+10 | āēr | āeris m | n | aire |
+10 | āla | -ae f | n | ala |
+10 | pēs | pedis m | n | pie |
+10 | cauda | -ae f | n | cola |
+10 | petasus | -ī m | n | sombrero de ala ancha |
+10 | deus | -ī m | n | dios |
+10 | mercātor | -ōris m | n | comerciante |
+10 | nūntius | -ī m | n | mensajero; noticia |
+10 | mare | -is n | n | mar |
+10 | flūmen | -inis n | n | río (corriente de agua) | = fluvius
+10 | anima | -ae f | n | aliento, alma |
+10 | animal | -ālis n | n | animal, ser vivo |
+10 | pulmō | -ōnis m | n | pulmón |
+10 | folium | -ī n | n | hoja (de un árbol) |
+10 | nīdus | -ī m | n | nido |
+10 | ōvum | -ī n | n | huevo |
+10 | pullus | -ī m | n | polluelo, cría |
+10 | rāmus | -ī m | n | rama |
+10 | pila | -ae f | n | pelota |
+10 | lectus | -ī m | n | cama, lecho |
+10 | vōx | vōcis f | n | voz |
+10 | nēmō | nēminis | pron | nadie | ↔ omnis
+10 | ferus | -a, -um | adj | salvaje | ↔ domesticus
+10 | mortuus | -a, -um | adj | muerto | ↔ vīvus
+10 | vīvus | -a, -um | adj | vivo | ↔ mortuus
+10 | crassus | -a, -um | adj | grueso, espeso | ↔ tenuis
+10 | tenuis | -e | adj | delgado, fino | ↔ crassus
+10 | perterritus | -a, -um | adj | muy asustado |
+10 | capere | capiō, -ere, cēpī, captum | v | tomar, coger, capturar |
+10 | facere | faciō, -ere, fēcī, factum | v | hacer |
+10 | parere | pariō, -ere, peperī, partum | v | parir, poner huevos |
+10 | cadere | cadō, -ere, cecidī, cāsum | v | caer |
+10 | canere | canō, -ere, cecinī | v | cantar | = cantāre
+10 | lūdere | lūdō, -ere, lūsī, lūsum | v | jugar |
+10 | movēre | moveō, -ēre, mōvī, mōtum | v | mover |
+10 | occultāre | occultō, -āre, -āvī, -ātum | v | esconder |
+10 | spīrāre | spīrō, -āre, -āvī, -ātum | v | respirar |
+10 | volāre | volō, -āre, -āvī, -ātum | v | volar |
+10 | vīvere | vīvō, -ere, vīxī, vīctum | v | vivir | ↔ morī
+10 | audēre | audeō, -ēre, ausus sum | v | atreverse |
+10 | ascendere | ascendō, -ere, ascendī, ascensum | v | subir, trepar | ↔ dēscendere
+10 | sustinēre | sustineō, -ēre, sustinuī, sustentum | v | sostener, aguantar | < tenēre
+10 | posse | possum, posse, potuī | v | poder |
+10 | velle | volō, velle, voluī | v | querer |
+10 | necesse | | adj | necesario (necesse est: es preciso) |
+10 | īnfīnītīvus | -ī m | n | infinitivo, la forma básica del verbo |
+10 | enim | | conj | pues, en efecto |
+10 | ergō | | conj | por tanto |
+10 | sub | + abl. / + acc. | prep | debajo de (lugar donde / adónde) |
+10 | aliī… aliī | | otro | unos… otros |
+
+# ───── Capítulo XI · Corpus hūmānum ─────
+11 | corpus | -oris n | n | cuerpo |
+11 | membrum | -ī n | n | miembro, parte del cuerpo |
+11 | bracchium | -ī n | n | brazo |
+11 | crūs | crūris n | n | pierna |
+11 | manus | -ūs f | n | mano |
+11 | caput | -itis n | n | cabeza |
+11 | auris | -is f | n | oreja |
+11 | ōs | ōris n | n | boca, cara |
+11 | capillus | -ī m | n | cabello |
+11 | frōns | -ontis f | n | frente |
+11 | gena | -ae f | n | mejilla |
+11 | cerebrum | -ī n | n | cerebro |
+11 | labrum | -ī n | n | labio |
+11 | lingua | -ae f | n | lengua; idioma |
+11 | pectus | -oris n | n | pecho |
+11 | cor | cordis n | n | corazón |
+11 | sanguis | -inis m | n | sangre |
+11 | vēna | -ae f | n | vena |
+11 | color | -ōris m | n | color |
+11 | iecur | -oris n | n | hígado |
+11 | venter | -tris m | n | vientre |
+11 | viscera | -um n pl | n | entrañas, vísceras |
+11 | medicus | -ī m | n | médico |
+11 | pōculum | -ī n | n | copa, vaso |
+11 | culter | -trī m | n | cuchillo |
+11 | hūmānus | -a, -um | adj | humano |
+11 | stultus | -a, -um | adj | tonto, necio | ↔ sapiēns
+11 | ruber | -bra, -brum | adj | rojo |
+11 | sānus | -a, -um | adj | sano | ↔ aeger
+11 | aeger | -gra, -grum | adj | enfermo | ↔ sānus
+11 | quiētus | -a, -um | adj | tranquilo |
+11 | noster | -tra, -trum | adj | nuestro |
+11 | aegrōtāre | aegrōtō, -āre, -āvī | v | estar enfermo | < aeger
+11 | sānāre | sānō, -āre, -āvī, -ātum | v | curar, sanar | < sānus
+11 | putāre | putō, -āre, -āvī, -ātum | v | creer, pensar |
+11 | spectāre | spectō, -āre, -āvī, -ātum | v | mirar, contemplar |
+11 | palpitāre | palpitō, -āre, -āvī | v | palpitar |
+11 | dolēre | doleō, -ēre, -uī | v | doler; sentir dolor |
+11 | gaudēre | gaudeō, -ēre, gāvīsus sum | v | alegrarse |
+11 | horrēre | horreō, -ēre, -uī | v | estremecerse; temer |
+11 | sedēre | sedeō, -ēre, sēdī, sessum | v | estar sentado |
+11 | stāre | stō, -āre, stetī, statum | v | estar de pie |
+11 | fluere | fluō, -ere, flūxī | v | fluir, correr |
+11 | dīcere | dīcō, -ere, dīxī, dictum | v | decir |
+11 | iubēre | iubeō, -ēre, iussī, iussum | v | ordenar, mandar |
+11 | sentīre | sentiō, -īre, sēnsī, sēnsum | v | sentir, notar |
+11 | tangere | tangō, -ere, tetigī, tāctum | v | tocar |
+11 | arcessere | arcessō, -ere, arcessīvī, arcessītum | v | mandar llamar |
+11 | appōnere | appōnō, -ere, apposuī, appositum | v | poner delante, servir | < pōnere
+11 | dētergēre | dētergeō, -ēre, dētersī, dētersum | v | limpiar, enjugar | < tergēre
+11 | revenīre | reveniō, -īre, revēnī, reventum | v | volver | < venīre
+11 | bene | | adv | bien | ↔ male
+11 | male | | adv | mal | ↔ bene
+11 | modo | | adv | solo; hace un momento |
+11 | atque | ac | conj | y, y además | = et
+11 | nec | | conj | ni, y no | = neque
+11 | dē | + abl. | prep | de, acerca de; desde arriba |
+11 | super | + acc. | prep | sobre, encima de |
+11 | īnfrā | + acc. | prep | debajo de | ↔ suprā
+
+# ───── Capítulo XII · Mīles Rōmānus ─────
+12 | soror | -ōris f | n | hermana | ↔ frāter
+12 | nōmen | -inis n | n | nombre |
+12 | praenōmen | -inis n | n | nombre de pila romano | < nōmen
+12 | cognōmen | -inis n | n | sobrenombre | < nōmen
+12 | avunculus | -ī m | n | tío materno |
+12 | mīles | -itis m | n | soldado |
+12 | scūtum | -ī n | n | escudo |
+12 | gladius | -ī m | n | espada |
+12 | pīlum | -ī n | n | jabalina |
+12 | arma | -ōrum n pl | n | armas |
+12 | arcus | -ūs m | n | arco |
+12 | sagitta | -ae f | n | flecha |
+12 | pugnus | -ī m | n | puño |
+12 | hasta | -ae f | n | lanza |
+12 | pedes | -itis m | n | soldado de infantería | < pēs
+12 | eques | -itis m | n | jinete | < equus
+12 | equitātus | -ūs m | n | caballería | < eques
+12 | pars | partis f | n | parte |
+12 | fīnis | -is m | n | fin; frontera |
+12 | patria | -ae f | n | patria |
+12 | hostis | -is m | n | enemigo (de guerra) | ↔ amīcus
+12 | bellum | -ī n | n | guerra | ↔ pāx
+12 | exercitus | -ūs m | n | ejército |
+12 | dux | ducis m | n | jefe, general | < dūcere
+12 | castra | -ōrum n pl | n | campamento militar |
+12 | passus | -ūs m | n | paso; medida de unos 1,5 m |
+12 | fossa | -ae f | n | foso |
+12 | impetus | -ūs m | n | ataque, empuje |
+12 | versus | -ūs m | n | verso; línea |
+12 | mīlia | -ium n pl | n | miles |
+12 | adiectīvum | -ī n | n | adjetivo |
+12 | comparātīvus | -ī m | n | comparativo |
+12 | barbarus | -a, -um | adj | bárbaro, extranjero |
+12 | armātus | -a, -um | adj | armado | < arma
+12 | altus | -a, -um | adj | alto; profundo | ↔ humilis
+12 | brevis | -e | adj | corto, breve | ↔ longus
+12 | gravis | -e | adj | pesado; grave | ↔ levis
+12 | levis | -e | adj | ligero | ↔ gravis
+12 | trīstis | -e | adj | triste | ↔ laetus
+12 | vester | -tra, -trum | adj | vuestro |
+12 | pugnāre | pugnō, -āre, -āvī, -ātum | v | luchar | > pugna
+12 | oppugnāre | oppugnō, -āre, -āvī, -ātum | v | atacar (una plaza) | < pugnāre
+12 | dēfendere | dēfendō, -ere, dēfendī, dēfēnsum | v | defender | ↔ oppugnāre
+12 | fugere | fugiō, -ere, fūgī | v | huir |
+12 | iacere | iaciō, -ere, iēcī, iactum | v | lanzar, arrojar |
+12 | ferre | ferō, ferre, tulī, lātum | v | llevar, soportar |
+12 | incolere | incolō, -ere, incoluī | v | habitar | < colere
+12 | metuere | metuō, -ere, -uī | v | temer | = timēre
+12 | mīlitāre | mīlitō, -āre, -āvī, -ātum | v | servir como soldado | < mīles
+12 | contrā | + acc. | prep | contra, frente a | ↔ prō

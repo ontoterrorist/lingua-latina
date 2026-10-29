@@ -1,0 +1,459 @@
+# Informe de vocabulario
+
+Entradas leídas del índice: 1894 · lemas de la lista a mano: 1816
+
+## En la lista pero no en el índice (revisar ortografía o añadido a mano) (170)
+
+- cap. 1 · oppidum (línea 11)
+- cap. 1 · vocābulum (línea 17)
+- cap. 1 · capitulum (línea 18)
+- cap. 1 · Graecus (línea 25)
+- cap. 1 · multī (línea 28)
+- cap. 1 · paucī (línea 29)
+- cap. 1 · plūrālis (línea 34)
+- cap. 1 · trēs (línea 37)
+- cap. 1 · sex (línea 38)
+- cap. 2 · servus (línea 63)
+- cap. 2 · titulus (línea 68)
+- cap. 2 · novus (línea 77)
+- cap. 2 · centum (línea 83)
+- cap. 3 · venīre (línea 108)
+- cap. 3 · nōminātīvus (línea 115)
+- cap. 3 · ō (línea 125)
+- cap. 4 · sūmere (línea 29)
+- cap. 4 · is (línea 34)
+- cap. 4 · rūrsus (línea 36)
+- cap. 5 · cubiculum (línea 54)
+- cap. 5 · agere (línea 64)
+- cap. 5 · sine (línea 68)
+- cap. 6 · lectīca (línea 76)
+- cap. 6 · praepositiō (línea 84)
+- cap. 6 · portāre (línea 93)
+- cap. 6 · īre (línea 99)
+- cap. 6 · prope (línea 107)
+- cap. 7 · ille (línea 143)
+- cap. 7 · postrēmō (línea 148)
+- cap. 7 · datīvus (línea 152)
+- cap. 8 · cōnsistere (línea 28)
+- cap. 9 · tēctum (línea 68)
+- cap. 9 · dūcere (línea 77)
+- cap. 9 · reperīre (línea 81)
+- cap. 9 · lūcēre (línea 89)
+- cap. 9 · suprā (línea 95)
+- cap. 10 · pēs (línea 108)
+- cap. 10 · flūmen (línea 115)
+- cap. 10 · vōx (línea 126)
+- cap. 10 · spīrāre (línea 142)
+- cap. 10 · vīvere (línea 144)
+- cap. 10 · necesse (línea 150)
+- cap. 10 · aliī… aliī (línea 155)
+- cap. 11 · crūs (línea 161)
+- cap. 11 · ōs (línea 165)
+- cap. 11 · cerebrum (línea 169)
+- cap. 11 · labrum (línea 170)
+- cap. 11 · sanguis (línea 174)
+- cap. 11 · medicus (línea 180)
+- cap. 11 · stultus (línea 184)
+- cap. 11 · spectāre (línea 193)
+- cap. 11 · sedēre (línea 198)
+- cap. 11 · fluere (línea 200)
+- cap. 11 · īnfrā (línea 216)
+- cap. 12 · mīles (línea 224)
+- cap. 12 · bellum (línea 240)
+- cap. 12 · dux (línea 242)
+- cap. 12 · ferre (línea 264)
+- cap. 12 · mīlitāre (línea 267)
+- cap. 12 · contrā (línea 268)
+- cap. 13 · hiems (línea 12)
+- cap. 13 · nox (línea 21)
+- cap. 13 · lūx (línea 22)
+- cap. 13 · nix (línea 25)
+- cap. 13 · clārus (línea 51)
+- cap. 14 · rēs (línea 82)
+- cap. 14 · gallus (línea 84)
+- cap. 14 · uter (línea 86)
+- cap. 14 · neuter (línea 87)
+- cap. 14 · dēinde (línea 112)
+- cap. 14 · nihil (línea 115)
+- cap. 14 · quōmodo (línea 117)
+- cap. 15 · discipula (línea 124)
+- cap. 15 · sevērus (línea 132)
+- cap. 15 · nōs (línea 146)
+- cap. 15 · vōs (línea 147)
+- cap. 15 · tum (línea 151)
+- cap. 16 · nauta (línea 160)
+- cap. 16 · gubernātor (línea 161)
+- cap. 16 · portus (línea 167)
+- cap. 16 · serēnus (línea 182)
+- cap. 16 · cernere (línea 193)
+- cap. 16 · oriīrī (línea 197)
+- cap. 16 · loquī (línea 199)
+- cap. 16 · lābī (línea 201)
+- cap. 16 · verērī (línea 204)
+- cap. 16 · fierī (línea 211)
+- cap. 17 · as (línea 223)
+- cap. 17 · septingentī (línea 254)
+- cap. 19 · mātrōna (línea 69)
+- cap. 19 · plūrimus (línea 95)
+- cap. 20 · īnfans (línea 108)
+- cap. 20 · fīliolus (línea 120)
+- cap. 20 · futūrum (línea 122)
+- cap. 20 · nōlle (línea 146)
+- cap. 21 · bōs (línea 159)
+- cap. 22 · foris (línea 194)
+- cap. 22 · tabellārius (línea 202)
+- cap. 22 · dēdere (línea 217)
+- cap. 22 · prehendere (línea 222)
+- cap. 22 · sinere (línea 232)
+- cap. 22 · propius (línea 240)
+- cap. 22 · extrā (línea 245)
+- cap. 22 · intrā (línea 246)
+- cap. 23 · litterae (línea 4)
+- cap. 23 · laus (línea 6)
+- cap. 23 · factum (línea 7)
+- cap. 23 · īnscrīptiō (línea 13)
+- cap. 23 · trādere (línea 18)
+- cap. 23 · continēre (línea 20)
+- cap. 23 · fatērī (línea 23)
+- cap. 24 · recumbere (línea 58)
+- cap. 24 · patī (línea 62)
+- cap. 24 · subitō (línea 67)
+- cap. 24 · iūxtā (línea 74)
+- cap. 25 · mōnstrum (línea 81)
+- cap. 25 · litus (línea 95)
+- cap. 25 · cōnstituere (línea 107)
+- cap. 25 · necāre (línea 112)
+- cap. 25 · fortē (línea 121)
+- cap. 26 · nātūra (línea 134)
+- cap. 26 · ars (línea 135)
+- cap. 27 · colōnus (línea 212)
+- cap. 27 · nocēre (línea 242)
+- cap. 27 · ūtī (línea 254)
+- cap. 27 · quīdam (línea 257)
+- cap. 28 · mālle (línea 319)
+- cap. 28 · eō (línea 320)
+- cap. 28 · utrum (línea 322)
+- cap. 29 · fundus (línea 4)
+- cap. 29 · nēquissimus (línea 39)
+- cap. 30 · iter (línea 90)
+- cap. 30 · nux (línea 104)
+- cap. 30 · carō (línea 105)
+- cap. 30 · sāl (línea 106)
+- cap. 30 · mel (línea 107)
+- cap. 30 · lībertīnus (línea 108)
+- cap. 30 · exhaurīre (línea 133)
+- cap. 30 · recipere (línea 147)
+- cap. 31 · crux (línea 164)
+- cap. 31 · senex (línea 166)
+- cap. 31 · lēx (línea 170)
+- cap. 31 · scelus (línea 172)
+- cap. 31 · mōs (línea 174)
+- cap. 31 · ēbrius (línea 183)
+- cap. 31 · fidus (línea 184)
+- cap. 31 · ēducāre (línea 202)
+- cap. 31 · latēre (línea 205)
+- cap. 31 · idcircō (línea 211)
+- cap. 32 · vīs (línea 224)
+- cap. 32 · gēns (línea 232)
+- cap. 32 · cārus (línea 243)
+- cap. 32 · adiuvāre (línea 258)
+- cap. 32 · interīre (línea 264)
+- cap. 32 · meminisse (línea 265)
+- cap. 33 · pāx (línea 22)
+- cap. 33 · ērumpere (línea 54)
+- cap. 33 · diūtius (línea 69)
+- cap. 33 · citrā (línea 76)
+- cap. 33 · ultrā (línea 77)
+- cap. 33 · secundum (línea 78)
+- cap. 34 · theātrum (línea 89)
+- cap. 34 · lūgēre (línea 150)
+- cap. 34 · piāre (línea 153)
+- cap. 34 · dein (línea 160)
+- cap. 35 · interiectiō (línea 166)
+- cap. 35 · speciēs (línea 174)
+- cap. 35 · cis (línea 204)
+- cap. 18 · zephyrus (línea 3)
+- cap. 30 · salvēre (línea 5)
+
+## Capítulo distinto al del índice (61)
+
+- duo: lista cap. 1, índice cap. [2, 6, 13, 17] (línea 36)
+- mīlle: lista cap. 1, índice cap. [12] (línea 39)
+- in: lista cap. 1, índice cap. [3, 6, 7, 12, 13, 16, 17, 21, 23, 26, 27, 29, 30, 31, 32, 33, 35] (línea 41)
+- nōn: lista cap. 1, índice cap. [7, 15, 17, 29] (línea 44)
+- -ne: lista cap. 1, índice cap. [3, 17, 25, 27] (línea 46)
+- quis: lista cap. 1, índice cap. [18, 22, 23, 26, 31] (línea 49)
+- neque: lista cap. 3, índice cap. [25] (línea 120)
+- tantum: lista cap. 4, índice cap. [27] (línea 37)
+- ab: lista cap. 5, índice cap. [4, 5, 8, 26, 29, 31] (línea 65)
+- ex: lista cap. 5, índice cap. [2, 7, 15, 18, 26, 29, 30, 33, 34, 35] (línea 67)
+- malus: lista cap. 6, índice cap. [3, 6] (línea 89)
+- ad: lista cap. 6, índice cap. [4, 7, 14, 18, 20, 22, 28, 29, 32, 33, 35] (línea 100)
+- ante: lista cap. 6, índice cap. [15, 22, 23] (línea 101)
+- post: lista cap. 6, índice cap. [21, 22, 23, 31] (línea 102)
+- circum: lista cap. 6, índice cap. [33, 34] (línea 104)
+- inter: lista cap. 6, índice cap. [3, 16, 17, 25, 32, 34, 35] (línea 105)
+- quō: lista cap. 6, índice cap. [33] (línea 112)
+- sīve: lista cap. 6, índice cap. [15] (línea 116)
+- hic: lista cap. 7, índice cap. [3] (línea 142)
+- sē: lista cap. 7, índice cap. [14, 17, 18, 22] (línea 144)
+- terra: lista cap. 9, índice cap. [26] (línea 61)
+- ēsse: lista cap. 9, índice cap. [1, 4, 22] (línea 84)
+- parere: lista cap. 10, índice cap. [4, 10] (línea 136)
+- sub: lista cap. 10, índice cap. [27, 29, 32] (línea 154)
+- membrum: lista cap. 11, índice cap. [32] (línea 159)
+- cor: lista cap. 11, índice cap. [18] (línea 173)
+- atque: lista cap. 11, índice cap. [31] (línea 212)
+- super: lista cap. 11, índice cap. [18] (línea 215)
+- versus: lista cap. 12, índice cap. [20] (línea 247)
+- iacere: lista cap. 12, índice cap. [9, 12] (línea 263)
+- malum: lista cap. 15, índice cap. [7, 15] (línea 131)
+- vērō: lista cap. 16, índice cap. [6, 16] (línea 217)
+- propter: lista cap. 16, índice cap. [35] (línea 219)
+- amīcus: lista cap. 17, índice cap. [6, 17] (línea 238)
+- inimīcus: lista cap. 17, índice cap. [6, 17] (línea 239)
+- calamus: lista cap. 18, índice cap. [8] (línea 14)
+- mollis: lista cap. 18, índice cap. [8] (línea 23)
+- rārus: lista cap. 18, índice cap. [8] (línea 25)
+- sīc: lista cap. 18, índice cap. [22] (línea 39)
+- ita: lista cap. 18, índice cap. [6, 18] (línea 40)
+- opus: lista cap. 19, índice cap. [26] (línea 105)
+- solum: lista cap. 21, índice cap. [7, 21] (línea 164)
+- prius: lista cap. 22, índice cap. [31] (línea 239)
+- quīn: lista cap. 22, índice cap. [17, 22, 33] (línea 248)
+- ob: lista cap. 23, índice cap. [28] (línea 40)
+- latus: lista cap. 24, índice cap. [2, 24] (línea 44)
+- aliquī: lista cap. 24, índice cap. [21, 24] (línea 55)
+- nōscere: lista cap. 24, índice cap. [2, 24] (línea 64)
+- occīdere: lista cap. 25, índice cap. [16, 25] (línea 113)
+- brevī: lista cap. 25, índice cap. [12, 25] (línea 126)
+- līber: lista cap. 26, índice cap. [2, 26, 34] (línea 154)
+- trāns: lista cap. 26, índice cap. [33] (línea 187)
+- prae: lista cap. 27, índice cap. [12, 30, 32, 33] (línea 259)
+- prō: lista cap. 27, índice cap. [22, 23, 25, 27, 30, 33, 34] (línea 260)
+- mundus: lista cap. 28, índice cap. [21, 28] (línea 281)
+- morī: lista cap. 28, índice cap. [31] (línea 306)
+- iūs: lista cap. 31, índice cap. [20, 31] (línea 169)
+- adversus: lista cap. 32, índice cap. [20, 32] (línea 242)
+- mēns: lista cap. 34, índice cap. [4] (línea 119)
+- nē: lista cap. 27, índice cap. [3, 17, 25, 27] (línea 9)
+- utinam: lista cap. 31, índice cap. [32] (línea 10)
+
+## No aparece en el texto de su capítulo del libro (puede ser un derivado o un error de OCR) (41)
+
+- cap. 1 · quis
+- cap. 2 · frāter
+- cap. 2 · vāllum
+- cap. 2 · metus
+- cap. 2 · fortis
+- cap. 2 · expugnāre
+- cap. 3 · calidus
+- cap. 3 · indēclīnābilis
+- cap. 3 · nōnus
+- cap. 3 · ducentī
+- cap. 3 · ego
+- cap. 3 · Iānuārius
+- cap. 3 · Mārtius
+- cap. 3 · Māius
+- cap. 3 · Sextīlis
+- cap. 3 · Augustus
+- cap. 3 · Octōber
+- cap. 4 · stilus
+- cap. 4 · valēre
+- cap. 5 · magister
+- cap. 6 · fulgur
+- cap. 6 · vehere
+- cap. 6 · sīve
+- cap. 7 · dare
+- cap. 7 · adīre
+- cap. 7 · exīre
+- cap. 7 · computāre
+- cap. 7 · quārē
+- cap. 7 · partīrī
+- cap. 8 · emere
+- cap. 8 · abīre
+- cap. 8 · significāre
+- cap. 9 · signum
+- cap. 9 · dignus
+- cap. 9 · bibere
+- cap. 9 · ēsse
+- cap. 10 · velle
+- cap. 12 · fugere
+- cap. 16 · nāscī
+- cap. 29 · suspicere
+- cap. 35 · optātīvus
+
+## En el índice (hasta el cap. 35) sin glosa en la lista (172)
+
+- cap. 1 · capitula   ← «capitula, nwnerītenuis 1,2,3...»
+- cap. 27 · abs   ← «abs 27.80v.ab»
+- cap. 12 · ac   ← «ac 12.59v.atque»
+- cap. 6 · adprp   ← «adprp +acc 6.19; 8.81; 13.36; 14.43; 16.7; 33.132»
+- cap. 5 · agereēgisseāctum   ← «agereēgisseāctum 5.82;24.19; 27.14;age-ite 5.87,99»
+- cap. 10 · aliī   ← «aliī... aliī 10.33»
+- cap. 32 · annāre   ← «annāre 32.176»
+- cap. 17 · asassism   ← «asassism 17.97; 34.114»
+- cap. 32 · cāms   ← «cāms -a -um 32.21,85»
+- cap. 2 · cenium   ← «cenium 2.39»
+- cap. 16 · cemere   ← «cemere 16.69; 32.114»
+- cap. 27 · -cipere   ← «-cipere -iō -cēpisse -ceptum < capere circāprp +acc 27.51»
+- cap. 6 · circumprp   ← «circumprp +acc 6.14»
+- cap. 35 · cvsprp   ← «cvsprp +acc 35.182,188»
+- cap. 33 · citrāprp   ← «citrāprp +acc 33.87»
+- cap. 13 · clānis   ← «clānis -a -um 13.48; 29.93»
+- cap. 33 · coep-   ← «coep- cocpt- v. incipere cōgere co-ēgisse -āctum 33.32»
+- cap. 27 · colōnusīm   ← «colōnusīm 27.70»
+- cap. 8 · cōri-sistere   ← «cōri-sistere -stitisse 8.12»
+- cap. 25 · cōn-siituere   ← «cōn-siituere -uisse -ūtum 25.56; 32.152»
+- cap. 23 · con-iinēre   ← «con-iinēre 23.18»
+- cap. 12 · conxiāprp   ← «conxiāprp +acc 12.72; 29.121»
+- cap. 5 · cumprp   ← «cumprp +abl 5.9,13,58;21.15; 25.111,143»
+- cap. 7 · daūvus-īm   ← «daūvus-īm 7.110»
+- cap. 11 · dēprp   ← «dēprp +abl 11.53; 13.89; 19. 105; 20.48; 21.95»
+- cap. 34 · dcin   ← «dcin 34.119»
+- cap. 14 · dc-inde   ← «dc-inde 14.46»
+- cap. 22 · -dere   ← «-dere -didisse -ditum <dare dē-rīdēre 22.80; 25.15»
+- cap. 33 · compdiūtius   ← «compdiūtius 33.126»
+- cap. 9 · dūceredūxisscductum   ← «dūceredūxisscductum 9.34; 12.104;18.53;animamd.l0. 54;(uxōrem)d. 34.12»
+- cap. 12 · duxducism   ← «duxducism 12.81; 16.44 ē 7.45v.ex»
+- cap. 31 · ea   ← «ea, eadem v. is, īdem ēbrius-a-um 31.193»
+- cap. 31 · ed-   ← «ed- v. ēsse ēducāre 31.150»
+- cap. 14 · mē-cum   ← «mē-cum 14.87»
+- cap. 28 · eōadv   ← «eōadv 28.23»
+- cap. 33 · ē-rumpcre   ← «ē-rumpcre 33.122»
+- cap. 9 · ēsseedōēdisse   ← «ēsseedōēdisse 9.9,11; 10.59»
+- cap. 22 · extrāprp   ← «extrāprp +acc 22.7; 28.129»
+- cap. 23 · fact-   ← «fact- v. fieri (facere) factum-īw 23.78»
+- cap. 23 · fatērifassum   ← «fatērifassum 23.68,144»
+- cap. 12 · ferrc   ← «ferrc tulisse lātum 12.34,55; 21.17; 24.(37); 27.29»
+- cap. 31 · -ficere   ← «-ficere -iō -fecisse -fectum < facere fidere fisum esse 31.55»
+- cap. 31 · Gdus-a-um   ← «Gdus-a-um 31.58»
+- cap. 16 · fierīfactum   ← «fierīfactum essc 16.98,143; 18.25; 24.49»
+- cap. 11 · fluerc   ← «fluerc fluxisse 11.20»
+- cap. 10 · flūmcn   ← «flūmcn -inis n 10.40»
+- cap. 33 · fore   ← «fore 33.185v.»
+- cap. 22 · fotis   ← «fotis adv 22.56»
+- cap. 23 · fomsse   ← «fomsse 23.18»
+- cap. 20 · futūmm-īn   ← «futūmm-īn 20.172»
+- cap. 33 · hominum   ← «hominum 33.177»
+- cap. 1 · Graccus   ← «Graccus -a -um 1.39,68; 2.48»
+- cap. 16 · gubcrnātor   ← «gubcrnātor -ōris m 16.43»
+- cap. 14 · sēh   ← «sēh. 14.26;»
+- cap. 28 · habērl   ← «habērl 28.80»
+- cap. 7 · hichaechoc   ← «hichaechoc 7.43,85,90»
+- cap. 22 · hicine   ← «hicine 22.88»
+- cap. 18 · -icere   ← «-icere (-iicere) -iō -iēcisse -iectum < iacere id v. is īdemeadem idem»
+- cap. 31 · id-eō   ← «id-eō 31.110»
+- cap. 8 · Ulc-a-ud   ← «Ulc-a-ud 8.41,70,79»
+- cap. 1 · inprp   ← «inprp +abl 1.1,72,108;4.3, 60,62; 12.106; 27.43; 34.168; +<zcc 7.14,17»
+- cap. 30 · -ūtus   ← «-ūtus 30.15»
+- cap. 20 · Tnfans-antis   ← «Tnfans-antis m// 20.1,18»
+- cap. 11 · infrāprp   ← «infrāprp +acc 11.8; 16.3»
+- cap. 34 · -am   ← «-am 34.152»
+- cap. 6 · īreeō   ← «īreeō iisse 6.20; 16.72; 22.50»
+- cap. 4 · iseaid   ← «iseaid 4.77; 5.7,33; 8.138»
+- cap. 30 · iteritineris   ← «iteritineris 30.25;33.10»
+- cap. 32 · iūre   ← «iūre 32.46»
+- cap. 16 · lābīlāpsum   ← «lābīlāpsum 16.85,139»
+- cap. 31 · lāt-   ← «lāt- v. ferre latēre 31.67»
+- cap. 30 · Hbertīnus-īm   ← «Hbertīnus-īm 30.117»
+- cap. 25 · Htus-ōrisn   ← «Htus-ōrisn 25.101»
+- cap. 27 · loca-ōrumn   ← «loca-ōrumn 27.30»
+- cap. 16 · loquīlocūtum   ← «loquīlocūtum 16.96»
+- cap. 9 · Iūcērelūxisse   ← «Iūcērelūxisse 9.29»
+- cap. 34 · lūgērelūxisse   ← «lūgērelūxisse 34.42»
+- cap. 28 · māllemāluisse   ← «māllemāluisse 28.151,156»
+- cap. 11 · mē   ← «mē mē-cum v. ego medicus-īm 11.26»
+- cap. 30 · melmellis   ← «melmellis n 30.132»
+- cap. 30 · secunda   ← «secunda 30.102»
+- cap. 33 · stipendia   ← «stipendia m. 33.35»
+- cap. 16 · pass   ← «pass 16.35»
+- cap. 27 · meterc   ← «meterc 27.8»
+- cap. 19 · vocmī   ← «vocmī 19.94»
+- cap. 19 · nunus   ← «nunus adv 19.133; 20.26»
+- cap. 21 · nūllō-ō   ← «nūllō-ō 21.56»
+- cap. 25 · mōnsinim-ī   ← «mōnsinim-ī « 25.18»
+- cap. 28 · morīmortuum   ← «morīmortuum 28.45»
+- cap. 28 · nāscīnātum   ← «nāscīnātum 28.22,45; 33.177»
+- cap. 10 · necesseesse   ← «necesseesse 10.58»
+- cap. 29 · swp   ← «swp nēquissimus -a -um 29.133»
+- cap. 27 · nōbīs   ← «nōbīs nōbīs-cum v. nōs nocēre +<far 27.123; 32.72»
+- cap. 20 · nōlī-īte   ← «nōlī-īte 20.69,160»
+- cap. 20 · nōllenōluisse   ← «nōllenōluisse 20.17,141»
+- cap. 15 · nōsnōbis   ← «nōsnōbis 15.55,119; 20.136; 21.91; 34.166;»
+- cap. 29 · nōbīs-cum   ← «nōbīs-cum 29.40»
+- cap. 29 · nostrumgen   ← «nostrumgen 29.38,39»
+- cap. 24 · nōvisse   ← «nōvisse 24.60,94 v.»
+- cap. 23 · obprp   ← «obprp +acc 23.36»
+- cap. 19 · opusesse   ← «opusesse 19.149; +abl 32.78»
+- cap. 16 · orlriortum   ← «orlriortum 16.45,97»
+- cap. 24 · osossisn   ← «osossisn 24.33 ōsōrisnll.6; 16.14;17.37»
+- cap. 24 · patīpassum   ← «patīpassum 24.37»
+- cap. 16 · pzulōadv   ← «pzulōadv 16.91,123,148»
+- cap. 10 · pēspedism   ← «pēspedism 10.12; 12.47; 34.248»
+- cap. 34 · plpiāre   ← «plpiāre 34.97»
+- cap. 19 · plūriml   ← «plūriml -ae -a sup 19.54»
+- cap. 6 · ponāre   ← «ponāre 6.22; 10.30»
+- cap. 16 · ponus-ūsm   ← «ponus-ūsm 16.13»
+- cap. 6 · postprp   ← «postprp +acc 6.32; 13.44; adv 16.91»
+- cap. 27 · pTaeprp   ← «pTaeprp +abl 27.14,63,83»
+- cap. 22 · prchendere   ← «prchendere -disse -ēnsum 22.74,95»
+- cap. 22 · priusadv   ← «priusadv 22.42»
+- cap. 27 · proprp   ← «proprp +abl 27.71,72;32.93, 121; 33.35»
+- cap. 6 · propeprp   ← «propeprp +acc 6.8; adv 9.78; 12.102;»
+- cap. 22 · comppropius   ← «comppropius 22.67»
+- cap. 16 · pToplcrprp   ← «pToplcrprp +acc 16.118,126»
+- cap. 8 · quīquae   ← «quīquae quod (...?) 8.26,30»
+- cap. 1 · quid   ← «quid 1.50; 2.76»
+- cap. 23 · quid-nam   ← «quid-nam 23.6»
+- cap. 31 · quid-quid   ← «quid-quid 31.29»
+- cap. 1 · quisquaequid   ← «quisquaequid 1.50;2.15,16»
+- cap. 6 · quoadv   ← «quoadv 6.35; 16.47»
+- cap. 30 · rc-ciperc   ← «rc-ciperc 30.6»
+- cap. 24 · adv-ē   ← «adv-ē rc-cumbere 24.8»
+- cap. 32 · grātiamr   ← «grātiamr. 32.123»
+- cap. 9 · reperīrerepperisse   ← «reperīrerepperisse repertum 9.63;18.11»
+- cap. 27 · rūnfoc   ← «rūnfoc 27.66 v.»
+- cap. 24 · -issimē   ← «-issimē 24.93»
+- cap. 30 · sālsalism   ← «sālsalism 30.109; 34.151»
+- cap. 23 · -em   ← «-em dīcere 23.23»
+- cap. 30 · salvēreiubēre   ← «salvēreiubēre 30.16»
+- cap. 31 · scclus-erisn   ← «scclus-erisn 31.116»
+- cap. 7 · sesibi   ← «sesibi 7.8; 15.82; 24.24»
+- cap. 11 · sedēresēdisse   ← «sedēresēdisse 11.31»
+- cap. 31 · senexsenism   ← «senexsenism 31.174»
+- cap. 17 · sepiin-gentl   ← «sepiin-gentl -ae -a 17.33»
+- cap. 16 · sercnus   ← «sercnus -a -um 16.54»
+- cap. 2 · scrvus-īm   ← «scrvus-īm 2.26»
+- cap. 29 · sēsē   ← «sēsē 29.156»
+- cap. 24 · sibi   ← «sibi dat 24.24 v.»
+- cap. 22 · sineprp   ← «sineprp +ablSAS sinere sīvissesitum 22.77»
+- cap. 25 · nāvems   ← «nāvems. 25.98»
+- cap. 11 · spcctāre   ← «spcctāre 11.76,109»
+- cap. 10 · -spicere   ← «-spicere -iō -spexisse -spectum spīrāre 10.47»
+- cap. 10 · subprp   ← «subprp +abl930'y 10.47; 27.57; +acc 22.91»
+- cap. 4 · sūmerc   ← «sūmerc -mpsisse -mptum 4.73; 11.23»
+- cap. 11 · superprp   ← «superprp +aec 11.6,30; +abl 31.147»
+- cap. 9 · suprāprp   ← «suprāprp +acc 9.25; 16.2; adv 33.22»
+- cap. 22 · tabellānus-īm   ← «tabellānus-īm 22.24»
+- cap. 9 · tē   ← «tē tē-cum v. tū tēctum-īnl 9.3»
+- cap. 34 · tetig-   ← «tetig- v. tangere theātrum -īn 34.45»
+- cap. 14 · tibi   ← «tibi dat 14.66 v.»
+- cap. 2 · -linēre   ← «-linēre -uissc-tentum <tenēre titulus-īm 2.82»
+- cap. 23 · trā-derc   ← «trā-derc 23.5»
+- cap. 26 · trānsprp   ← «trānsprp +acc 26.38»
+- cap. 1 · trcstria   ← «trcstria 1.67;2.54»
+- cap. 3 · tūtētibi   ← «tūtētibi 3.25; 14.66; 15.20; 17.63;»
+- cap. 14 · tē-cum   ← «tē-cum 14.108»
+- cap. 15 · tul-   ← «tul- v. ferre tum 15.29; 33.167»
+- cap. 33 · ultrāprp   ← «ultrāprp +acc 33.87»
+- cap. 20 · ūnācum   ← «ūnācum 20.104»
+- cap. 14 · utcr-tra-trum   ← «utcr-tra-trum 14.12»
+- cap. 27 · ūtīūsum   ← «ūtīūsum +aW 27.20;34.10»
+- cap. 3 · venīrevēnisse   ← «venīrevēnisse 3.21; 13.47»
+- cap. 12 · vcrsus   ← «vcrsus -ūs m 12.145; 32.102»
+- cap. 29 · vestrum   ← «vestrum gen 29.43»
+- cap. 10 · vīverevīxisse   ← «vīverevīxisse 10.46; 20.11; 25.25»
+- cap. 15 · vōsvōbis   ← «vōsvōbis 15.51,120; 20.130; 21.109;»
+- cap. 29 · vōbls-cum   ← «vōbls-cum 29.57»
+- cap. 8 · zephyros-īml   ← «zephyros-īml 8.12»

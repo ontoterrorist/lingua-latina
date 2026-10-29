@@ -1,0 +1,277 @@
+# Capítulos XIII–XVII (ver glosas.txt para el formato)
+
+# ───── Capítulo XIII · Annus et mēnsēs ─────
+13 | annus | -ī m | n | año |
+13 | mēnsis | -is m | n | mes |
+13 | diēs | -ēī m | n | día |
+13 | hōra | -ae f | n | hora |
+13 | tempus | -oris n | n | tiempo; momento |
+13 | saeculum | -ī n | n | siglo; época |
+13 | aestās | -ātis f | n | verano |
+13 | autumnus | -ī m | n | otoño |
+13 | hiems | hiemis f | n | invierno |
+13 | vēr | vēris n | n | primavera |
+13 | aequinoctium | -ī n | n | equinoccio |
+13 | kalendae | -ārum f pl | n | calendas, primer día del mes |
+13 | nōnae | -ārum f pl | n | nonas, día 5 o 7 del mes |
+13 | īdūs | -uum f pl | n | idus, día 13 o 15 del mes |
+13 | mane | indecl. | n | la mañana; por la mañana | ↔ vesper
+13 | vesper | -erī m | n | tarde, anochecer | ↔ mane
+13 | merīdiēs | -ēī m | n | mediodía |
+13 | nox | noctis f | n | noche | ↔ diēs
+13 | lūx | lūcis f | n | luz |
+13 | lūna | -ae f | n | luna |
+13 | stēlla | -ae f | n | estrella |
+13 | nix | nivis f | n | nieve |
+13 | imber | -bris m | n | lluvia |
+13 | glaciēs | -ēī f | n | hielo |
+13 | lacus | -ūs m | n | lago |
+13 | faciēs | -ēī f | n | cara; aspecto |
+13 | forma | -ae f | n | forma, figura |
+13 | initium | -ī n | n | comienzo |
+13 | urbs | urbis f | n | ciudad (sobre todo, Roma) | ↔ rūs
+13 | superlātīvus | -ī m | n | superlativo |
+13 | Februārius | -ī m | n | febrero |
+13 | Aprīlis | -is m | n | abril |
+13 | Iūnius | -ī m | n | junio |
+13 | Iūlius | -ī m | n | julio |
+13 | Quīntīlis | -is m | n | quintil, el mes que luego se llamó Iūlius |
+13 | September | -bris m | n | septiembre | < septem
+13 | November | -bris m | n | noviembre | < novem
+13 | December | -bris m | n | diciembre | < decem
+13 | quīntus | -a, -um | adj | quinto | < quīnque
+13 | sextus | -a, -um | adj | sexto | < sex
+13 | septimus | -a, -um | adj | séptimo | < septem
+13 | octāvus | -a, -um | adj | octavo | < octō
+13 | decimus | -a, -um | adj | décimo | < decem
+13 | ūndecimus | -a, -um | adj | undécimo | < ūndecim
+13 | duodecimus | -a, -um | adj | duodécimo | < duodecim
+13 | postrēmus | -a, -um | adj | último | = ultimus
+13 | aequus | -a, -um | adj | igual; justo |
+13 | clārus | -a, -um | adj | claro, brillante; famoso |
+13 | dīmidius | -a, -um | adj | medio |
+13 | exiguus | -a, -um | adj | escaso, pequeño |
+13 | frīgidus | -a, -um | adj | frío | ↔ calidus
+13 | obscūrus | -a, -um | adj | oscuro | ↔ clārus
+13 | tōtus | -a, -um | adj | todo, entero |
+13 | ūndecim | indecl. | num | once | XI
+13 | trīgintā | indecl. | num | treinta | XXX
+13 | sexāgintā | indecl. | num | sesenta | LX
+13 | trecentī | -ae, -a | num | trescientos | CCC
+13 | ūndētrīgintā | indecl. | num | veintinueve | XXIX
+13 | duodētrīgintā | indecl. | num | veintiocho | XXVIII
+13 | dīvidere | dīvidō, -ere, dīvīsī, dīvīsum | v | dividir, separar |
+13 | illūstrāre | illūstrō, -āre, -āvī, -ātum | v | iluminar | < lūx
+13 | incipere | incipiō, -ere, coepī, coeptum | v | empezar | ↔ dēsinere
+13 | operīre | operiō, -īre, operuī, opertum | v | cubrir | ↔ aperīre
+13 | nunc | | adv | ahora |
+13 | tunc | | adv | entonces |
+13 | igitur | | conj | por tanto, así pues | = ergō
+13 | item | | adv | también, del mismo modo |
+13 | quandō | | adv | ¿cuándo?; cuando |
+13 | vel | | conj | o, o bien | = aut
+
+# ───── Capítulo XIV · Novus diēs ─────
+14 | vestīmentum | -ī n | n | prenda de vestir |
+14 | tunica | -ae f | n | túnica |
+14 | toga | -ae f | n | toga |
+14 | calceus | -ī m | n | zapato |
+14 | parentēs | -um m pl | n | padres (madre y padre) |
+14 | tabula | -ae f | n | tabla; tablilla de escribir |
+14 | rēgula | -ae f | n | regla, vara de medir |
+14 | rēs | reī f | n | cosa; asunto |
+14 | participium | -ī n | n | participio |
+14 | gallus | -ī m | n | gallo |
+14 | alter | -era, -erum | adj | el uno, el otro (de dos) |
+14 | uter | -tra, -trum | adj | ¿cuál de los dos? |
+14 | neuter | -tra, -trum | adj | ninguno de los dos | < nē + uter
+14 | dexter | -tra, -trum | adj | derecho | ↔ sinister
+14 | sinister | -tra, -trum | adj | izquierdo | ↔ dexter
+14 | apertus | -a, -um | adj | abierto | ↔ clausus
+14 | clausus | -a, -um | adj | cerrado | ↔ apertus
+14 | nūdus | -a, -um | adj | desnudo | ↔ vestītus
+14 | pūrus | -a, -um | adj | limpio | ↔ sordidus
+14 | sordidus | -a, -um | adj | sucio | ↔ pūrus
+14 | togātus | -a, -um | adj | vestido con toga | < toga
+14 | omnis | -e | adj | todo, cada |
+14 | cubāre | cubō, -āre, -uī, -itum | v | estar acostado, dormir |
+14 | vigilāre | vigilō, -āre, -āvī, -ātum | v | velar, estar despierto | ↔ dormīre
+14 | excitāre | excitō, -āre, -āvī, -ātum | v | despertar, levantar |
+14 | surgere | surgō, -ere, surrēxī, surrēctum | v | levantarse |
+14 | lavāre | lavō, -āre, lāvī, lautum | v | lavar |
+14 | mergere | mergō, -ere, mersī, mersum | v | sumergir |
+14 | frīgēre | frīgeō, -ēre | v | tener frío | < frīgidus
+14 | induere | induō, -ere, induī, indūtum | v | ponerse (una prenda) | ↔ exuere
+14 | vestīre | vestiō, -īre, -īvī, -ītum | v | vestir | < vestīmentum
+14 | gerere | gerō, -ere, gessī, gestum | v | llevar; hacer |
+14 | poscere | poscō, -ere, poposcī | v | reclamar, pedir con insistencia |
+14 | afferre | afferō, -ferre, attulī, allātum | v | traer | < ferre
+14 | solēre | soleō, -ēre, solitus sum | v | soler, acostumbrar |
+14 | inquit | inquiunt | v | dice, dijo (en un diálogo) | = dīcit
+14 | adhūc | | adv | todavía, hasta ahora |
+14 | dēinde | | adv | luego, después |
+14 | hodiē | | adv | hoy |
+14 | multum | | adv | mucho | ↔ paulum
+14 | nihil | = nīl | pron | nada | ↔ omnia
+14 | prīmum | | adv | primero, en primer lugar |
+14 | quōmodo | | adv | ¿cómo? |
+14 | an | | conj | o (en preguntas dobles) |
+14 | praeter | + acc. | prep | excepto, además de |
+14 | valē | valēte | interj | ¡adiós! ¡que estés bien! | ↔ salvē
+
+# ───── Capítulo XV · Magister et discipulī ─────
+15 | discipulus | -ī m | n | alumno | ↔ magister
+15 | discipula | -ae f | n | alumna |
+15 | lūdus | -ī m | n | escuela; juego |
+15 | iānua | -ae f | n | puerta de la casa |
+15 | sella | -ae f | n | silla, asiento |
+15 | lectulus | -ī m | n | camita, diván | < lectus
+15 | virga | -ae f | n | vara, látigo |
+15 | tergum | -ī n | n | espalda |
+15 | malum | -ī n | n | mal, desgracia | ↔ bonum
+15 | sevērus | -a, -um | adj | severo, serio |
+15 | tacitus | -a, -um | adj | callado, silencioso | < tacēre
+15 | vērus | -a, -um | adj | verdadero | ↔ falsus
+15 | prior | -ius | adj | anterior, el primero (de dos) |
+15 | posterior | -ius | adj | posterior, el segundo | ↔ prior
+15 | inferior | -ius | adj | inferior | ↔ superior
+15 | pūnīre | pūniō, -īre, -īvī, -ītum | v | castigar |
+15 | recitāre | recitō, -āre, -āvī, -ātum | v | leer en voz alta |
+15 | exclāmāre | exclāmō, -āre, -āvī, -ātum | v | exclamar | < clāmāre
+15 | cōnsīdere | cōnsīdō, -ere, cōnsēdī | v | sentarse |
+15 | dēsinere | dēsinō, -ere, dēsiī, dēsitum | v | dejar de, cesar | ↔ incipere
+15 | reddere | reddō, -ere, reddidī, redditum | v | devolver |
+15 | redīre | redeō, -īre, -iī, -itum | v | volver | < īre
+15 | licēre | licet, -ēre, licuit | v | estar permitido (+ dat.) |
+15 | nōs | nostrī, nōbīs, nōs | pron | nosotros |
+15 | vōs | vestrī, vōbīs, vōs | pron | vosotros |
+15 | domī | | adv | en casa | ↔ domum
+15 | nōndum | | adv | todavía no | ↔ iam
+15 | statim | | adv | enseguida |
+15 | tum | | adv | entonces, luego |
+15 | at | | conj | pero, sin embargo | = sed
+15 | nisi | | conj | si no, a menos que |
+15 | sī | | conj | si |
+15 | antequam | | conj | antes de que |
+
+# ───── Capítulo XVI · Tempestās ─────
+16 | tempestās | -ātis f | n | tormenta; tiempo atmosférico |
+16 | nāvis | -is f | n | nave, barco |
+16 | nauta | -ae m | n | marinero |
+16 | gubernātor | -ōris m | n | piloto, timonel | < gubernāre
+16 | puppis | -is f | n | popa | ↔ prōra
+16 | vēlum | -ī n | n | vela |
+16 | ventus | -ī m | n | viento |
+16 | flūctus | -ūs m | n | ola |
+16 | tonitrus | -ūs m | n | trueno |
+16 | portus | -ūs m | n | puerto |
+16 | ōra | -ae f | n | costa, orilla |
+16 | merx | mercis f | n | mercancía |
+16 | locus | -ī m | n | lugar |
+16 | oriēns | -entis m | n | oriente, el sol naciente | ↔ occidēns
+16 | occidēns | -entis m | n | occidente, el sol poniente | ↔ oriēns
+16 | septentriōnēs | -um m pl | n | norte |
+16 | dēpōnēns | -entis m | n | verbo deponente |
+16 | altum | -ī n | n | alta mar |
+16 | situs | -a, -um | adj | situado |
+16 | superus | -a, -um | adj | de arriba, superior | ↔ īnferus
+16 | īnferus | -a, -um | adj | de abajo, inferior | ↔ superus
+16 | āter | ātra, ātrum | adj | negro mate, sombrío | ↔ albus
+16 | contrārius | -a, -um | adj | opuesto, contrario |
+16 | maritimus | -a, -um | adj | marino, marítimo | < mare
+16 | serēnus | -a, -um | adj | sereno, despejado |
+16 | tranquillus | -a, -um | adj | tranquilo, en calma | = quiētus
+16 | turbidus | -a, -um | adj | agitado, revuelto | ↔ tranquillus
+16 | appellāre | appellō, -āre, -āvī, -ātum | v | llamar, dar nombre |
+16 | nāvigāre | nāvigō, -āre, -āvī, -ātum | v | navegar | < nāvis
+16 | gubernāre | gubernō, -āre, -āvī, -ātum | v | gobernar la nave |
+16 | flāre | flō, -āre, -āvī, -ātum | v | soplar |
+16 | turbāre | turbō, -āre, -āvī, -ātum | v | agitar, perturbar |
+16 | iactāre | iactō, -āre, -āvī, -ātum | v | lanzar, zarandear | < iacere
+16 | implēre | impleō, -ēre, -ēvī, -ētum | v | llenar | ↔ vacuefacere
+16 | haurīre | hauriō, -īre, hausī, haustum | v | sacar (agua), achicar |
+16 | cernere | cernō, -ere, crēvī, crētum | v | distinguir, divisar |
+16 | cōnscendere | cōnscendō, -ere, cōnscendī, cōnscensum | v | subir a bordo | < scandere
+16 | occidere | occidō, -ere, occidī, occāsum | v | ponerse (el sol); caer | ↔ orirī
+16 | interesse | intersum, -esse, interfuī | v | estar entre; participar | < esse
+16 | oriīrī | orior, orīrī, ortus sum | v | nacer, salir (el sol) | ↔ occidere
+16 | nāscī | nascor, nāscī, nātus sum | v | nacer |
+16 | loquī | loquor, loquī, locūtus sum | v | hablar |
+16 | sequī | sequor, sequī, secūtus sum | v | seguir |
+16 | lābī | lābor, lābī, lapsus sum | v | deslizarse, caer |
+16 | cōnārī | cōnor, -ārī, -ātus sum | v | intentar |
+16 | laetārī | laetor, -ārī, -ātus sum | v | alegrarse | < laetus
+16 | verērī | vereor, -ērī, veritus sum | v | respetar, temer | = timēre
+16 | intuērī | intueor, -ērī, intuitus sum | v | mirar fijamente |
+16 | complectī | complector, -ī, complexus sum | v | abrazar |
+16 | cōnsōlārī | cōnsōlor, -ārī, -ātus sum | v | consolar |
+16 | ēgredī | ēgredior, -ī, ēgressus sum | v | salir | ↔ ingredī
+16 | proficīscī | proficīscor, -ī, profectus sum | v | ponerse en marcha, partir |
+16 | opperīrī | opperior, -īrī, oppertus sum | v | esperar |
+16 | fierī | fīō, fierī, factus sum | v | hacerse, ser hecho | > facere
+16 | semper | | adv | siempre | ↔ numquam
+16 | vix | | adv | apenas |
+16 | simul | | adv | a la vez; al mismo tiempo |
+16 | iterum | | adv | otra vez | = rūrsus
+16 | paulum | | adv | un poco | ↔ multum
+16 | vērō | | adv | en verdad, sin embargo |
+16 | praetereā | | adv | además |
+16 | propter | + acc. | prep | a causa de; cerca de |
+
+# ───── Capítulo XVII · Numerī difficilēs ─────
+17 | dēnārius | -ī m | n | denario, moneda de plata |
+17 | as | assis m | n | as, moneda de bronce |
+17 | respōnsum | -ī n | n | respuesta | < respondēre
+17 | doctus | -a, -um | adj | culto, instruido | ↔ indoctus
+17 | indoctus | -a, -um | adj | ignorante | ↔ doctus
+17 | piger | -gra, -grum | adj | perezoso | ↔ industrius
+17 | industrius | -a, -um | adj | trabajador, aplicado | ↔ piger
+17 | prūdēns | -entis | adj | prudente |
+17 | rēctus | -a, -um | adj | recto; correcto |
+17 | prāvus | -a, -um | adj | torcido, equivocado | ↔ rēctus
+17 | facilis | -e | adj | fácil | ↔ difficilis
+17 | difficilis | -e | adj | difícil | ↔ facilis
+17 | absēns | -entis | adj | ausente | ↔ praesēns
+17 | certus | -a, -um | adj | seguro, cierto | ↔ incertus
+17 | incertus | -a, -um | adj | incierto | ↔ certus
+17 | largus | -a, -um | adj | generoso, abundante |
+17 | amīcus | -a, -um | adj | amigo, amistoso | ↔ inimīcus
+17 | inimīcus | -a, -um | adj | hostil | ↔ amīcus
+17 | centēsimus | -a, -um | adj | centésimo | < centum
+17 | trēdecim | indecl. | num | trece | XIII
+17 | quattuordecim | indecl. | num | catorce | XIV
+17 | quīndecim | indecl. | num | quince | XV
+17 | sēdecim | indecl. | num | dieciséis | XVI
+17 | septendecim | indecl. | num | diecisiete | XVII
+17 | duodēvīgintī | indecl. | num | dieciocho | XVIII
+17 | ūndēvīgintī | indecl. | num | diecinueve | XIX
+17 | quadrāgintā | indecl. | num | cuarenta | XL
+17 | quīnquāgintā | indecl. | num | cincuenta | L
+17 | septuāgintā | indecl. | num | setenta | LXX
+17 | quadringentī | -ae, -a | num | cuatrocientos | CCCC
+17 | quīngentī | -ae, -a | num | quinientos | D
+17 | sescentī | -ae, -a | num | seiscientos | DC
+17 | septingentī | -ae, -a | num | setecientos | DCC
+17 | octingentī | -ae, -a | num | ochocientos | DCCC
+17 | nōngentī | -ae, -a | num | novecientos | DCCCC
+17 | discere | discō, -ere, didicī | v | aprender | ↔ docēre
+17 | docēre | doceō, -ēre, -uī, doctum | v | enseñar | ↔ discere
+17 | scīre | sciō, -īre, -īvī, -ītum | v | saber | ↔ nescīre
+17 | nescīre | nesciō, -īre, -īvī | v | no saber, ignorar | ↔ scīre
+17 | tollere | tollō, -ere, sustulī, sublātum | v | levantar; quitar |
+17 | interpellāre | interpellō, -āre, -āvī, -ātum | v | interrumpir |
+17 | laudāre | laudō, -āre, -āvī, -ātum | v | alabar, elogiar | ↔ culpāre
+17 | cōgitāre | cōgitō, -āre, -āvī, -ātum | v | pensar, reflexionar |
+17 | dēmōnstrāre | dēmōnstrō, -āre, -āvī, -ātum | v | demostrar | < mōnstrāre
+17 | prōmere | prōmō, -ere, prompsī, promptum | v | sacar, extraer |
+17 | repōnere | repōnō, -ere, reposuī, repositum | v | volver a poner, guardar | < pōnere
+17 | reprehendere | reprehendō, -ere, reprehendī, reprehēnsum | v | reprender, criticar | 
+17 | largīrī | largior, -īrī, largītus sum | v | dar con generosidad | < largus
+17 | oportēre | oportet, -ēre, oportuit | v | ser preciso, convenir |
+17 | numquam | | adv | nunca | ↔ semper
+17 | saepe | | adv | a menudo | ↔ rārō
+17 | tot | indecl. | adj | tantos | ↔ quot
+17 | ūsque | | adv | hasta; siempre |
+17 | aequē | | adv | igualmente | < aequus
+17 | rēctē | | adv | correctamente, bien | < rēctus
+17 | quamquam | | conj | aunque |

@@ -1,0 +1,10 @@
+# Añadidos tras cotejar con el informe de discrepancias (ver glosas.txt para el formato)
+16 | multō | | adv | mucho (delante de un comparativo: multō maior) | < multus
+18 | zephyrus | -ī m | n | céfiro, viento suave del oeste |
+27 | neglegēns | -entis | adj | descuidado | < neglegere
+30 | salvēre | salveō, -ēre | v | estar bien (salvēre iubēre: saludar) | < salvē
+31 | funditus | | adv | desde el fondo, por completo | < fundus
+34 | ocellus | -ī m | n | ojito | < oculus
+34 | mellītus | -a, -um | adj | dulce como la miel | < mel
+27 | nē | | conj | no; para que no (con subjuntivo) | ↔ ut
+31 | utinam | | adv | ojalá (con subjuntivo) |

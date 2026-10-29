@@ -1,0 +1,152 @@
+# Capítulos IV–VII (ver glosas.txt para el formato)
+
+# ───── Capítulo IV · Dominus et servī ─────
+4 | sacculus | -ī m | n | bolsita, monedero | < saccus
+4 | pecūnia | -ae f | n | dinero |
+4 | nummus | -ī m | n | moneda |
+4 | mēnsa | -ae f | n | mesa |
+4 | baculum | -ī n | n | bastón, vara |
+4 | stilus | -ī m | n | punzón para escribir |
+4 | rūs | rūris n | n | campo (en oposición a la ciudad) |
+4 | vacuus | -a, -um | adj | vacío | ↔ plēnus
+4 | bonus | -a, -um | adj | bueno | ↔ malus
+4 | nūllus | -a, -um | adj | ninguno | ↔ omnis
+4 | suus | -a, -um | adj | su, suyo (del sujeto de la frase) |
+4 | quattuor | indecl. | num | cuatro | IV
+4 | quīnque | indecl. | num | cinco | V
+4 | septem | indecl. | num | siete | VII
+4 | octō | indecl. | num | ocho | VIII
+4 | novem | indecl. | num | nueve | IX
+4 | decem | indecl. | num | diez | X
+4 | habēre | habeō, -ēre, -uī, -itum | v | tener | = tenēre
+4 | numerāre | numerō, -āre, -āvī, -ātum | v | contar | < numerus
+4 | adesse | adsum, -esse, affuī | v | estar presente | ↔ abesse
+4 | abesse | absum, -esse, āfuī | v | estar ausente | ↔ adesse
+4 | salūtāre | salūtō, -āre, -āvī, -ātum | v | saludar |
+4 | tacēre | taceō, -ēre, -uī, -itum | v | callar, guardar silencio |
+4 | accūsāre | accūsō, -āre, -āvī, -ātum | v | acusar |
+4 | pōnere | pōnō, -ere, posuī, positum | v | poner, colocar |
+4 | sūmere | sūmō, -ere, sūmpsī, sūmptum | v | tomar, coger |
+4 | discēdere | discēdō, -ere, discessī, discessum | v | irse, marcharse | ↔ venīre
+4 | imperāre | imperō, -āre, -āvī, -ātum | v | mandar, dar una orden (+ dat.) | > imperium
+4 | pārēre | pāreō, -ēre, -uī | v | obedecer (+ dat.) | ↔ imperāre
+4 | valēre | valeō, -ēre, -uī | v | estar bien, tener fuerza (valē: adiós) |
+4 | is | ea, id | pron | él, ella, ello; ese, esa (eum, eam, eius) |
+4 | quod | | conj | porque; (relativo neutro: lo que) | = quia
+4 | rūrsus | | adv | de nuevo, otra vez |
+4 | tantum | | adv | solo, nada más |
+4 | salvē | salvēte | interj | ¡hola! ¡salud! |
+4 | vocātīvus | -ī m | n | vocativo, el caso para llamar a alguien |
+4 | imperātīvus | -ī m | n | imperativo, el modo de la orden |
+4 | indicātīvus | -ī m | n | indicativo, el modo del hecho |
+
+# ───── Capítulo V · Villa et hortus ─────
+5 | vīlla | -ae f | n | casa de campo, finca |
+5 | hortus | -ī m | n | huerto, jardín |
+5 | rosa | -ae f | n | rosa |
+5 | līlium | -ī n | n | lirio |
+5 | nāsus | -ī m | n | nariz |
+5 | ōstium | -ī n | n | puerta, entrada (de una casa) | = porta
+5 | fenestra | -ae f | n | ventana |
+5 | ātrium | -ī n | n | atrio, sala principal de la casa |
+5 | impluvium | -ī n | n | estanque del atrio donde cae la lluvia |
+5 | peristylum | -ī n | n | patio con columnas |
+5 | cubiculum | -ī n | n | dormitorio |
+5 | aqua | -ae f | n | agua |
+5 | magister | -trī m | n | maestro |
+5 | pulcher | -chra, -chrum | adj | hermoso | ↔ foedus
+5 | foedus | -a, -um | adj | feo, repugnante | ↔ pulcher
+5 | sōlus | -a, -um | adj | solo, único |
+5 | habitāre | habitō, -āre, -āvī, -ātum | v | vivir, habitar | < habēre
+5 | amāre | amō, -āre, -āvī, -ātum | v | amar, querer |
+5 | carpere | carpō, -ere, carpsī, carptum | v | coger, arrancar |
+5 | dēlectāre | dēlectō, -āre, -āvī, -ātum | v | deleitar, agradar |
+5 | agere | agō, -ere, ēgī, āctum | v | hacer, llevar; impulsar |
+5 | ab | ā, ab | prep | de, desde, por (+ abl.) |
+5 | cum | + abl. | prep | con, en compañía de |
+5 | ex | ē, ex | prep | de, desde dentro (+ abl.) | ↔ in
+5 | sine | + abl. | prep | sin | ↔ cum
+5 | etiam | | adv | también, incluso | = quoque
+5 | ablātīvus | -ī m | n | ablativo, el caso de «con, de, en» |
+
+# ───── Capítulo VI · Via Latīna ─────
+6 | via | -ae f | n | camino, calle |
+6 | mūrus | -ī m | n | muro |
+6 | porta | -ae f | n | puerta (de una ciudad) |
+6 | lectīca | -ae f | n | litera, silla de manos |
+6 | saccus | -ī m | n | saco | > sacculus
+6 | umerus | -ī m | n | hombro |
+6 | amīcus | -ī m | n | amigo | ↔ inimīcus
+6 | amīca | -ae f | n | amiga | ↔ inimīca
+6 | inimīcus | -ī m | n | enemigo | ↔ amīcus
+6 | equus | -ī m | n | caballo |
+6 | fulgur | -uris n | n | relámpago |
+6 | praepositiō | -ōnis f | n | preposición |
+6 | locātīvus | -ī m | n | locativo, el caso del lugar donde |
+6 | āctīvus | -a, -um | adj | activo | ↔ passīvus
+6 | passīvus | -a, -um | adj | pasivo | ↔ āctīvus
+6 | longus | -a, -um | adj | largo | ↔ brevis
+6 | malus | -a, -um | adj | malo | ↔ bonus
+6 | fessus | -a, -um | adj | cansado |
+6 | duodecim | indecl. | num | doce | XII
+6 | ambulāre | ambulō, -āre, -āvī, -ātum | v | pasear, caminar |
+6 | portāre | portō, -āre, -āvī, -ātum | v | llevar, cargar |
+6 | vehere | vehō, -ere, vēxī, vectum | v | llevar en un vehículo, transportar |
+6 | timēre | timeō, -ēre, -uī | v | temer |
+6 | intrāre | intrō, -āre, -āvī, -ātum | v | entrar | ↔ exīre
+6 | invocāre | invocō, -āre, -āvī, -ātum | v | invocar, llamar en ayuda | < vocāre
+6 | servāre | servō, -āre, -āvī, -ātum | v | guardar, salvar |
+6 | īre | eō, īre, iī (īvī), itum | v | ir |
+6 | ad | + acc. | prep | a, hacia, junto a |
+6 | ante | + acc. | prep | delante de, antes de | ↔ post
+6 | post | + acc. | prep | detrás de, después de | ↔ ante
+6 | apud | + acc. | prep | en casa de, junto a |
+6 | circum | + acc. | prep | alrededor de |
+6 | inter | + acc. | prep | entre |
+6 | per | + acc. | prep | a través de, por |
+6 | prope | + acc. | prep | cerca de | ↔ procul
+6 | procul | | adv | lejos | ↔ prope
+6 | tam | | adv | tan |
+6 | quam | | adv | que (en comparaciones); cuán |
+6 | unde | | adv | ¿de dónde? |
+6 | quō | | adv | ¿adónde? |
+6 | nam | | conj | pues, porque |
+6 | itaque | | conj | por eso, así que |
+6 | autem | | conj | en cambio, por su parte |
+6 | sīve | sīve… sīve | conj | o si; sea… sea |
+
+# ───── Capítulo VII · Puella et rosa ─────
+7 | lacrima | -ae f | n | lágrima |
+7 | oculus | -ī m | n | ojo |
+7 | ōsculum | -ī n | n | beso |
+7 | mālum | -ī n | n | manzana |
+7 | pirum | -ī n | n | pera |
+7 | speculum | -ī n | n | espejo |
+7 | ōstiārius | -ī m | n | portero |
+7 | formōsus | -a, -um | adj | bello, hermoso | = pulcher
+7 | plēnus | -a, -um | adj | lleno | ↔ vacuus
+7 | lacrimāre | lacrimō, -āre, -āvī, -ātum | v | llorar, derramar lágrimas | < lacrima
+7 | exspectāre | exspectō, -āre, -āvī, -ātum | v | esperar |
+7 | tenēre | teneō, -ēre, tenuī, tentum | v | sujetar, tener en la mano | 
+7 | tergēre | tergeō, -ēre, tersī, tersum | v | secar, limpiar |
+7 | vertere | vertō, -ere, vertī, versum | v | girar, volver |
+7 | aperīre | aperiō, -īre, aperuī, apertum | v | abrir | ↔ claudere
+7 | claudere | claudō, -ere, clausī, clausum | v | cerrar | ↔ aperīre
+7 | currere | currō, -ere, cucurrī, cursum | v | correr |
+7 | dare | dō, dare, dedī, datum | v | dar |
+7 | adīre | adeō, -īre, -iī, -itum | v | acercarse, ir a | < īre
+7 | exīre | exeō, -īre, -iī, -itum | v | salir | ↔ intrāre
+7 | advenīre | adveniō, -īre, advēnī, adventum | v | llegar | < venīre
+7 | computāre | computō, -āre, -āvī, -ātum | v | calcular, contar | = numerāre
+7 | inesse | insum, -esse, īnfuī | v | estar dentro | 
+7 | hic | haec, hoc | pron | este, esta, esto |
+7 | ille | illa, illud | pron | aquel, aquella, aquello | ↔ hic
+7 | sē | sibi | pron | se, a sí mismo (reflexivo) |
+7 | illīc | | adv | allí | ↔ hīc
+7 | immō | | adv | al contrario, más bien |
+7 | nōnne | | adv | ¿acaso no…? (pregunta que espera «sí») | ↔ num
+7 | postrēmō | | adv | por último |
+7 | sōlum | | adv | solo, solamente | = tantum
+7 | quārē | | adv | ¿por qué? por eso | = cūr
+7 | partīrī | partior, -īrī, partītus sum | v | repartir, dividir |
+7 | datīvus | -ī m | n | dativo, el caso de «a, para» |

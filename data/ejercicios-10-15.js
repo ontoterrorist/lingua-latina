@@ -1,0 +1,162 @@
+/* Capítulos X–XV: regla, ejemplo, consejo, tablas y banco de ejercicios (ver data/ejercicios.js para el formato). */
+[
+  [10, {
+    regla: ['El infinitivo presente es la forma «de diccionario» del verbo y termina en -re: amāre, vidēre, dūcere, audīre. Se usa con verbos como velle, posse, necesse est, iubēre: Puer dormīre vult (el niño quiere dormir).',
+      'Velle (querer) es irregular: volō, vīs, vult, volumus, vultis, volunt. Los nombres de la 3.ª declinación siguen igual: leō, leōnis; homō, hominis; avis, avis; piscis, piscis.'],
+    ejemplo: { la: 'Puer ovēs vidēre vult. Leō hominem nōn timet. Avis volāre potest.', es: 'El niño quiere ver las ovejas. El león no teme al hombre. El ave puede volar.' },
+    consejo: 'Un verbo que sigue a velle, posse o iubēre va en infinitivo: vult dormīre = quiere dormir. Reconócelo por la -re final.',
+    tablas: [{ lemas: ['leō', 'homō', 'avis', 'piscis', 'aquila', 'mercātor', 'pāstor', 'canis'], etiquetas: ['nom.sg', 'gen.sg', 'acc.sg', 'nom.pl', 'acc.pl'] }, { lemas: ['amāre', 'vidēre', 'dūcere', 'audīre', 'currere', 'dormīre', 'facere', 'capere'], etiquetas: ['3sg.pres.ind.act', 'inf.pres.act'] }],
+    pares: [['nom.sg', 'gen.sg'], ['nom.sg', 'acc.sg'], ['nom.sg', 'nom.pl'], ['3sg.pres.ind.act', 'inf.pres.act'], ['inf.pres.act', '3sg.pres.ind.act']]
+  }],
+  [11, {
+    regla: ['Los neutros de la 3.ª declinación (corpus, caput, nōmen, flūmen, mare, animal) tienen nominativo y acusativo iguales y, en plural, terminan en -a (-ia en mare y animal): corpus → corpora; caput → capita; mare → maria.',
+      'El acusativo con infinitivo (AcI) sigue a verbos de decir, ver y pensar: el sujeto de la subordinada va en acusativo y el verbo en infinitivo. Medicus puerum dormīre videt = el médico ve que el niño duerme. Noster, nostra, nostrum es «nuestro».'],
+    ejemplo: { la: 'Medicus puerum aegrum videt. Medicus dīcit puerum dormīre. Caput puerī dolet.', es: 'El médico ve al niño enfermo. El médico dice que el niño duerme. Al niño le duele la cabeza.' },
+    consejo: 'En el AcI el sujeto pasa a acusativo: puer dormit → puerum dormīre. Y en los neutros nominativo = acusativo; el plural acaba siempre en -a.',
+    tablas: [{ lemas: ['corpus', 'caput', 'nōmen', 'mare', 'animal', 'flūmen', 'pectus'], etiquetas: ['nom.sg', 'gen.sg', 'acc.sg', 'nom.pl', 'acc.pl'] }, { lemas: ['dīcere', 'vidēre', 'putāre', 'audīre', 'iubēre', 'dolēre'], etiquetas: ['3sg.pres.ind.act', 'inf.pres.act'] }],
+    pares: [['nom.sg', 'nom.pl'], ['nom.sg', 'gen.sg'], ['nom.pl', 'acc.pl'], ['3sg.pres.ind.act', 'inf.pres.act']]
+  }],
+  [12, {
+    regla: ['La 4.ª declinación (manus, exercitus, impetus, passus) tiene nominativo en -us y genitivo en -ūs: manus, manūs. Acusativo -um, ablativo -ū; plural -ūs, -uum, -ibus. Neutros en -ū (cornū).',
+      'Los adjetivos de 3.ª clase (fortis, gravis, levis, brevis, trīstis) se declinan como los nombres de la 3.ª. El comparativo termina en -ior / -ius (fortior, gravius) y se construye con quam («que»). El dativo de posesión expresa «tener»: Mīlitī gladius est = el soldado tiene una espada.'],
+    ejemplo: { la: 'Mīlitī gladius et scūtum est. Scūtum gravius est quam gladius. Exercitus Rōmānus fortis est.', es: 'El soldado tiene espada y escudo. El escudo pesa más que la espada. El ejército romano es valiente.' },
+    consejo: 'Las palabras en -us pueden ser de 2.ª (servus, servī) o de 4.ª (manus, manūs): mira el genitivo. El comparativo se reconoce por -ior (masc. y fem.) o -ius (neutro).',
+    tablas: [{ lemas: ['manus', 'exercitus', 'impetus', 'arcus', 'passus'], etiquetas: ['nom.sg', 'gen.sg', 'acc.sg', 'abl.sg', 'nom.pl', 'acc.pl'] }, { lemas: ['fortis', 'gravis', 'levis', 'brevis', 'trīstis'], etiquetas: ['nom.sg.m', 'nom.sg.f', 'nom.sg.n', 'acc.sg.m', 'acc.sg.f', 'acc.sg.n'] }],
+    pares: [['nom.sg', 'gen.sg'], ['nom.sg', 'acc.sg'], ['nom.sg', 'abl.sg'], ['nom.sg.m', 'comp.nom.sg.m'], ['nom.sg.m', 'nom.sg.n'], ['comp.nom.sg.m', 'comp.nom.sg.n']]
+  }],
+  [13, {
+    regla: ['La 5.ª declinación (diēs, rēs, faciēs, glaciēs) tiene genitivo en -ēī (o -eī tras consonante): diēs, diēī; rēs, reī. Acusativo -em, ablativo -ē; plural -ēs, -ērum, -ēbus.',
+      'El superlativo se forma con -issimus (altus → altissimus) y, en los adjetivos en -er, con -errimus (pulcher → pulcherrimus). Los ordinales dicen la posición: prīmus, secundus, tertius, quārtus, quīntus… El ablativo de tiempo contesta a «¿cuándo?»: eō diē, hieme, aestāte.'],
+    ejemplo: { la: 'Annus duodecim mēnsēs habet. Prīmus mēnsis Iānuārius est. Hieme diēs brevēs sunt; aestāte diēs longissimī sunt.', es: 'El año tiene doce meses. El primer mes es enero. En invierno los días son cortos; en verano los días son larguísimos.' },
+    consejo: 'Casi todos los nombres de la 5.ª terminan en -ēs y son femeninos (diēs es la excepción más famosa). El superlativo se reconoce por -issimus: altus → altissimus.',
+    tablas: [{ lemas: ['diēs', 'rēs', 'faciēs', 'glaciēs'], etiquetas: ['nom.sg', 'gen.sg', 'acc.sg', 'abl.sg', 'nom.pl', 'acc.pl'] }, { lemas: ['altus', 'longus', 'pulcher', 'fortis', 'brevis', 'clārus'], etiquetas: ['nom.sg.m', 'nom.sg.f', 'nom.sg.n'] }],
+    pares: [['nom.sg', 'gen.sg'], ['nom.sg', 'acc.sg'], ['nom.sg', 'abl.sg'], ['nom.sg.m', 'sup.nom.sg.m'], ['nom.sg.m', 'comp.nom.sg.m']]
+  }],
+  [14, {
+    regla: ['El participio presente se forma con -ns (nominativo) y -nt- (resto): amāns, amantis; vidēns, videntis; dormiēns, dormientis. Se declina como los adjetivos de 3.ª (ablativo en -e) y concuerda con un nombre: puer dormiēns = el niño que duerme.',
+      'El ablativo absoluto es un nombre y un participio en ablativo que dan el marco de la frase, sin conexión gramatical con ella: Sōle lūcente, Dāvus surgit (cuando brilla el sol, Davo se levanta). Uter, utra, utrum pregunta «¿cuál de los dos?».'],
+    ejemplo: { la: 'Puer dormiēns nihil audit. Sōle lūcente, Dāvus Mārcum excitat. Uter puer surgit?', es: 'El niño dormido no oye nada. Cuando brilla el sol, Davo despierta a Marco. ¿Cuál de los dos niños se levanta?' },
+    consejo: 'El participio presente se reconoce por -ns / -ntis: dormiēns, dormientis. En español suena a «el que duerme» o «durmiendo».',
+    tablas: [{ lemas: ['amāre', 'vidēre', 'dormīre', 'audīre', 'currere', 'lūcēre', 'cantāre', 'plōrāre'], etiquetas: ['part.pres.act.nom.sg.m', 'part.pres.act.gen.sg.m', 'part.pres.act.acc.sg.m', 'part.pres.act.abl.sg.m'] }, { lemas: ['amāre', 'vidēre', 'dormīre', 'audīre', 'currere', 'lūcēre', 'cantāre', 'plōrāre'], etiquetas: ['3sg.pres.ind.act', 'inf.pres.act'] }],
+    pares: [['3sg.pres.ind.act', 'part.pres.act.nom.sg.m'], ['inf.pres.act', 'part.pres.act.nom.sg.m'], ['3sg.pres.ind.act', 'part.pres.act.acc.sg.m']]
+  }],
+  [15, {
+    regla: ['Hasta ahora usábamos la 3.ª persona. En el verbo activo: 1.ª sg. -ō (amō), 2.ª sg. -s (amās), 3.ª -t (amat); 1.ª pl. -mus (amāmus), 2.ª pl. -tis (amātis), 3.ª -nt (amant). Como la terminación ya dice la persona, el pronombre (ego, tū, nōs, vōs) solo se pone para destacar.',
+      'Esse y posse son irregulares: sum, es, est, sumus, estis, sunt; possum, potes, potest, possumus, potestis, possunt. Los pronombres personales: ego, meī, mihi, mē; tū, tuī, tibi, tē; nōs, vōs.'],
+    ejemplo: { la: 'Ego magister sum, vōs discipulī estis. Tū recitās, nōs audīmus. Cūr nōn tacētis?', es: 'Yo soy el maestro, vosotros sois alumnos. Tú lees en voz alta, nosotros escuchamos. ¿Por qué no calláis?' },
+    consejo: 'No traduzcas el pronombre: la terminación ya dice la persona. -ō = yo, -s = tú, -t = él, -mus = nosotros, -tis = vosotros, -nt = ellos.',
+    tablas: [{ lemas: ['amāre', 'vidēre', 'audīre', 'tacēre', 'portāre', 'habēre', 'vocāre', 'recitāre'], etiquetas: ['1sg.pres.ind.act', '2sg.pres.ind.act', '3sg.pres.ind.act', '1pl.pres.ind.act', '2pl.pres.ind.act', '3pl.pres.ind.act'] }, { lemas: ['esse', 'posse'], etiquetas: ['1sg.pres.ind.act', '2sg.pres.ind.act', '3sg.pres.ind.act', '1pl.pres.ind.act', '2pl.pres.ind.act', '3pl.pres.ind.act'] }],
+    pares: [['3sg.pres.ind.act', '1sg.pres.ind.act'], ['3sg.pres.ind.act', '2sg.pres.ind.act'], ['3sg.pres.ind.act', '1pl.pres.ind.act'], ['3pl.pres.ind.act', '2pl.pres.ind.act'], ['1sg.pres.ind.act', '1pl.pres.ind.act']]
+  }]
+].forEach(([n, d]) => Object.assign(CAPITULOS[n - 1], d));
+
+BANCO.push(
+  /* ───── X ───── */
+  { cap: 10, tipo: 'term', t: 'Puer dorm{īre:dormīre.inf.pres.act} vult.' },
+  { cap: 10, tipo: 'term', t: 'Aquila vol{āre:volāre.inf.pres.act} potest.' },
+  { cap: 10, tipo: 'term', t: 'Leō hominem nōn tim{et:timēre.3sg.pres.ind.act}.' },
+  { cap: 10, tipo: 'term', t: 'Hom{ō:homō.nom.sg} equum nōn habet.' },
+  { cap: 10, tipo: 'term', t: 'Pāstor leōn{em:leō.acc.sg} timet.' },
+  { cap: 10, tipo: 'term', t: 'Mercātor piscēs em{ere:emere.inf.pres.act} vult.' },
+  { cap: 10, tipo: 'term', t: 'Puer aquilam vid{ēre:vidēre.inf.pres.act} vult.' },
+  { cap: 10, tipo: 'term', t: 'Hom{inēs:homō.nom.pl} in terrā habitant.' },
+  { cap: 10, tipo: 'term', t: 'Nūntius ad vīllam ven{īre:venīre.inf.pres.act} nōn potest.' },
+  { cap: 10, tipo: 'term', t: 'Avis in arbor{e:arbor.abl.sg} est.' },
+  { cap: 10, tipo: 'falta', t: 'Avis ___ potest, sed piscis nōn potest.', r: ['volāre', 'inf.pres.act'], o: ['lātrāre', 'bālāre'] },
+  { cap: 10, tipo: 'falta', t: 'Canis lātrat, ovis ___.', r: ['bālāre', '3sg.pres.ind.act'], o: ['lātrāre', 'ululāre'] },
+  { cap: 10, tipo: 'falta', t: '___ est animal magnum et ferum.', r: ['leō', 'nom.sg'], o: ['avis', 'piscis'] },
+  { cap: 10, tipo: 'trans', orden: 'Di que el niño quiere hacerlo (vult + infinitivo).', de: 'Puer dormit.', a: 'Puer dormīre vult.' },
+  { cap: 10, tipo: 'trans', orden: 'Di que el ave puede hacerlo (potest + infinitivo).', de: 'Avis volat.', a: 'Avis volāre potest.' },
+  { cap: 10, tipo: 'trans', orden: 'Pasa la frase al plural.', de: 'Leō hominem videt.', a: 'Leōnēs hominēs vident.' },
+
+  /* ───── XI ───── */
+  { cap: 11, tipo: 'term', t: 'Hūmānum corp{us:corpus.nom.sg} duo bracchia habet.' },
+  { cap: 11, tipo: 'term', t: 'Corpus duo bracchi{a:bracchium.acc.pl} habet.' },
+  { cap: 11, tipo: 'term', t: 'In capit{e:caput.abl.sg} duae aurēs sunt.' },
+  { cap: 11, tipo: 'term', t: 'Medicus puer{um:puer.acc.sg} dorm{īre:dormīre.inf.pres.act} videt.' },
+  { cap: 11, tipo: 'term', t: 'Medicus dīcit Mārc{um:Mārcus.acc.sg} aegr{um:aeger.acc.sg.m} esse.' },
+  { cap: 11, tipo: 'term', t: 'Māter dīcit fīli{um:fīlius.acc.sg} sān{um:sānus.acc.sg.m} esse.' },
+  { cap: 11, tipo: 'term', t: 'Nostr{um:noster.nom.sg.n} corpus sānum est.' },
+  { cap: 11, tipo: 'term', t: 'Cor in pector{e:pectus.abl.sg} est.' },
+  { cap: 11, tipo: 'term', t: 'Mare magnum est; in mar{ī:mare.abl.sg} piscēs sunt.' },
+  { cap: 11, tipo: 'term', t: 'Multa animāl{ia:animal.nom.pl} in silvā sunt.' },
+  { cap: 11, tipo: 'falta', t: 'Oculī vident, aurēs ___.', r: ['audīre', '3pl.pres.ind.act'], o: ['cantāre', 'plōrāre'] },
+  { cap: 11, tipo: 'falta', t: 'Puer lectō iacet: medicus dīcit eum ___.', r: ['dormīre', 'inf.pres.act'], o: ['currere', 'cantāre'] },
+  { cap: 11, tipo: 'falta', t: 'Mārcus aeger est, sed Iūlia ___ est.', r: ['sānus', 'nom.sg.f'], o: ['īrātus', 'pulcher'] },
+  { cap: 11, tipo: 'trans', orden: 'Une las dos frases con un acusativo con infinitivo.', de: 'Puer dormit. Medicus hoc videt.', a: 'Medicus puerum dormīre videt.' },
+  { cap: 11, tipo: 'trans', orden: 'Pasa lo que dice la madre a acusativo con infinitivo.', de: 'Māter dīcit: “Mārcus aegrōtat.”', a: 'Māter dīcit Mārcum aegrōtāre.' },
+  { cap: 11, tipo: 'trans', orden: 'Pasa la frase al plural.', de: 'Animal magnum est.', a: 'Animālia magna sunt.' },
+
+  /* ───── XII ───── */
+  { cap: 12, tipo: 'term', t: 'Mīles scūtum man{ū:manus.abl.sg} tenet.' },
+  { cap: 12, tipo: 'term', t: 'Exercit{us:exercitus.nom.sg} Rōmānus magnus est.' },
+  { cap: 12, tipo: 'term', t: 'Dux exercit{um:exercitus.acc.sg} vocat.' },
+  { cap: 12, tipo: 'term', t: 'Mīlitēs in exercit{ū:exercitus.abl.sg} sunt.' },
+  { cap: 12, tipo: 'term', t: 'Hostēs impet{um:impetus.acc.sg} faciunt.' },
+  { cap: 12, tipo: 'term', t: 'Mīles fort{is:fortis.nom.sg.m} est.' },
+  { cap: 12, tipo: 'term', t: 'Scūtum grav{ius:gravis.comp.nom.sg.n} est quam gladius.' },
+  { cap: 12, tipo: 'term', t: 'Gladius lev{ior:levis.comp.nom.sg.m} est quam scūtum.' },
+  { cap: 12, tipo: 'term', t: 'Mīl{itī:mīles.dat.sg} gladius est.' },
+  { cap: 12, tipo: 'term', t: 'Mīlit{ibus:mīles.dat.pl} scūta sunt.' },
+  { cap: 12, tipo: 'term', t: 'Hostis trīst{is:trīstis.nom.sg.m} est.' },
+  { cap: 12, tipo: 'falta', t: 'Mīles ___ gladium habet: nōn timet.', r: ['fortis', 'nom.sg.m'], o: ['trīstis', 'levis'] },
+  { cap: 12, tipo: 'falta', t: 'Pugnus est pars ___.', r: ['manus', 'gen.sg'], o: ['pēs', 'caput'] },
+  { cap: 12, tipo: 'falta', t: 'Gladius brevis est, hasta ___ est.', r: ['longus', 'nom.sg.f'], o: ['laetus', 'vacuus'] },
+  { cap: 12, tipo: 'trans', orden: 'Dilo con el dativo de posesión (est).', de: 'Mīles gladium habet.', a: 'Mīlitī gladius est.' },
+  { cap: 12, tipo: 'trans', orden: 'Pasa la frase al plural.', de: 'Exercitus fortis est.', a: 'Exercitūs fortēs sunt.' },
+  { cap: 12, tipo: 'trans', orden: 'Compáralo con la espada (quam gladius).', de: 'Scūtum grave est.', a: 'Scūtum gravius est quam gladius.' },
+
+  /* ───── XIII ───── */
+  { cap: 13, tipo: 'term', t: 'Prīm{us:prīmus.nom.sg.m} diēs mēnsis Iānuārius est.' },
+  { cap: 13, tipo: 'term', t: 'Annus duodecim mēns{ēs:mēnsis.acc.pl} habet.' },
+  { cap: 13, tipo: 'term', t: 'Hieme di{ēs:diēs.nom.pl} brevēs sunt.' },
+  { cap: 13, tipo: 'term', t: 'Aestāte diēs long{issimī:longus.sup.nom.pl.m} sunt.' },
+  { cap: 13, tipo: 'term', t: 'Nostr{a:noster.nom.sg.f} faciēs pulchra est.' },
+  { cap: 13, tipo: 'term', t: 'Secund{us:secundus.nom.sg.m} diēs mēnsis nōn est prīmus.' },
+  { cap: 13, tipo: 'term', t: 'Iūlia pulcherrim{a:pulcher.sup.nom.sg.f} est.' },
+  { cap: 13, tipo: 'term', t: 'Iānuārius mēnsis frīgidissim{us:frīgidus.sup.nom.sg.m} est.' },
+  { cap: 13, tipo: 'term', t: 'Eō di{ē:diēs.abl.sg} Iūlius ad vīllam it.' },
+  { cap: 13, tipo: 'term', t: 'Mārcus alt{issimus:altus.sup.nom.sg.m} puer est.' },
+  { cap: 13, tipo: 'falta', t: 'Annus ___ mēnsēs habet.', r: ['duodecim', ''], o: ['quattuor', 'septem'] },
+  { cap: 13, tipo: 'falta', t: 'Hieme diēs brevēs sunt, ___ diēs longī sunt.', r: ['aestās', 'abl.sg'], o: ['hiems', 'nox'] },
+  { cap: 13, tipo: 'falta', t: 'Prīmus, secundus, ___ numerī sunt.', r: ['tertius', 'nom.sg.m'], o: ['trēs', 'mīlle'] },
+  { cap: 13, tipo: 'trans', orden: 'Pon el adjetivo en superlativo.', de: 'Iūlia pulchra est.', a: 'Iūlia pulcherrima est.' },
+  { cap: 13, tipo: 'trans', orden: 'Pon el adjetivo en superlativo.', de: 'Mārcus altus est.', a: 'Mārcus altissimus est.' },
+  { cap: 13, tipo: 'trans', orden: 'Pasa la frase al plural.', de: 'Diēs longus est.', a: 'Diēs longī sunt.' },
+
+  /* ───── XIV ───── */
+  { cap: 14, tipo: 'term', t: 'Puer dorm{iēns:dormīre.part.pres.act.nom.sg.m} nihil audit.' },
+  { cap: 14, tipo: 'term', t: 'Mārcus cant{āns:cantāre.part.pres.act.nom.sg.m} in hortō est.' },
+  { cap: 14, tipo: 'term', t: 'Dāvus Mārcum dorm{ientem:dormīre.part.pres.act.acc.sg.m} videt.' },
+  { cap: 14, tipo: 'term', t: 'Māter puellam plōr{antem:plōrāre.part.pres.act.acc.sg.f} audit.' },
+  { cap: 14, tipo: 'term', t: 'Sōl{e:sōl.abl.sg} lūc{ente:lūcēre.part.pres.act.abl.sg.m}, Dāvus surgit.' },
+  { cap: 14, tipo: 'term', t: 'Puer vigil{āns:vigilāre.part.pres.act.nom.sg.m} in lectō iacet.' },
+  { cap: 14, tipo: 'term', t: 'Mārcus puerōs cant{antēs:cantāre.part.pres.act.acc.pl.m} audit.' },
+  { cap: 14, tipo: 'term', t: 'Ut{er:uter.nom.sg.m} puer ven{it:venīre.3sg.pres.ind.act}?' },
+  { cap: 14, tipo: 'term', t: 'Mārcus tunicam indu{it:induere.3sg.pres.ind.act}.' },
+  { cap: 14, tipo: 'falta', t: '___ puer surgit: Mārcus an Quīntus?', r: ['uter', 'nom.sg.m'], o: ['hic', 'ille'] },
+  { cap: 14, tipo: 'falta', t: 'Puer ___ in lectō iacet.', r: ['dormīre', 'part.pres.act.nom.sg.m'], o: ['currere', 'cantāre'] },
+  { cap: 14, tipo: 'falta', t: 'Sōle ___, Dāvus surgit.', r: ['lūcēre', 'part.pres.act.abl.sg.m'], o: ['plōrāre', 'dormīre'] },
+  { cap: 14, tipo: 'trans', orden: 'Une las dos acciones con un participio presente.', de: 'Puer dormit et nihil audit.', a: 'Puer dormiēns nihil audit.' },
+  { cap: 14, tipo: 'trans', orden: 'Une las dos frases con un participio presente.', de: 'Mārcus cantat; Dāvus Mārcum audit.', a: 'Dāvus Mārcum cantantem audit.' },
+  { cap: 14, tipo: 'trans', orden: 'Usa un ablativo absoluto.', de: 'Sōl lūcet; Dāvus surgit.', a: 'Sōle lūcente, Dāvus surgit.' },
+
+  /* ───── XV ───── */
+  { cap: 15, tipo: 'term', t: 'Ego Mārcum voc{ō:vocāre.1sg.pres.ind.act}.' },
+  { cap: 15, tipo: 'term', t: 'Tū magistrum aud{īs:audīre.2sg.pres.ind.act}.' },
+  { cap: 15, tipo: 'term', t: 'Nōs discipulī su{mus:esse.1pl.pres.ind.act}.' },
+  { cap: 15, tipo: 'term', t: 'Vōs discipulī e{stis:esse.2pl.pres.ind.act}.' },
+  { cap: 15, tipo: 'term', t: 'Ego tac{eō:tacēre.1sg.pres.ind.act}, sed tū cantā{s:cantāre.2sg.pres.ind.act}.' },
+  { cap: 15, tipo: 'term', t: 'Nōs librōs port{āmus:portāre.1pl.pres.ind.act}.' },
+  { cap: 15, tipo: 'term', t: 'Vōs magistrum aud{ītis:audīre.2pl.pres.ind.act}.' },
+  { cap: 15, tipo: 'term', t: 'Ego et Mārcus magistrum aud{īmus:audīre.1pl.pres.ind.act}.' },
+  { cap: 15, tipo: 'term', t: 'Cūr tū nōn tac{ēs:tacēre.2sg.pres.ind.act}?' },
+  { cap: 15, tipo: 'term', t: 'Pot{es:posse.2sg.pres.ind.act} tū recitāre?' },
+  { cap: 15, tipo: 'term', t: 'Nōn pos{sumus:posse.1pl.pres.ind.act} tacēre.' },
+  { cap: 15, tipo: 'falta', t: '___ magister sum; vōs discipulī estis.', r: ['ego', 'nom.sg'], o: ['tū', 'is'] },
+  { cap: 15, tipo: 'falta', t: 'Ego tē audiō, tū ___ audīs.', r: ['ego', 'acc.sg'], o: ['tū', 'is'] },
+  { cap: 15, tipo: 'falta', t: 'Nōs in hortō ___; magister in lūdō est.', r: ['esse', '1pl.pres.ind.act'], o: ['posse', 'audīre'] },
+  { cap: 15, tipo: 'trans', orden: 'Dilo en 1.ª persona del singular, sin pronombre.', de: 'Puer recitat.', a: 'Recitō.' },
+  { cap: 15, tipo: 'trans', orden: 'Dilo en 1.ª persona del plural, sin pronombre.', de: 'Puer tacet.', a: 'Tacēmus.' },
+  { cap: 15, tipo: 'trans', orden: 'Dirígete a ellos: 2.ª persona del plural.', de: 'Discipulī magistrum audiunt.', a: 'Magistrum audītis.' }
+);

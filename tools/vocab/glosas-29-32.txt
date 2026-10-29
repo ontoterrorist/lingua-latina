@@ -1,0 +1,283 @@
+# Capítulos XXIX–XXXII (ver glosas.txt para el formato)
+
+# ───── Capítulo XXIX · Nāvigāre necesse est ─────
+29 | fundus | -ī m | n | finca; fondo |
+29 | vīta | -ae f | n | vida | ↔ mors
+29 | spēs | speī f | n | esperanza | < spērāre
+29 | fortūna | -ae f | n | suerte, fortuna |
+29 | felīcitās | -ātis f | n | felicidad | < fēlix
+29 | salūs | -ūtis f | n | salud; salvación |
+29 | fidēs | -eī f | n | confianza; lealtad |
+29 | fidicen | -inis m | n | citarista, tañedor de lira |
+29 | cantus | -ūs m | n | canto | < cantāre
+29 | carmen | -inis n | n | canto, poema |
+29 | delphīnus | -ī m | n | delfín |
+29 | dorsum | -ī n | n | lomo, espalda de un animal |
+29 | rēmus | -ī m | n | remo |
+29 | piscātor | -ōris m | n | pescador | < piscis
+29 | fūr | fūris m | n | ladrón |
+29 | fūrtum | -ī n | n | robo | < fūr
+29 | tyrannus | -ī m | n | tirano |
+29 | dīvitiae | -ārum f pl | n | riquezas | < dīves
+29 | beneficium | -ī n | n | favor, beneficio | ↔ maleficium
+29 | maleficium | -ī n | n | fechoría, daño | ↔ beneficium
+29 | iactūra | -ae f | n | pérdida | < iactāre
+29 | lucrum | -ī n | n | ganancia | ↔ iactūra
+29 | invidia | -ae f | n | envidia | < invidēre
+29 | laetitia | -ae f | n | alegría | < laetus
+29 | tristitia | -ae f | n | tristeza | < trīstis
+29 | nāvigātiō | -ōnis f | n | navegación, travesía | < nāvigāre
+29 | celsus | -a, -um | adj | alto, elevado |
+29 | fallāx | -ācis | adj | engañoso | < fallere
+29 | fēlix | -īcis | adj | feliz; afortunado | ↔ īnfēlīx
+29 | ignārus | -a, -um | adj | ignorante, que no sabe | ↔ scīens
+29 | ignōtus | -a, -um | adj | desconocido | ↔ nōtus
+29 | nōtus | -a, -um | adj | conocido | ↔ ignōtus
+29 | maestus | -a, -um | adj | triste, afligido | = trīstis
+29 | mīrus | -a, -um | adj | asombroso | < mīrārī
+29 | nōbilis | -e | adj | famoso; noble |
+29 | nēquissimus | -a, -um | adj | el más malvado (sup. de nēquam) |
+29 | pretiōsus | -a, -um | adj | precioso, valioso | < pretium
+29 | rapidus | -a, -um | adj | rápido | = celer
+29 | vēlōx | -ōcis | adj | veloz | = celer
+29 | nōnnūllī | -ae, -a | adj | algunos | ↔ nūllī
+29 | abicere | abiciō, -ere, abiēcī, abiectum | v | arrojar, tirar | < iacere
+29 | abstinēre | abstineō, -ēre, abstinuī, abstentum | v | abstenerse | < tenēre
+29 | adicere | adiciō, -ere, adiēcī, adiectum | v | añadir | < iacere
+29 | aestimāre | aestimō, -āre, -āvī, -ātum | v | valorar, estimar |
+29 | afficere | afficiō, -ere, affēcī, affectum | v | afectar, causar algo a alguien | < facere
+29 | allicere | alliciō, -ere, allexī, allectum | v | atraer |
+29 | āmittere | āmittō, -ere, āmīsī, āmissum | v | perder | < mittere
+29 | appārēre | appāreō, -ēre, -uī, -itum | v | aparecer |
+29 | appropinquāre | appropinquō, -āre, -āvī, -ātum | v | acercarse | < prope
+29 | cōnfitērī | cōnfiteor, -ērī, cōnfessus sum | v | confesar | < fatērī
+29 | dēsilīre | dēsiliō, -īre, dēsiluī | v | saltar abajo | < salīre
+29 | dēspērāre | dēspērō, -āre, -āvī, -ātum | v | desesperar | ↔ spērāre
+29 | dēterrēre | dēterreō, -ēre, -uī, -itum | v | disuadir, asustar | < terrēre
+29 | dētrahere | dētrahō, -ere, dētrāxī, dētractum | v | quitar | < trahere
+29 | dōnāre | dōnō, -āre, -āvī, -ātum | v | regalar | < dōnum
+29 | ēripere | ēripiō, -ere, ēripuī, ēreptum | v | arrebatar | < rapere
+29 | expōnere | expōnō, -ere, exposuī, expositum | v | dejar en tierra; exponer | < pōnere
+29 | finīre | finiō, -īre, -īvī, -ītum | v | terminar | < fīnis
+29 | invidēre | invideō, -ēre, invīdī, invīsum | v | envidiar (+ dat.) |
+29 | parcere | parcō, -ere, pepercī | v | perdonar, tener piedad (+ dat.) |
+29 | permittere | permittō, -ere, permīsī, permissum | v | permitir | < mittere
+29 | permovēre | permoveō, -ēre, permōvī, permōtum | v | conmover | < movēre
+29 | perturbāre | perturbō, -āre, -āvī, -ātum | v | turbar mucho | < turbāre
+29 | precārī | precor, -ārī, -ātus sum | v | rogar, suplicar | < precēs
+29 | querī | queror, querī, questus sum | v | quejarse |
+29 | recognōscere | recognōscō, -ere, recognōvī, recognitum | v | reconocer | < cognōscere
+29 | redūcere | redūcō, -ere, redūxī, reductum | v | llevar de vuelta | < dūcere
+29 | remanēre | remaneō, -ēre, remānsī | v | quedarse | < manēre
+29 | secāre | secō, -āre, secuī, sectum | v | cortar | 
+29 | stupēre | stupeō, -ēre, -uī | v | quedarse atónito |
+29 | suādēre | suādeō, -ēre, suāsī, suāsum | v | aconsejar (+ dat.) |
+29 | subīre | subeō, -īre, -iī, -itum | v | ponerse debajo; acercarse | < īre
+29 | surripere | surripiō, -ere, surripuī, surreptum | v | robar a escondidas | < rapere
+29 | suspicere | suspiciō, -ere, suspexī, suspectum | v | mirar hacia arriba | < aspicere
+29 | frūstrā | | adv | en vano |
+29 | prōtinus | | adv | enseguida |
+29 | repente | | adv | de repente |
+29 | inde | | adv | de allí; desde entonces |
+29 | quasi | | conj | como si |
+29 | heu | | interj | ¡ay! |
+29 | nōnnumquam | | adv | a veces | ↔ numquam
+
+# ───── Capítulo XXX · Convīvium ─────
+30 | balneum | -ī n | n | baño |
+30 | hospes | -itis m | n | huésped; invitado |
+30 | cēna | -ae f | n | cena |
+30 | iter | itineris n | n | camino, viaje |
+30 | famēs | -is f | n | hambre | ↔ satietās
+30 | sitis | -is f | n | sed |
+30 | bonum | -ī n | n | bien, cosa buena | ↔ malum
+30 | triclīnium | -ī n | n | comedor |
+30 | culīna | -ae f | n | cocina |
+30 | cocus | -ī m | n | cocinero | < coquere
+30 | minister | -trī m | n | sirviente |
+30 | convīvium | -ī n | n | banquete |
+30 | convīva | -ae m/f | n | comensal, invitado |
+30 | genus | -eris n | n | clase, tipo; género |
+30 | vās | vāsis n | n | vasija |
+30 | argentum | -ī n | n | plata |
+30 | holus | -eris n | n | verdura |
+30 | nux | nucis f | n | nuez |
+30 | carō | carnis f | n | carne |
+30 | sāl | salis m | n | sal |
+30 | mel | mellis n | n | miel |
+30 | lībertīnus | -ī m | n | liberto, esclavo liberado |
+30 | argenteus | -a, -um | adj | de plata | < argentum
+30 | acerbus | -a, -um | adj | agrio, amargo |
+30 | acūtus | -a, -um | adj | agudo, afilado |
+30 | dīligēns | -entis | adj | cuidadoso | < dīligere
+30 | dulcis | -e | adj | dulce | ↔ acerbus
+30 | glōriōsus | -a, -um | adj | presumido, jactancioso | < glōria
+30 | īmus | -a, -um | adj | el más bajo, el último | ↔ summus
+30 | inexspectātus | -a, -um | adj | inesperado |
+30 | iūcundus | -a, -um | adj | agradable |
+30 | molestus | -a, -um | adj | molesto | ↔ iūcundus
+30 | merus | -a, -um | adj | puro, sin mezcla |
+30 | tardus | -a, -um | adj | lento; tardío | ↔ celer
+30 | bīnī | -ae, -a | num | de dos en dos; dos cada uno |
+30 | ternī | -ae, -a | num | de tres en tres; tres cada uno |
+30 | singulī | -ae, -a | num | uno por uno, cada uno |
+30 | accubāre | accubō, -āre, -uī | v | recostarse a la mesa | < cubāre
+30 | accumbere | accumbō, -ere, accubuī | v | recostarse a la mesa | = accubāre
+30 | apportāre | apportō, -āre, -āvī, -ātum | v | traer | < portāre
+30 | aspergere | aspergō, -ere, aspersī, aspersum | v | rociar | < spargere
+30 | cēnāre | cēnō, -āre, -āvī, -ātum | v | cenar | < cēna
+30 | complēre | compleō, -ēre, -ēvī, -ētum | v | llenar | = implēre
+30 | contrahere | contrahō, -ere, contrāxī, contractum | v | contraer, reunir | < trahere
+30 | coquere | coquō, -ere, coxī, coctum | v | cocinar |
+30 | ēligere | ēligō, -ere, ēlēgī, ēlēctum | v | elegir | < legere
+30 | exhaurīre | exhauriō, -īre, exhausī, exhaustum | v | apurar, vaciar | < haurīre
+30 | exōrnāre | exōrnō, -āre, -āvī, -ātum | v | decorar | < ōrnāre
+30 | fruī | fruor, fruī, frūctus sum | v | disfrutar (+ abl.) |
+30 | fundere | fundō, -ere, fūdī, fūsum | v | verter, derramar |
+30 | gustāre | gustō, -āre, -āvī, -ātum | v | probar, saborear |
+30 | līberāre | līberō, -āre, -āvī, -ātum | v | liberar | < līber
+30 | miscēre | misceō, -ēre, miscuī, mixtum | v | mezclar |
+30 | nūntiāre | nūntiō, -āre, -āvī, -ātum | v | anunciar | < nūntius
+30 | parāre | parō, -āre, -āvī, -ātum | v | preparar |
+30 | perferre | perferō, -ferre, pertulī, perlātum | v | llevar hasta el final; soportar | < ferre
+30 | placēre | placeō, -ēre, -uī, -itum | v | gustar, agradar (+ dat.) |
+30 | pōtāre | pōtō, -āre, -āvī, -ātum | v | beber | = bibere
+30 | praeesse | praesum, -esse, praefuī | v | estar al frente (+ dat.) | < esse
+30 | prōferre | prōferō, -ferre, prōtulī, prōlātum | v | sacar, presentar | < ferre
+30 | recipere | recipiō, -ere, recēpī, receptum | v | recibir; acoger | < capere
+30 | requiēscere | requiēscō, -ere, requiēvī | v | descansar | < quiēscere
+30 | sternere | sternō, -ere, strāvī, strātum | v | extender, tender |
+30 | vīsere | vīsō, -ere, vīsī | v | ir a ver, visitar | < vidēre
+30 | circiter | | adv | alrededor de, hacia |
+30 | dēmum | | adv | por fin; solo entonces |
+30 | diū | | adv | por mucho tiempo | ↔ paulisper
+30 | equidem | | adv | yo por mi parte |
+30 | paulisper | | adv | por un rato |
+30 | prīdem | | adv | hace tiempo |
+30 | sānē | | adv | ciertamente, sin duda |
+
+# ───── Capítulo XXXI · Inter pōcula ─────
+31 | pōtiō | -ōnis f | n | bebida, poción | < pōtāre
+31 | rūmor | -ōris m | n | rumor |
+31 | memoria | -ae f | n | memoria; recuerdo |
+31 | mūnus | -eris n | n | regalo; obligación |
+31 | crux | crucis f | n | cruz |
+31 | iuvenis | -is m/f | n | joven | ↔ senex
+31 | senex | senis m | n | anciano | ↔ iuvenis
+31 | praemium | -ī n | n | premio, recompensa | ↔ poena
+31 | poena | -ae f | n | castigo | ↔ praemium
+31 | iūs | iūris n | n | derecho; ley |
+31 | lēx | lēgis f | n | ley |
+31 | parricīda | -ae m | n | asesino de un familiar |
+31 | scelus | -eris n | n | crimen |
+31 | supplicium | -ī n | n | suplicio, castigo |
+31 | mōs | mōris m | n | costumbre |
+31 | iniūria | -ae f | n | injusticia, agravio | ↔ iūs
+31 | nūgae | -ārum f pl | n | tonterías, bagatelas |
+31 | gerundīvum | -ī n | n | gerundivo |
+31 | avārus | -a, -um | adj | avaro, codicioso |
+31 | asinīnus | -a, -um | adj | de burro | < asinus
+31 | clēmēns | -entis | adj | clemente, benigno |
+31 | crūdēlis | -e | adj | cruel | ↔ clēmēns
+31 | dēbilis | -e | adj | débil | ↔ validus
+31 | ēbrius | -a, -um | adj | borracho |
+31 | fidus | -a, -um | adj | fiel, de fiar | ↔ īnfidus
+31 | īnfidus | -a, -um | adj | infiel, desleal | ↔ fidus
+31 | fugitīvus | -a, -um | adj | fugitivo | < fugere
+31 | impatiēns | -entis | adj | impaciente | ↔ patiēns
+31 | īnfēlīx | -īcis | adj | desgraciado | ↔ fēlix
+31 | iniūstus | -a, -um | adj | injusto | ↔ iūstus
+31 | iūstus | -a, -um | adj | justo | ↔ iniūstus
+31 | invalidus | -a, -um | adj | débil | ↔ validus
+31 | nimius | -a, -um | adj | excesivo | < nimis
+31 | nōnāgēsimus | -a, -um | adj | nonagésimo | < nōnāgintā
+31 | sapiēns | -entis | adj | sabio | ↔ stultus
+31 | scelestus | -a, -um | adj | criminal, malvado | < scelus
+31 | vetus | -eris | adj | viejo, antiguo | ↔ novus
+31 | abdūcere | abdūcō, -ere, abdūxī, abductum | v | llevarse | < dūcere
+31 | auferre | auferō, -ferre, abstulī, ablātum | v | llevarse, quitar | < ferre
+31 | aufugere | aufugiō, -ere, aufūgī | v | huir | < fugere
+31 | cōnfīdere | cōnfīdō, -ere, cōnfīsus sum | v | confiar (+ dat.) | < fidēs
+31 | cruciāre | cruciō, -āre, -āvī, -ātum | v | atormentar | < crux
+31 | ēducāre | ēducō, -āre, -āvī, -ātum | v | criar, educar |
+31 | fabulārī | fabulor, -ārī, -ātus sum | v | charlar | < fābula
+31 | ignōscere | ignōscō, -ere, ignōvī, ignōtum | v | perdonar (+ dat.) |
+31 | latēre | lateō, -ēre, -uī | v | estar escondido |
+31 | ōdisse | ōdī, ōdisse | v | odiar | ↔ amāre
+31 | optāre | optō, -āre, -āvī, -ātum | v | desear, elegir |
+31 | retrahere | retrahō, -ere, retrāxī, retractum | v | hacer volver, retirar | < trahere
+31 | statuere | statuō, -ere, statuī, statūtum | v | decidir; colocar | 
+31 | vetāre | vetō, -āre, -uī, -itum | v | prohibir | ↔ iubēre
+31 | idcircō | | adv | por eso |
+31 | longē | | adv | lejos; con mucho | < longus
+31 | nimium | | adv | demasiado | = nimis
+31 | quantum | | adv | cuanto |
+31 | aliquantum | | adv | bastante, un poco |
+31 | namque | | conj | pues, en efecto | = nam
+31 | priusquam | | conj | antes de que | = antequam
+31 | quamobrem | | adv | por lo cual |
+31 | quisquis | quidquid | pron | quienquiera que |
+
+# ───── Capítulo XXXII · Classis Rōmāna ─────
+32 | servitūs | -ūtis f | n | esclavitud | < servus
+32 | incola | -ae m/f | n | habitante | < incolere
+32 | vīs | vīs f | n | fuerza, violencia |
+32 | vīrēs | -ium f pl | n | fuerzas | < vīs
+32 | audācia | -ae f | n | audacia | < audāx
+32 | inopia | -ae f | n | escasez, falta |
+32 | populus | -ī m | n | pueblo |
+32 | classis | -is f | n | flota |
+32 | victōria | -ae f | n | victoria |
+32 | victor | -ōris m | n | vencedor | < vincere
+32 | gēns | gentis f | n | pueblo, clan |
+32 | voluntās | -ātis f | n | voluntad | < velle
+32 | grātia | -ae f | n | gratitud; favor |
+32 | poēta | -ae m | n | poeta |
+32 | amīcitia | -ae f | n | amistad | < amīcus
+32 | pīrāta | -ae m | n | pirata | = praedō
+32 | condiciō | -ōnis f | n | condición, trato |
+32 | talentum | -ī n | n | talento, gran suma de dinero |
+32 | amphitheātrum | -ī n | n | anfiteatro |
+32 | cursus | -ūs m | n | carrera; rumbo | < currere
+32 | adversus | -a, -um | adj | contrario, opuesto |
+32 | cārus | -a, -um | adj | querido; caro |
+32 | commūnis | -e | adj | común |
+32 | cūnctus | -a, -um | adj | todo, entero |
+32 | ēgregius | -a, -um | adj | excelente |
+32 | grātus | -a, -um | adj | agradecido; grato |
+32 | īnfestus | -a, -um | adj | hostil |
+32 | inermis | -e | adj | sin armas | < arma
+32 | internus | -a, -um | adj | interno |
+32 | mercātōrius | -a, -um | adj | de mercader | < mercātor
+32 | mūtuus | -a, -um | adj | mutuo, recíproco |
+32 | nūbilus | -a, -um | adj | nublado | < nūbēs
+32 | proximus | -a, -um | adj | el más cercano (sup. de prope) |
+32 | superbus | -a, -um | adj | orgulloso |
+32 | vīlis | -e | adj | barato, de poco valor |
+32 | aliquot | indecl. | adj | algunos |
+32 | adiuvāre | adiuvō, -āre, adiūvī, adiūtum | v | ayudar | < iuvāre
+32 | contemnere | contemnō, -ere, contempsī, contemptum | v | despreciar | 
+32 | dēsistere | dēsistō, -ere, dēstitī | v | desistir | = dēsinere
+32 | dissuādēre | dissuādeō, -ēre, dissuāsī, dissuāsum | v | disuadir | ↔ suādēre
+32 | ēdūcere | ēdūcō, -ere, ēdūxī, ēductum | v | sacar fuera | < dūcere
+32 | flectere | flectō, -ere, flexī, flexum | v | doblar, girar |
+32 | interīre | intereō, -īre, -iī, -itum | v | morir, perecer | < perīre
+32 | meminisse | meminī, meminisse | v | recordar | ↔ oblīvīscī
+32 | minārī | minor, -ārī, -ātus sum | v | amenazar |
+32 | offerre | offerō, -ferre, obtulī, oblātum | v | ofrecer | < ferre
+32 | percurrere | percurrō, -ere, percurrī, percursum | v | recorrer | < currere
+32 | praeferre | praeferō, -ferre, praetulī, praelātum | v | preferir | < ferre
+32 | praepōnere | praepōnō, -ere, praeposuī, praepositum | v | poner al frente | < pōnere
+32 | redimere | redimō, -ere, redēmī, redēmptum | v | rescatar | < emere
+32 | remigāre | remigō, -āre, -āvī, -ātum | v | remar | < rēmus
+32 | reminiscī | reminiscor, -ī | v | acordarse |
+32 | repugnāre | repugnō, -āre, -āvī, -ātum | v | resistir | < pugnāre
+32 | submergere | submergō, -ere, submersī, submersum | v | hundir | < mergere
+32 | tuērī | tueor, tuērī, tuitus sum | v | proteger; mirar |
+32 | aliquandō | | adv | alguna vez |
+32 | etiamnunc | | adv | todavía, aún |
+32 | ubīque | | adv | en todas partes |
+32 | dōnec | | conj | hasta que, mientras |
+32 | neu | | conj | y que no | = nēve
+32 | seu | | conj | o si | = sīve
+32 | utinam | | adv | ojalá |

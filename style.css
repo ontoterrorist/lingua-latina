@@ -227,3 +227,47 @@ button.say:hover { background: var(--accent); }
 .front-row { display: flex; align-items: center; justify-content: center; gap: 8px; }
 .front-row .review-front { margin: 0; }
 #slow-toggle.on, #engine-toggle.on { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); font-weight: 700; }
+
+/* ejercicios de morfología (ejercicios.js) */
+.frase-la { font-size: 22px; line-height: 2.1; margin: 8px 0 12px; }
+.hueco { font: inherit; font-size: 20px; width: auto; min-width: 2.2ch; max-width: 100%; border: 0; border-bottom: 3px solid var(--accent); background: #fff3cf; color: var(--ink); border-radius: 6px 6px 0 0; padding: 1px 6px; margin: 0 2px; text-align: left; }
+.hueco:focus { outline: 0; background: #ffe9a3; border-bottom-color: var(--red); }
+.hueco.ancho { display: block; width: 100%; font-size: 19px; margin: 6px 0 10px; }
+.hueco.ok { border-bottom-color: var(--green); background: var(--green-bg); }
+.hueco.bad { border-bottom-color: var(--red); background: var(--red-bg); }
+.macrones { display: flex; gap: 6px; flex-wrap: wrap; margin: 6px 0 4px; }
+.macron { min-width: 44px; min-height: 40px; border: 2px solid #d8ccb4; background: #fffdf8; border-radius: 10px; font: 700 20px var(--body); color: var(--ink); box-shadow: 0 2px 0 #e2d5bb; }
+.macron:hover { border-color: var(--accent); }
+.tabla-par { border-collapse: separate; border-spacing: 6px; margin: 8px 0; }
+.tabla-par th { text-align: left; font: 700 12px/1.2 var(--head); text-transform: uppercase; letter-spacing: .5px; color: var(--muted); padding: 4px 8px 4px 0; }
+.tabla-par td { padding: 0; }
+.tabla-par td.dada { background: var(--paper2); border-radius: 6px; padding: 4px 10px; font-size: 18px; font-weight: 700; }
+.tabla-par td.vacia { color: #c8bca3; text-align: center; }
+.tabla-par .hueco { width: 9.5ch; font-size: 18px; }
+.opciones-analiza { display: grid; gap: 8px; margin: 10px 0; }
+.opcion-check { display: flex; align-items: center; gap: 10px; border: 2px solid #ddd0b8; background: #fffdf8; border-radius: 12px; padding: 10px 14px; font-size: 17px; cursor: pointer; }
+.opcion-check input { width: 22px; height: 22px; accent-color: var(--accent); flex: none; }
+.opcion-check.ok { border-color: var(--green); background: var(--green-bg); }
+.opcion-check.bad { border-color: var(--red); background: var(--red-bg); }
+.blanco { display: inline-block; min-width: 4ch; border-bottom: 3px solid var(--accent); margin: 0 4px; color: var(--accent); }
+.choice.sel { border-color: var(--accent); background: #fff3cf; }
+.res-lista { list-style: none; margin: 4px 0 0; padding: 0; display: grid; gap: 6px; }
+.res-lista li { font-size: 17px; }
+.res-lista .nota { font-size: 14.5px; color: var(--muted); }
+.ej-acciones { display: flex; gap: 10px; justify-content: flex-end; margin-top: 16px; }
+.muted.small { font-size: 14px; }
+
+.tabla-caja { overflow-x: auto; max-width: 100%; }
+
+/* capítulo nuevo: lista de vocabulario, consejo de César y cartas */
+.consejo { margin-top: 14px; padding: 12px 14px; border-radius: 12px; background: #f6e7c4; border-left: 5px solid var(--accent); font-size: 17px; }
+.vocab-det > summary { cursor: pointer; font-weight: 700; color: var(--blue); padding: 6px 0; }
+.vocab-list { list-style: none; margin: 8px 0 0; padding: 0; display: grid; gap: 2px; }
+.vocab-row { display: grid; grid-template-columns: 40px minmax(0, 1fr) minmax(0, 1.2fr); align-items: center; gap: 8px; padding: 2px 0; border-bottom: 1px solid #eadfc6; }
+.vocab-row .v-forms { color: var(--muted); font-size: 14px; }
+.vocab-row .v-es { font-size: 15.5px; }
+.vocab-row .v-rel { color: var(--blue); font-size: 13.5px; white-space: nowrap; }
+.steps span.repaso.on, .steps span.repaso.done { background-image: repeating-linear-gradient(45deg, rgba(255,255,255,.35) 0 4px, transparent 4px 8px); }
+.chip-select { appearance: none; padding-right: 14px; max-width: 170px; }
+.review-rel { color: var(--blue); margin: 2px 0 0; text-align: center; }
+@media (max-width: 720px) { .vocab-row { grid-template-columns: 36px minmax(0, 1fr); } .vocab-row .v-es { grid-column: 2; } }

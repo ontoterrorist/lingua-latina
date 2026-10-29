@@ -1,0 +1,323 @@
+# Capítulos XXIII–XXVIII (ver glosas.txt para el formato)
+
+# ───── Capítulo XXIII · Epistula magistrī ─────
+23 | litterae | -ārum f pl | n | carta |
+23 | vultus | -ūs m | n | rostro, expresión de la cara | = faciēs
+23 | laus | laudis f | n | alabanza, elogio | < laudāre
+23 | factum | -ī n | n | hecho, acción | < facere
+23 | pudor | -ōris m | n | vergüenza | < pudēre
+23 | prōmissum | -ī n | n | promesa | < prōmittere
+23 | verbera | -um n pl | n | azotes, golpes | < verberāre
+23 | clāvis | -is f | n | llave |
+23 | comes | -itis m/f | n | compañero, acompañante |
+23 | īnscrīptiō | -ōnis f | n | inscripción, rótulo | < scrībere
+23 | integer | -gra, -grum | adj | entero, intacto |
+23 | pallidus | -a, -um | adj | pálido |
+23 | plānus | -a, -um | adj | llano, claro |
+23 | superior | -ius | adj | superior, de arriba | ↔ inferior
+23 | trādere | trādō, -ere, trādidī, trāditum | v | entregar, transmitir | < dare
+23 | dīmittere | dīmittō, -ere, dīmīsī, dīmissum | v | despedir, dejar ir | < mittere
+23 | continēre | contineō, -ēre, continuī, contentum | v | contener, abarcar | < tenēre
+23 | āvertere | āvertō, -ere, āvertī, āversum | v | apartar, desviar | < vertere
+23 | comitārī | comitor, -ārī, -ātus sum | v | acompañar | < comes
+23 | fatērī | fateor, -ērī, fassus sum | v | confesar, reconocer |
+23 | inclūdere | inclūdō, -ere, inclūsī, inclūsum | v | encerrar | ↔ aperīre
+23 | merēre | mereō, -ēre, -uī, -itum | v | merecer; ganar |
+23 | negāre | negō, -āre, -āvī, -ātum | v | negar; decir que no |
+23 | pallēre | palleō, -ēre, -uī | v | estar pálido | < pallidus
+23 | perdere | perdō, -ere, perdidī, perditum | v | perder; arruinar | < dare
+23 | prōmittere | prōmittō, -ere, prōmīsī, prōmissum | v | prometer | < mittere
+23 | pudēre | pudet, -ēre, puduit | v | dar vergüenza |
+23 | rogāre | rogō, -āre, -āvī, -ātum | v | preguntar; pedir |
+23 | rubēre | rubeō, -ēre, -uī | v | ponerse rojo | < ruber
+23 | umquam | | adv | alguna vez | ↔ numquam
+23 | hinc | | adv | de aquí |
+23 | illinc | | adv | de allí |
+23 | antehāc | | adv | hasta ahora, antes |
+23 | posthāc | | adv | de ahora en adelante |
+23 | plānē | | adv | claramente |
+23 | quisnam | quidnam | pron | ¿pero quién? ¿pero qué? | < quis
+23 | ob | + acc. | prep | por causa de |
+
+# ───── Capítulo XXIV · Puer aegrōtus ─────
+24 | aegrōtus | -a, -um | adj | enfermo | = aeger
+24 | latus | -eris n | n | costado |
+24 | sonus | -ī m | n | sonido |
+24 | strepitus | -ūs m | n | estrépito, ruido |
+24 | dolor | -ōris m | n | dolor | < dolēre
+24 | tumultus | -ūs m | n | alboroto |
+24 | plūsquamperfectum | -ī n | n | tiempo pluscuamperfecto |
+24 | laevus | -a, -um | adj | izquierdo | = sinister
+24 | pār | paris | adj | igual | ↔ impār
+24 | impār | -aris | adj | desigual | ↔ pār
+24 | subitus | -a, -um | adj | repentino |
+24 | cruentus | -a, -um | adj | ensangrentado | < cruor
+24 | aliquī | aliqua, aliquod | adj | algún |
+24 | convertere | convertō, -ere, convertī, conversum | v | volver, girar | < vertere
+24 | mīrārī | mīror, -ārī, -ātus sum | v | admirarse, extrañarse |
+24 | recumbere | recumbō, -ere, recubuī | v | recostarse | 
+24 | percutere | percutiō, -ere, percussī, percussum | v | golpear | = pulsāre
+24 | frangere | frangō, -ere, frēgī, frāctum | v | romper |
+24 | flēre | fleō, -ēre, flēvī, flētum | v | llorar | = plōrāre
+24 | patī | patior, patī, passus sum | v | sufrir, soportar |
+24 | ignōrāre | ignōrō, -āre, -āvī, -ātum | v | ignorar, no saber | ↔ scīre
+24 | nōscere | nōscō, -ere, nōvī, nōtum | v | conocer | = cognōscere
+24 | cupere | cupiō, -ere, cupīvī, cupītum | v | desear |
+24 | dēnuō | | adv | de nuevo |
+24 | subitō | | adv | de pronto | < subitus
+24 | continuō | | adv | al instante |
+24 | valdē | | adv | muchísimo |
+24 | aliter | | adv | de otro modo | < alius
+24 | intus | | adv | dentro | ↔ forīs
+24 | etsī | | conj | aunque, si bien |
+24 | cēterum | | adv | por lo demás |
+24 | iūxtā | + acc. | prep | junto a |
+
+# ───── Capítulo XXV · Thēseus et Mīnōtaurus ─────
+25 | fābula | -ae f | n | cuento, relato; obra de teatro |
+25 | agnus | -ī m | n | cordero |
+25 | currus | -ūs m | n | carro |
+25 | moenia | -ium n pl | n | murallas |
+25 | mōnstrum | -ī n | n | monstruo |
+25 | taurus | -ī m | n | toro |
+25 | labyrinthus | -ī m | n | laberinto |
+25 | aedificium | -ī n | n | edificio | < aedificāre
+25 | mors | mortis f | n | muerte | ↔ vīta
+25 | rēx | rēgis m | n | rey | < regere
+25 | expugnātiō | -ōnis f | n | asalto, conquista | < expugnāre
+25 | glōria | -ae f | n | gloria, fama |
+25 | auxilium | -ī n | n | ayuda |
+25 | cīvis | -is m/f | n | ciudadano |
+25 | exitus | -ūs m | n | salida; final | ↔ intrōitus
+25 | fīlum | -ī n | n | hilo |
+25 | cōnspectus | -ūs m | n | vista, mirada | < cōnspicere
+25 | cupiditās | -ātis f | n | deseo, ansia | < cupere
+25 | litus | -oris n | n | costa, playa |
+25 | mora | -ae f | n | demora, retraso |
+25 | nārrātiō | -ōnis f | n | relato | < nārrāre
+25 | saxum | -ī n | n | roca, peñasco |
+25 | cupidus | -a, -um | adj | deseoso, ávido | < cupere
+25 | humilis | -e | adj | bajo; humilde | ↔ altus
+25 | mīrābilis | -e | adj | admirable, asombroso | < mīrārī
+25 | parātus | -a, -um | adj | preparado, listo |
+25 | saevus | -a, -um | adj | cruel, salvaje |
+25 | terribilis | -e | adj | terrible | < terrēre
+25 | timidus | -a, -um | adj | tímido, miedoso | < timēre
+25 | aedificāre | aedificō, -āre, -āvī, -ātum | v | construir |
+25 | cōnstituere | cōnstituō, -ere, cōnstituī, cōnstitūtum | v | decidir; establecer | 
+25 | dēscendere | dēscendō, -ere, dēscendī, dēscensum | v | bajar | ↔ ascendere
+25 | dēserere | dēserō, -ere, dēseruī, dēsertum | v | abandonar | = relinquere
+25 | interficere | interficiō, -ere, interfēcī, interfectum | v | matar | < facere
+25 | maerēre | maereō, -ēre | v | estar afligido | = dolēre
+25 | necāre | necō, -āre, -āvī, -ātum | v | matar |
+25 | occīdere | occīdō, -ere, occīdī, occīsum | v | matar | = necāre
+25 | oblīvīscī | oblīvīscor, -ī, oblītus sum | v | olvidar | ↔ meminisse
+25 | patēre | pateō, -ēre, -uī | v | estar abierto |
+25 | pollicērī | polliceor, -ērī, pollicitus sum | v | prometer | = prōmittere
+25 | prōspicere | prōspiciō, -ere, prōspexī, prōspectum | v | otear, mirar a lo lejos | < aspicere
+25 | regere | regō, -ere, rēxī, rēctum | v | dirigir; gobernar |
+25 | trahere | trahō, -ere, trāxī, tractum | v | arrastrar, tirar de |
+25 | vorāre | vorō, -āre, -āvī, -ātum | v | devorar |
+25 | fortē | | adv | por casualidad |
+25 | hūc | | adv | aquí (adónde) | ↔ illūc
+25 | illūc | | adv | allá (adónde) | ↔ hūc
+25 | ibi | | adv | allí |
+25 | ōlim | | adv | en otro tiempo, un día |
+25 | brevī | | adv | en poco tiempo | < brevis
+25 | quotannīs | | adv | cada año | < annus
+
+# ───── Capítulo XXVI · Daedalus et Īcarus ─────
+26 | fuga | -ae f | n | huida | < fugere
+26 | cōnsilium | -ī n | n | plan, decisión; consejo |
+26 | carcer | -eris m | n | cárcel |
+26 | orbis | -is m | n | círculo, disco; orbis terrārum: el mundo |
+26 | nātūra | -ae f | n | naturaleza |
+26 | ars | artis f | n | arte; habilidad |
+26 | penna | -ae f | n | pluma |
+26 | ignis | -is m | n | fuego |
+26 | lacertus | -ī m | n | brazo (músculo) | = bracchium
+26 | lībertās | -ātis f | n | libertad | < līber
+26 | multitūdō | -inis f | n | multitud | < multī
+26 | paeninsula | -ae f | n | península |
+26 | cāsus | -ūs m | n | caso; accidente | < cadere
+26 | gerundium | -ī n | n | gerundio |
+26 | celer | -eris, -ere | adj | rápido |
+26 | reliquus | -a, -um | adj | restante, que queda |
+26 | audāx | -ācis | adj | audaz, atrevido | < audēre
+26 | studiōsus | -a, -um | adj | aficionado, aplicado |
+26 | ingēns | -entis | adj | enorme | = magnus
+26 | īnfimus | -a, -um | adj | el más bajo | ↔ summus
+26 | summus | -a, -um | adj | el más alto, el de arriba | ↔ īnfimus
+26 | cautus | -a, -um | adj | cauto, precavido | < cavēre
+26 | temerārius | -a, -um | adj | temerario, imprudente | ↔ cautus
+26 | propinquus | -a, -um | adj | cercano | < prope
+26 | līber | -era, -erum | adj | libre | > lībertās
+26 | persequī | persequor, -ī, persecūtus sum | v | perseguir | < sequī
+26 | cōnsequī | cōnsequor, -ī, cōnsecūtus sum | v | alcanzar | < sequī
+26 | cōnficere | cōnficiō, -ere, cōnfēcī, cōnfectum | v | acabar, completar | < facere
+26 | cōnsūmere | cōnsūmō, -ere, cōnsūmpsī, cōnsūmptum | v | consumir, gastar | < sūmere
+26 | invenīre | inveniō, -īre, invēnī, inventum | v | hallar | < venīre
+26 | effugere | effugiō, -ere, effūgī | v | escapar | < fugere
+26 | iuvāre | iuvō, -āre, iūvī, iūtum | v | ayudar |
+26 | excōgitāre | excōgitō, -āre, -āvī, -ātum | v | idear, inventar | < cōgitāre
+26 | imitārī | imitor, -ārī, -ātus sum | v | imitar |
+26 | ēvolāre | ēvolō, -āre, -āvī, -ātum | v | salir volando | < volāre
+26 | perficere | perficiō, -ere, perfēcī, perfectum | v | llevar a cabo | < facere
+26 | accidere | accidit, -ere, accidit | v | ocurrir, suceder | < cadere
+26 | aberrāre | aberrō, -āre, -āvī | v | desviarse, errar | < errāre
+26 | dēspicere | dēspiciō, -ere, dēspexī, dēspectum | v | mirar desde arriba, despreciar | < aspicere
+26 | figere | figō, -ere, fīxī, fīxum | v | clavar, fijar |
+26 | levāre | levō, -āre, -āvī, -ātum | v | levantar, aliviar | < levis
+26 | mollīre | mollīō, -īre, -īvī, -ītum | v | ablandar | < mollis
+26 | quatere | quatiō, -ere, quassī, quassum | v | sacudir |
+26 | revocāre | revocō, -āre, -āvī, -ātum | v | llamar de vuelta | < vocāre
+26 | ūrere | ūrō, -ere, ussī, ustum | v | quemar |
+26 | vidērī | videor, vidērī, vīsus sum | v | parecer; ser visto | < vidēre
+26 | deorsum | | adv | hacia abajo | ↔ sursum
+26 | sursum | | adv | hacia arriba | ↔ deorsum
+26 | haud | | adv | no (negación fuerte) | = nōn
+26 | māximē | | adv | sobre todo, muy | < māximus
+26 | paene | | adv | casi |
+26 | quidem | | adv | desde luego, al menos |
+26 | quoniam | | conj | puesto que, ya que |
+26 | sīn | | conj | pero si |
+26 | tamquam | | conj | como, igual que |
+26 | vērum | | conj | pero, sino | = sed
+26 | quisquam | quicquam | pron | alguien (en frases negativas) | ↔ nēmō
+26 | trāns | + acc. | prep | al otro lado de, a través de |
+
+# ───── Capítulo XXVII · Rēs rūsticae ─────
+27 | ager | agrī m | n | campo, finca |
+27 | frūmentum | -ī n | n | trigo, cereal |
+27 | agricola | -ae m | n | agricultor |
+27 | negōtium | -ī n | n | ocupación, negocio | ↔ ōtium
+27 | ōtium | -ī n | n | ocio, descanso | ↔ negōtium
+27 | arātrum | -ī n | n | arado | < arāre
+27 | arātor | -ōris m | n | labrador | < arāre
+27 | īnstrūmentum | -ī n | n | herramienta |
+27 | sēmen | -inis n | n | semilla | < serere
+27 | falx | falcis f | n | hoz |
+27 | regiō | -ōnis f | n | región, comarca | < regere
+27 | frūgēs | -um f pl | n | frutos de la tierra |
+27 | pecus | -oris n | n | ganado |
+27 | pābulum | -ī n | n | pasto, forraje |
+27 | lāna | -ae f | n | lana |
+27 | cōpia | -ae f | n | abundancia; (pl.) tropas |
+27 | vītis | -is f | n | vid |
+27 | vīnea | -ae f | n | viña |
+27 | ūva | -ae f | n | uva |
+27 | vīnum | -ī n | n | vino |
+27 | praedium | -ī n | n | finca, propiedad |
+27 | labor | -ōris m | n | trabajo, esfuerzo | < labōrāre
+27 | colōnus | -ī m | n | colono, arrendatario | < colere
+27 | calor | -ōris m | n | calor | ↔ frīgus
+27 | frīgus | -oris n | n | frío | ↔ calor
+27 | cūra | -ae f | n | cuidado; preocupación | < cūrāre
+27 | grex | gregis m | n | rebaño |
+27 | patientia | -ae f | n | paciencia | < patiēns
+27 | precēs | -um f pl | n | ruegos, súplicas |
+27 | coniūnctīvus | -ī m | n | subjuntivo |
+27 | amoenus | -a, -um | adj | ameno, agradable |
+27 | fertilis | -e | adj | fértil |
+27 | gravidus | -a, -um | adj | preñado, cargado |
+27 | immātūrus | -a, -um | adj | inmaduro | ↔ mātūrus
+27 | mātūrus | -a, -um | adj | maduro | ↔ immātūrus
+27 | inhūmānus | -a, -um | adj | cruel, poco humano | ↔ hūmānus
+27 | nēquam | indecl. | adj | malvado, inútil |
+27 | patiēns | -entis | adj | paciente, resistente | < patī
+27 | rudis | -e | adj | tosco; sin cultivar |
+27 | rūsticus | -a, -um | adj | del campo, rústico | ↔ urbānus
+27 | urbānus | -a, -um | adj | de la ciudad | ↔ rūsticus
+27 | suburbānus | -a, -um | adj | cercano a la ciudad | < urbs
+27 | siccus | -a, -um | adj | seco | ↔ ūmidus
+27 | tricēsimus | -a, -um | adj | trigésimo | < trīgintā
+27 | arāre | arō, -āre, -āvī, -ātum | v | arar |
+27 | cingere | cingō, -ere, cīnxī, cīnctum | v | rodear, ceñir |
+27 | colere | colō, -ere, coluī, cultum | v | cultivar; honrar |
+27 | crēscere | crēscō, -ere, crēvī, crētum | v | crecer |
+27 | cēnsēre | cēnseō, -ēre, cēnsuī, cēnsum | v | opinar; decidir |
+27 | exīstimāre | exīstimō, -āre, -āvī, -ātum | v | estimar, opinar | = putāre
+27 | labōrāre | labōrō, -āre, -āvī, -ātum | v | trabajar | < labor
+27 | neglegere | neglegō, -ere, neglēxī, neglēctum | v | descuidar | ↔ cūrāre
+27 | nocēre | noceō, -ēre, -uī, -itum | v | perjudicar, dañar (+ dat.) |
+27 | ōrāre | ōrō, -āre, -āvī, -ātum | v | rogar, suplicar |
+27 | pāscere | pāscō, -ere, pāvī, pāstum | v | apacentar | > pāstor
+27 | prohibēre | prohibeō, -ēre, -uī, -itum | v | impedir; prohibir |
+27 | proicere | proiciō, -ere, proiēcī, proiectum | v | arrojar, tirar | < iacere
+27 | prōdesse | prōsum, -esse, prōfuī | v | ser útil, beneficiar | ↔ nocēre
+27 | quiēscere | quiēscō, -ere, quiēvī, quiētum | v | descansar | < quiētus
+27 | rapere | rapiō, -ere, rapuī, raptum | v | arrebatar, robar |
+27 | rigāre | rigō, -āre, -āvī, -ātum | v | regar |
+27 | serere | serō, -ere, sēvī, satum | v | sembrar |
+27 | spargere | spargō, -ere, sparsī, sparsum | v | esparcir, derramar |
+27 | invehere | invehō, -ere, invēxī, invectum | v | traer, importar | < vehere
+27 | ūtī | ūtor, ūtī, ūsus sum | v | usar (+ abl.) |
+27 | dēnique | | adv | por fin, en fin |
+27 | parum | | adv | demasiado poco |
+27 | quīdam | quaedam, quoddam | pron | cierto, uno |
+27 | quidquam | | pron | algo (en frases negativas) | = quicquam
+27 | prae | + abl. | prep | delante de; a causa de |
+27 | prō | + abl. | prep | por, en favor de; delante de | ↔ contrā
+27 | -ve | | conj | o (enclítica) | = aut
+
+# ───── Capítulo XXVIII · Perīcula maris ─────
+28 | animus | -ī m | n | ánimo, espíritu |
+28 | dictum | -ī n | n | dicho, palabra | < dīcere
+28 | fama | -ae f | n | fama; rumor |
+28 | fretum | -ī n | n | estrecho de mar |
+28 | libellus | -ī m | n | librito, cuaderno | < liber
+28 | pecūlium | -ī n | n | ahorros de un esclavo |
+28 | perīculum | -ī n | n | peligro |
+28 | phantasma | -atis n | n | fantasma |
+28 | potestās | -ātis f | n | poder, autoridad |
+28 | praedō | -ōnis m | n | pirata, bandido |
+28 | prīnceps | -ipis m | n | jefe; primer ciudadano |
+28 | tībīcen | -inis m | n | flautista |
+28 | tranquillitās | -ātis f | n | calma | < tranquillus
+28 | turba | -ae f | n | muchedumbre |
+28 | vigilia | -ae f | n | guardia; vela de la noche | < vigilāre
+28 | vorāgō | -inis f | n | remolino, abismo | < vorāre
+28 | nāvicula | -ae f | n | barquita | < nāvis
+28 | mundus | -ī m | n | mundo, universo |
+28 | attentus | -a, -um | adj | atento |
+28 | caecus | -a, -um | adj | ciego |
+28 | claudus | -a, -um | adj | cojo |
+28 | surdus | -a, -um | adj | sordo |
+28 | mūtus | -a, -um | adj | mudo |
+28 | cōnstāns | -antis | adj | constante, firme |
+28 | immortālis | -e | adj | inmortal | ↔ mortālis
+28 | mortālis | -e | adj | mortal | ↔ immortālis
+28 | perīculōsus | -a, -um | adj | peligroso | < perīculum
+28 | quadrāgēsimus | -a, -um | adj | cuadragésimo | < quadrāgintā
+28 | salvus | -a, -um | adj | a salvo | = incolumis
+28 | tūtus | -a, -um | adj | seguro | ↔ perīculōsus
+28 | ūniversus | -a, -um | adj | todo, entero |
+28 | nātus | -a, -um | adj | nacido | < nāscī
+28 | admīrārī | admīror, -ārī, -ātus sum | v | admirar | < mīrārī
+28 | adōrāre | adōrō, -āre, -āvī, -ātum | v | adorar, venerar | < ōrāre
+28 | apprehendere | apprehendō, -ere, apprehendī, apprehēnsum | v | agarrar | < prehendere
+28 | cessāre | cessō, -āre, -āvī | v | cesar; tardar |
+28 | disiungere | disiungō, -ere, disiūnxī, disiūnctum | v | separar | ↔ coniungere
+28 | ēicere | ēiciō, -ere, ēiēcī, ēiectum | v | arrojar fuera, expulsar | < iacere
+28 | ēvolvere | ēvolvō, -ere, ēvolvī, ēvolūtum | v | desenrollar | 
+28 | extendere | extendō, -ere, extendī, extentum | v | extender | 
+28 | impendēre | impendeō, -ēre | v | amenazar, cernirse sobre |
+28 | memorāre | memorō, -āre, -āvī, -ātum | v | contar, mencionar | < memoria
+28 | morī | morior, morī, mortuus sum | v | morir | ↔ vīvere
+28 | oboedīre | oboediō, -īre, -īvī, -ītum | v | obedecer | = pārēre
+28 | perīre | pereō, -īre, -iī, -itum | v | perecer, morir | < īre
+28 | persuādēre | persuādeō, -ēre, persuāsī, persuāsum | v | persuadir (+ dat.) | 
+28 | pervenīre | perveniō, -īre, pervēnī, perventum | v | llegar | < venīre
+28 | rēgnāre | rēgnō, -āre, -āvī, -ātum | v | reinar | < rēx
+28 | salvāre | salvō, -āre, -āvī, -ātum | v | salvar | < salvus
+28 | servīre | serviō, -īre, -īvī, -ītum | v | ser esclavo (+ dat.) | < servus
+28 | spērāre | spērō, -āre, -āvī, -ātum | v | esperar (con confianza) |
+28 | suscitāre | suscitō, -āre, -āvī, -ātum | v | despertar, levantar | = excitāre
+28 | tumultuārī | tumultuor, -ārī, -ātus sum | v | alborotar | < tumultus
+28 | versārī | versor, -ārī, versātus sum | v | andar, moverse; ocuparse |
+28 | vītāre | vītō, -āre, -āvī, -ātum | v | evitar |
+28 | mālle | mālō, mālle, māluī | v | preferir | < magis + velle
+28 | eō | | adv | allí (adónde) |
+28 | potius | | adv | más bien |
+28 | utrum | utrum… an | conj | ¿acaso…o…? (pregunta doble) |
+28 | velut | | conj | como, así como |

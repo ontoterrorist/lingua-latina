@@ -1,0 +1,207 @@
+# Capítulos XXXIII–XXXV (ver glosas.txt para el formato)
+
+# ───── Capítulo XXXIII · Exercitus Rōmānus ─────
+33 | legiō | -ōnis f | n | legión |
+33 | cohors | -ortis f | n | cohorte, décima parte de una legión |
+33 | agmen | -inis n | n | columna en marcha |
+33 | ōrdō | -inis m | n | fila; orden |
+33 | aciēs | -ēī f | n | formación de combate |
+33 | proelium | -ī n | n | batalla | = pugna
+33 | imperātor | -ōris m | n | general; emperador | < imperāre
+33 | aetās | -ātis f | n | edad |
+33 | studium | -ī n | n | afán, interés | < studēre
+33 | stipendium | -ī n | n | paga del soldado; servicio militar |
+33 | virtūs | -ūtis f | n | valor, virtud | < vir
+33 | gaudium | -ī n | n | alegría | < gaudēre
+33 | valētūdō | -inis f | n | salud | < valēre
+33 | amnis | -is m | n | río | = flūmen
+33 | ratis | -is f | n | balsa |
+33 | ripa | -ae f | n | orilla |
+33 | caedēs | -is f | n | matanza | < caedere
+33 | vulnus | -eris n | n | herida | < vulnerāre
+33 | pāx | pācis f | n | paz | ↔ bellum
+33 | lēgātus | -ī m | n | lugarteniente; enviado |
+33 | ēnsis | -is m | n | espada | = gladius
+33 | legiōnārius | -a, -um | adj | de la legión | < legiō
+33 | idōneus | -a, -um | adj | adecuado |
+33 | mīlitāris | -e | adj | militar | < mīles
+33 | pūblicus | -a, -um | adj | público | ↔ prīvātus
+33 | prīvātus | -a, -um | adj | privado | ↔ pūblicus
+33 | posterus | -a, -um | adj | siguiente, venidero |
+33 | arduus | -a, -um | adj | empinado, difícil |
+33 | rīdiculus | -a, -um | adj | ridículo, gracioso | < rīdēre
+33 | ulterior | -ius | adj | de más allá | ↔ citerior
+33 | citerior | -ius | adj | de más acá | ↔ ulterior
+33 | incolumis | -e | adj | ileso, sano y salvo |
+33 | ōtiōsus | -a, -um | adj | ocioso, tranquilo | < ōtium
+33 | dīrus | -a, -um | adj | horrible, funesto |
+33 | horrendus | -a, -um | adj | espantoso | < horrēre
+33 | dēnī | -ae, -a | num | de diez en diez; diez cada uno |
+33 | sēnī | -ae, -a | num | de seis en seis |
+33 | quīnī | -ae, -a | num | de cinco en cinco |
+33 | quaternī | -ae, -a | num | de cuatro en cuatro |
+33 | trīnī | -ae, -a | num | de tres en tres | = ternī
+33 | ūnī | -ae, -a | num | de uno en uno | = singulī
+33 | plērīque | plēraeque, plēraque | adj | la mayoría |
+33 | adiungere | adiungō, -ere, adiūnxī, adiūnctum | v | añadir, unir | < iungere
+33 | caedere | caedō, -ere, cecīdī, caesum | v | cortar; matar |
+33 | circumdare | circumdō, -dare, circumdedī, circumdatum | v | rodear | < dare
+33 | commemorāre | commemorō, -āre, -āvī, -ātum | v | recordar, mencionar | < memorāre
+33 | convocāre | convocō, -āre, -āvī, -ātum | v | convocar | < vocāre
+33 | cōpulāre | cōpulō, -āre, -āvī, -ātum | v | unir |
+33 | dēsīderāre | dēsīderō, -āre, -āvī, -ātum | v | echar de menos, desear |
+33 | effundere | effundō, -ere, effūdī, effūsum | v | derramar | < fundere
+33 | ērumpere | ērumpō, -ere, ērūpī, ēruptum | v | salir de golpe | < rumpere
+33 | excurrere | excurrō, -ere, excurrī, excursum | v | salir corriendo | < currere
+33 | fatīgāre | fatīgō, -āre, -āvī, -ātum | v | cansar | < fessus
+33 | hortārī | hortor, -ārī, -ātus sum | v | animar, exhortar |
+33 | īnstruere | īnstruō, -ere, īnstrūxī, īnstrūctum | v | formar, disponer | 
+33 | mūnīre | mūniō, -īre, -īvī, -ītum | v | fortificar | < mūrus
+33 | praestāre | praestō, -āre, praestitī | v | sobresalir; ofrecer | < stāre
+33 | procurrere | procurrō, -ere, procurrī, procursum | v | salir corriendo hacia delante | < currere
+33 | prōgredī | prōgredior, -ī, prōgressus sum | v | avanzar | ↔ regredī
+33 | properāre | properō, -āre, -āvī, -ātum | v | darse prisa | = festīnāre
+33 | referre | referō, -ferre, rettulī, relātum | v | traer de vuelta; contar | < ferre
+33 | studēre | studeō, -ēre, -uī | v | esforzarse, dedicarse a (+ dat.) |
+33 | trānsferre | trānsferō, -ferre, trānstulī, trānslātum | v | trasladar | < ferre
+33 | trānsīre | trānseō, -īre, -iī, -itum | v | cruzar | < īre
+33 | vulnerāre | vulnerō, -āre, -āvī, -ātum | v | herir | < vulnus
+33 | diūtius | | adv | más tiempo | < diū
+33 | ferē | | adv | casi, más o menos |
+33 | praecipuē | | adv | especialmente |
+33 | prīdiē | | adv | el día antes |
+33 | tamdiū | | adv | durante tanto tiempo |
+33 | quamdiū | | adv | cuanto tiempo |
+33 | etenim | | conj | pues en efecto |
+33 | citrā | + acc. | prep | de este lado de | ↔ ultrā
+33 | ultrā | + acc. | prep | más allá de | ↔ citrā
+33 | secundum | + acc. | prep | a lo largo de; según |
+
+# ───── Capítulo XXXIV · Dē arte poēticā ─────
+34 | certāmen | -inis n | n | competición | < certāre
+34 | circus | -ī m | n | circo; pista de carreras |
+34 | auriga | -ae m | n | auriga, conductor de carros |
+34 | gladiātor | -ōris m | n | gladiador | < gladius
+34 | spectātor | -ōris m | n | espectador | < spectāre
+34 | rēte | -is n | n | red |
+34 | palma | -ae f | n | palma; mano abierta; premio |
+34 | cōmoedia | -ae f | n | comedia |
+34 | theātrum | -ī n | n | teatro |
+34 | epigramma | -atis n | n | epigrama, poema breve |
+34 | hexameter | -trī m | n | verso hexámetro |
+34 | pentameter | -trī m | n | verso pentámetro |
+34 | dactylus | -ī m | n | dáctilo (larga + dos breves) |
+34 | spondēus | -ī m | n | espondeo (dos largas) |
+34 | iambus | -ī m | n | yambo (breve + larga) |
+34 | trochaeus | -ī m | n | troqueo (larga + breve) |
+34 | diphthongus | -ī f | n | diptongo |
+34 | nota | -ae f | n | marca, signo |
+34 | principium | -ī n | n | principio, comienzo |
+34 | ingenium | -ī n | n | talento natural |
+34 | ratiō | -ōnis f | n | razón; método |
+34 | fātum | -ī n | n | destino |
+34 | gremium | -ī n | n | regazo |
+34 | cachinnus | -ī m | n | carcajada |
+34 | rīsus | -ūs m | n | risa | < rīdēre
+34 | dēliciae | -ārum f pl | n | encanto, cosa querida |
+34 | lucerna | -ae f | n | lámpara de aceite |
+34 | tenebrae | -ārum f pl | n | tinieblas, oscuridad |
+34 | passer | -eris m | n | gorrión |
+34 | arānea | -ae f | n | araña |
+34 | odium | -ī n | n | odio | ↔ amor
+34 | opera | -ae f | n | esfuerzo, trabajo |
+34 | opēs | -um f pl | n | riquezas; recursos |
+34 | testis | -is m/f | n | testigo |
+34 | sinus | -ūs m | n | pliegue; seno |
+34 | anus | -ūs f | n | anciana |
+34 | versiculus | -ī m | n | versito | < versus
+34 | scalpellum | -ī n | n | escalpelo |
+34 | mēns | mentis f | n | mente, pensamiento |
+34 | ācer | ācris, ācre | adj | agudo; vivo, penetrante |
+34 | bellus | -a, -um | adj | bonito, gracioso |
+34 | circēnsis | -e | adj | del circo | < circus
+34 | dubius | -a, -um | adj | dudoso | < dubitāre
+34 | geminus | -a, -um | adj | gemelo, doble |
+34 | gladiātōrius | -a, -um | adj | de gladiador | < gladiātor
+34 | hendecasyllabus | -a, -um | adj | de once sílabas | < syllaba
+34 | iocōsus | -a, -um | adj | bromista, jocoso |
+34 | misellus | -a, -um | adj | pobrecito | < miser
+34 | niveus | -a, -um | adj | blanco como la nieve | < nix
+34 | perpetuus | -a, -um | adj | continuo, perpetuo |
+34 | poēticus | -a, -um | adj | poético | < poēta
+34 | scaenicus | -a, -um | adj | de teatro | < scaena
+34 | sērius | -a, -um | adj | serio | ↔ iocōsus
+34 | tenebricōsus | -a, -um | adj | tenebroso | < tenebrae
+34 | turgidus | -a, -um | adj | hinchado |
+34 | ultimus | -a, -um | adj | último | = postrēmus
+34 | venustus | -a, -um | adj | encantador | < venus
+34 | accendere | accendō, -ere, accendī, accensum | v | encender | 
+34 | affirmāre | affirmō, -āre, -āvī, -ātum | v | afirmar |
+34 | certāre | certō, -āre, -āvī, -ātum | v | competir |
+34 | circumsilīre | circumsiliō, -īre | v | saltar alrededor | < salīre
+34 | conturbāre | conturbō, -āre, -āvī, -ātum | v | alterar, confundir | < turbāre
+34 | dēvorāre | dēvorō, -āre, -āvī, -ātum | v | devorar | < vorāre
+34 | ēlīdere | ēlīdō, -ere, ēlīsī, ēlīsum | v | elidir, aplastar | < laedere
+34 | ērubēscere | ērubescō, -ere, ērubuī | v | ponerse colorado | < rubēre
+34 | excruciāre | excruciō, -āre, -āvī, -ātum | v | atormentar | < cruciāre
+34 | favēre | faveō, -ēre, fāvī, fautum | v | favorecer, animar (+ dat.) |
+34 | implicāre | implicō, -āre, -āvī, -ātum | v | enredar, envolver | 
+34 | laedere | laedō, -ere, laesī, laesum | v | herir, ofender |
+34 | lūgēre | lūgeō, -ēre, lūxī | v | llorar la muerte de alguien |
+34 | nūbere | nūbō, -ere, nupsī, nuptum | v | casarse (la mujer) |
+34 | ōscitāre | ōscitō, -āre, -āvī | v | bostezar |
+34 | piāre | piō, -āre, -āvī, -ātum | v | purificar |
+34 | plaudere | plaudō, -ere, plausī, plausum | v | aplaudir |
+34 | prōsilīre | prōsiliō, -īre, prōsiluī | v | saltar hacia delante | < salīre
+34 | sapere | sapiō, -ere, sapiī | v | saber; tener sabor | > sapiēns
+34 | libenter | | adv | con gusto |
+34 | interdum | | adv | a veces |
+34 | plērumque | | adv | casi siempre, por lo común |
+34 | dein | | adv | luego | = deinde
+34 | dummodo | | conj | con tal de que |
+
+# ───── Capítulo XXXV · Ars grammatica ─────
+35 | ōrātiō | -ōnis f | n | oración; discurso |
+35 | coniūnctiō | -ōnis f | n | conjunción |
+35 | interiectiō | -ōnis f | n | interjección |
+35 | comparātiō | -ōnis f | n | comparación | < comparāre
+35 | coniugātiō | -ōnis f | n | conjugación | < coniungere
+35 | significātiō | -ōnis f | n | significado | < significāre
+35 | admīrātiō | -ōnis f | n | admiración | < admīrārī
+35 | mentiō | -ōnis f | n | mención |
+35 | quālitās | -ātis f | n | cualidad | < quālis
+35 | quantitās | -ātis f | n | cantidad | < quantus
+35 | speciēs | -ēī f | n | aspecto; clase |
+35 | Mūsa | -ae f | n | musa |
+35 | scamnum | -ī n | n | banco, escabel |
+35 | sacerdōs | -ōtis m/f | n | sacerdote |
+35 | īra | -ae f | n | ira | < īrātus
+35 | affectus | -ūs m | n | afecto, sentimiento |
+35 | positīvus | -ī m | n | grado positivo |
+35 | grammaticus | -a, -um | adj | gramatical | < grammatica
+35 | appellātīvus | -a, -um | adj | común (nombre) | < appellāre
+35 | causālis | -e | adj | causal | < causa
+35 | cōpulātīvus | -a, -um | adj | copulativo | < cōpulāre
+35 | disiūnctīvus | -a, -um | adj | disyuntivo | < disiungere
+35 | explētīvus | -a, -um | adj | expletivo |
+35 | inconditus | -a, -um | adj | desordenado, tosco |
+35 | optātīvus | -a, -um | adj | optativo | < optāre
+35 | proprius | -a, -um | adj | propio |
+35 | ratiōnālis | -e | adj | racional | < ratiō
+35 | similis | -e | adj | semejante | ↔ dissimilis
+35 | adnectere | adnectō, -ere, adnexuī, adnexum | v | unir, enlazar | 
+35 | dēmere | dēmō, -ere, dempsī, demptum | v | quitar |
+35 | explānāre | explānō, -āre, -āvī, -ātum | v | explicar | < plānus
+35 | inflectere | inflectō, -ere, inflexī, inflexum | v | flexionar, doblar | < flectere
+35 | luctārī | luctor, -ārī, -ātus sum | v | luchar |
+35 | ōrdināre | ōrdinō, -āre, -āvī, -ātum | v | ordenar | < ōrdō
+35 | dumtaxat | | adv | solamente, al menos |
+35 | ēn | | interj | ¡mira! ¡he aquí! |
+35 | forsitan | | adv | quizá |
+35 | quidnī | | adv | ¿y por qué no? |
+35 | tantundem | | adv | otro tanto |
+35 | adversum | + acc. | prep | frente a, hacia | = adversus
+35 | cis | + acc. | prep | de este lado de | = citrā
+35 | propterea | | adv | por eso | = idcircō
+35 | quāpropter | | adv | por lo cual | = quamobrem
+35 | siquidem | | conj | puesto que, si es que |

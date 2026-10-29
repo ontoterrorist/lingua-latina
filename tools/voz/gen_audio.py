@@ -7,6 +7,7 @@ con su voz italiana: Sara para las mujeres y el lector, Nicola para los hombres.
 Uso:
     node tools/spoken.js spoken.json
     python tools/voz/gen_audio.py spoken.json audio            # solo genera lo que falta
+    python tools/voz/gen_audio.py spoken.json audio --parte=1/3   # reparte el trabajo (lanza 1/3, 2/3 y 3/3 a la vez)
     python tools/voz/gen_audio.py --ipa "Aemilia, familia domī est."   # ver los fonemas
 
 Necesita Python con sherpa-onnx >= 2.0 (acepta fonemas propios), numpy y ffmpeg, y el modelo
@@ -98,7 +99,12 @@ if __name__ == '__main__':
         sys.exit()
     items = json.load(open(sys.argv[1], encoding='utf-8'))
     outdir = sys.argv[2]
-    limit = int(sys.argv[3]) if len(sys.argv) > 3 else None
+    resto = sys.argv[3:]
+    parte = next((a.split('=')[1] for a in resto if a.startswith('--parte=')), None)  # --parte=2/3: reparte el trabajo entre procesos
+    limit = next((int(a) for a in resto if a.isdigit()), None)
+    if parte:
+        i, n = map(int, parte.split('/'))
+        items = [it for k, it in enumerate(items) if k % n == i - 1]
     os.makedirs(outdir, exist_ok=True)
     hechos = 0
     for it in items:
