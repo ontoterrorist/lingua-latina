@@ -1,3 +1,20 @@
 .DS_Store
 Thumbs.db
 *.pxo~
+# --- secretos y credenciales: nunca al repositorio ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+id_rsa*
+id_ed25519*
+credentials*.json
+service-account*.json
+secrets.*
+.npmrc
+.pypirc
+.netrc
